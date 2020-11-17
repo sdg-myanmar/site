@@ -1,8 +1,8 @@
 ---
 title: Guidance
-permalink: /es/guidance/
+permalink: /my/guidance/
 layout: page
-language: es
+language: my
 ---
 
 Translation needed.

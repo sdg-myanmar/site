@@ -1,8 +1,8 @@
 ---
 layout: news
 title: News & Events
-permalink: /es/news/
-language: es
+permalink: /my/news/
+language: my
 ---
 
 Translation needed.

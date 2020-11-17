@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact
-permalink: /es/contact/
-language: es
+permalink: /my/contact/
+language: my
 ---
 
 Translation needed.
