@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://sdg-my.github.io/sdg-myanmar-data/my',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'my',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -91,7 +91,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 6 - Clean water and sanitation - Indicators For The Sustainable Development Goals</title>
+    <title>ရည်မှန်းချက် 6 - သန့်ရှင်းသောသောက်သုံးရေနှင့် မိလ္လာစနစ်ရရှိရေး - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -105,13 +105,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-myanmar-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20201117125223">
+        <link rel="stylesheet" href="/sdg-myanmar-indicators/assets/css/style.css?v=20201117172744">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,18 +132,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-my layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">ပင်မအကြောင်းအရာသို့သွားရန်</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-        <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-myanmar-indicators/" id="home">
+        <img src="/sdg-myanmar-indicators/assets/img/SDG_logo.png" alt="စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်ရေး ပန်းတိုင်များ - ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/6/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/6/">
+              English
             </a>
           </li></ul>
   </div>
@@ -182,19 +182,19 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -206,11 +206,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/6/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/6/">
+              English
             </a>
           </li></ul>
   </div>
@@ -224,12 +224,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search-mobile">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -237,26 +237,26 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -268,11 +268,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/6/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/6/">
+              English
             </a>
           </li></ul>
   </div>
@@ -293,8 +293,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li class="active">Goal 6</li>
+  <li><a href="/sdg-myanmar-indicators/">ပင်မစာမျက်နှာ</a></li>
+  <li class="active">ရည်မှန်းချက် 6</li>
   
 </ol>
 
@@ -304,11 +304,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" id="goal-6"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/6.png" alt="သန့်ရှင်းသောသောက်သုံးရေနှင့် မိလ္လာစနစ်ရရှိရေး - ရည်မှန်းချက် 6" id="goal-6"/>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 6: </span>Ensure availability and sustainable management of water and sanitation for all
+          <span class="hidden-sm hidden-md hidden-lg">ရည်မှန်းချက် 6: </span>အားလုံးအတွက် သန့်ရှင်းသောသောက်သုံးရေနှင့် မိလ္လာစနစ်ရရှိရေး နှင့် ရေရှည်ဖွံ့ဖြိုးတိုးတက်အောင် စီမံခန့်ခွဲနိုင်ရေး
         </h1>
       </div>
     </div>
@@ -327,9 +327,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.1</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.1</span>
         </h3>
-        <span class="target-name">By 2030, achieve universal and equitable access to safe and affordable drinking water for all</span>
+        <span class="target-name">၂၀၃၀ တွင် လူသားအားလုံး ဘေးကင်းပြီး တန်ဖိုးမျှတသော သောက်သုံးရေကို ရရှိနိုင်ရန်။ </span>
         
 
           
@@ -343,12 +343,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.1.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-1-1">Proportion of population using safely managed drinking water services</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-1-1">အန္တရာယ်ကင်းအောင် စီမံထားသည့် သောက်သုံးရေကို အသုံးပြုရရှိနိုင်သော လူဦးရေအချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -358,9 +358,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.2</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.2</span>
         </h3>
-        <span class="target-name">By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations</span>
+        <span class="target-name">၂၀၃၀ တွင် လူသားအားလုံးအတွက် အထူးသဖြင့် အမျိုးသမီးများ၊ မိန်းကလေးငယ်များနှင့် ထိခိုက်လွယ်သောအခြေအနေတွင် နေထိုင်သူများ၏ လိုအပ်ချက်ကို ရှေးရှု၍ လုံလောက်ပြီးတန်းတူညီမျှဖြစ်သော မိလ္လာစနစ်နှင့် တစ်ကိုယ်ရေသန့်ရှင်းရေးလုပ်ငန်းများကို အားပေးဆောင်ရွက်ရန်နှင့် မြေပြင်တွင် စည်းကမ်းမဲ့ မစင်စွန့်ခြင်းကို ရပ်တန့်တားဆီးရန်။</span>
         
 
           
@@ -374,12 +374,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.2.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-2-1">Proportion of population using safely managed sanitation services, including a handwashing facility with soap and water</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-2-1">လက်ဆေးဆပ်ပြာနှင့် လက်‌ဆေးရေစသည့် ပစ္စည်းများရှိသော အန္တရာယ်ကင်းအောင် စီမံထားသည့် မိလ္လာစနစ်ကို အသုံးပြူသည့် လူဦးရေ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -389,9 +389,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.3</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.3</span>
         </h3>
-        <span class="target-name">By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally</span>
+        <span class="target-name">၂၀၃၀ တွင် ရေထုညစ်ညမ်းစေမှုကိုလျှော့ချပြီး ရေ၏အရည်အသွေးကို တိုးမြှင့်ရန်။ အမှိုက်စွန့်ပစ်ခြင်းမပြုလုပ်ရန်၊ အန္တရာယ်ရှိသော ဓာတုပစ္စည်းနှင့် အခြားပစ္စည်းများ စွန့်ပစ်ခြင်းကို လျှော့ချရန် သန့်စင်ထားခြင်းမရှိသော စွန့်ပစ်ရေဆိုးပမာဏကို တစ်ဝက်တိတိလျှော့ချရန် နှင့် ထိုရေဆိုးများအား ပြန်လည်သန့်စင် တစ်ကမ္ဘာလုံးဘေးကင်းစွာအသုံးပြုနိုင်ရန်။ </span>
         
 
           
@@ -405,12 +405,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.3.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-3-1">Proportion of wastewater safely treated</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-3-1">အန္တရာယ်ကင်းစေရန် ဆောင်ရွက်ပြီးမှ စွန့်ပစ်သော ရေဆိုးများ၏ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -427,12 +427,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.3.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.3.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-3-2">Proportion of bodies of water with good ambient water quality</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-3-2">ရေထုအရည်အသွေးကောင်းမွန်သော ရေအချိုးအစားကို ရေထုအားလုံးပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -442,9 +442,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.4</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.4</span>
         </h3>
-        <span class="target-name">By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity</span>
+        <span class="target-name">၂၀၃၀ တွင် ကဏ္ဍအားလုံး၌ ထိရောက်စွာ ရေအသုံးပြုနိုင်မှုကို သိသာစွာတိုးမြှင့်ရန်။ ရေရှားပါးမှုဖြစ်ပွားနေသည်ကို သတိမူမိပြီး ရေချိုကို ရေရှည်တည်တံ့အောင်အသုံးပြုမှုနှင့် အထောက်အပံ့ပေးမှုကို ဆောင်ရွက်ရန်။ ရေရှားပါးမှုကြောင့် ထိခိုက်သော လူဦးရေပမာဏကို သိသာစွာ လျှော့ချရန်။ </span>
         
 
           
@@ -458,12 +458,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.4.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-4-1">Change in water-use efficiency over time</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-4-1">အချိန်နှင့်အမျှပြောင်းလဲနေသော ရေချွေတာသုံးစွဲမှု ပမာဏ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -480,12 +480,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.4.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-4-2">Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-4-2">ရေလျော့နည်းမှုအဆင့်/ ရေရှားပါးမှုအဆင့် - အသုံးပြုသော ရေချိုအချိုးအစားကို ရရှိနိုင်သော ရေချိုအရင်းအမြစ်ပေါ် အခြေခံ၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -495,9 +495,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.5</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.5</span>
         </h3>
-        <span class="target-name">By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate</span>
+        <span class="target-name">၂၀၃၀ တွင် နိုင်ငံအားလုံး လိုအပ်သည့်အချိန်၌ နယ်နိမိတ်ဖြတ်ကျော် ပူးပေါင်းဆောင်ရွက်မှုများအပါအဝင် ဘက်ပေါင်းစုံမှ ရေအရင်းမြစ်စီမံခန့်ခွဲမှုကို အကောင်အထည်ဖော်ရန်။  </span>
         
 
           
@@ -511,12 +511,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.5.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-5-1">Degree of integrated water resources management implementation (0 to 100)</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-5-1">အလုံးစုံသော ရေအရင်းအမြစ် စီမံခန့်ခွဲ အကောင်အထည်ဖော်ရေး အခြေအနေ (၀ မှ ၁၀၀ ထိ)</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -533,43 +533,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.5.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.5.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-5-2">Proportion of transboundary basin area with an operational arrangement for water cooperation</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-5-2">ရေကြောင်းဆိုင်ရာ ပူးပေါင်းဆောင်ရွက်မှုအတွက် လုပ်ငန်းလည်ပတ်ရေး အစီအစဉ်များထားရှိထားသော နယ်နိမိတ်ဖြတ်ကျော် မြစ်ဝှမ်းဒေသဧရိယာ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.6</span>
-        </h3>
-        <span class="target-name">By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.6.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-6-1">Change in the extent of water-related ecosystems over time</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -579,9 +548,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.a</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.6</span>
         </h3>
-        <span class="target-name">By 2030, expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies</span>
+        <span class="target-name">၂၀၂၀ တွင် တောင်တန်းများ၊ တောအုပ်များ၊ စိမ့်မြေများ၊ မြစ်များ၊ ရေအောင်းအလွှာများနှင့် ရေကန်များအပါအဝင် ရေနှင့်ပတ်သတ်သည့် အရင်းမြစ်များကို ပြန်လည်ထိန်းသိမ်းကာကွယ်ရန်။ </span>
         
 
           
@@ -595,12 +564,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.a.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-a-1">Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-6-1">ရေနှင့်သက်ဆိုင်သော ‌ဂေဟစနစ်များ အချိန်နှင့်အမျှ ပြောင်းလဲလာမှု အခြေအနေအတိုင်းအဆ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -610,9 +579,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 6.b</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.a</span>
         </h3>
-        <span class="target-name">Support and strengthen the participation of local communities in improving water and sanitation management</span>
+        <span class="target-name">၂၀၃၀ တွင် ဖွံ့ဖြိုးဆဲနိုင်ငံများတွင် ရေသိုလှောင်ခြင်း၊ ရေချိုဖြစ်အောင် ချက်လုပ်ခြင်း၊ သိုလှောင်ထားသောရေများ လုံလောက်ကောင်းမွန်စေခြင်း၊ ရေဆိုးသန့်စင်ခြင်း၊ ပြန်လည်အသုံးပြုခြင်း နည်းပညာများ အပါအဝင် ရေနှင့် မိလ္လာဆိုင်ရာ လုပ်ငန်းအစီအစဉ်များနှင့်ပတ်သက်ပြီး ပိုမိုကောင်းမွန်စွာဆောင်ရွက်နိုင်ရန် နိုင်ငံတကာပူးပေါင်းဆောင်ရွက်မှုအကူအညီနှင့် စွမ်းဆောင်ရည်မြှင့်တင်ခြင်းဆိုင်ရာ ကူညီထောက်ပံ့မှုများကိုချဲ့ထွင်ခြင်း။ </span>
         
 
           
@@ -626,12 +595,43 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 6.b.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-b-1">Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-a-1">အစိုးရ၏ အသုံးစရိတ် အစီအစဉ်တွင်ပါဝင်သည့် ရေ၊ မိလ္လာစနစ်တို့နှင့် သက်ဆိုင်သော ဖွံ့ဖြိုးတိုးတက်မှုဆိုင်ရာ တရားဝင် အထောက်အပံ့၏ ပမာဏ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+            </span>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 6.b</span>
+        </h3>
+        <span class="target-name">ရေနှင့် မိလ္လာဆိုင်ရာ စီမံခန့်ခွဲမှုကို ပိုမိုအဆင့်မြင့်စွာဆောင်ရွက်ရာတွင် ဒေသခံပြည်သူများ၏ ပူးပေါင်းပါဝင်မှုကို ထောက်ပံ့မြှင့်တင်ခြင်း</span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 6.b.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/6-b-1">ရေနှင့် မိလ္လာစနစ် စီမံခန့်ခွဲ‌ရေးအတွက် ဒေသခံလူမှုအသိုင်းအဝန်း၏ ပါဝင်လုပ်ဆောင်မှု ရရှိစေရန်အတွက် လုပ်ငန်းလည်ပတ်ရေးမူဝါဒများနှင့် လုပ်ထုံးလုပ်နည်းများ ချမှတ်လုပ်ဆောင်နေသော ဒေသဆိုင်ရာစီမံခန့်ခွဲမှု ဌာနခွဲများ အချိုးအစား</a></span>
+            <span class="sr-only">Indicator status</span>
+            <span class="status notstarted">
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -647,25 +647,25 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org"></a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">ဆက်သွယ်ရန်</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">တွစ်တာ</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">ဖေ့စ်ဘွတ်</a>
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-myanmar-indicators/about/cookies-and-privacy/"></a>
                 
                 </li>
               
@@ -696,12 +696,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'ရှာဖွေရန်';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201117125223'></script>
+<script src='/sdg-myanmar-indicators/assets/js/sdg.js?v=20201117172744'></script>
 
 <script>
 $(function() {

@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://sdg-my.github.io/sdg-myanmar-data/my',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'my',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -91,7 +91,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 4 - Quality education - Indicators For The Sustainable Development Goals</title>
+    <title>ရည်မှန်းချက် 4 - အရည်အသွေးပြည့်ဝသော ပညာရေးရရှိရေး - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -105,13 +105,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-myanmar-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20201117125223">
+        <link rel="stylesheet" href="/sdg-myanmar-indicators/assets/css/style.css?v=20201117172744">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,18 +132,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-my layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">ပင်မအကြောင်းအရာသို့သွားရန်</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-        <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-myanmar-indicators/" id="home">
+        <img src="/sdg-myanmar-indicators/assets/img/SDG_logo.png" alt="စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်ရေး ပန်းတိုင်များ - ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/4/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/4/">
+              English
             </a>
           </li></ul>
   </div>
@@ -182,19 +182,19 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -206,11 +206,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/4/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/4/">
+              English
             </a>
           </li></ul>
   </div>
@@ -224,12 +224,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search-mobile">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -237,26 +237,26 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -268,11 +268,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/4/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/4/">
+              English
             </a>
           </li></ul>
   </div>
@@ -293,8 +293,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li class="active">Goal 4</li>
+  <li><a href="/sdg-myanmar-indicators/">ပင်မစာမျက်နှာ</a></li>
+  <li class="active">ရည်မှန်းချက် 4</li>
   
 </ol>
 
@@ -304,11 +304,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" alt="Quality education - Goal 4" id="goal-4"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/4.png" alt="အရည်အသွေးပြည့်ဝသော ပညာရေးရရှိရေး - ရည်မှန်းချက် 4" id="goal-4"/>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 4: </span>Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+          <span class="hidden-sm hidden-md hidden-lg">ရည်မှန်းချက် 4: </span>ကျား-မ နှင့် ဆင်းရဲချမ်းသာကွာဟချက်များမရှိပဲ တန်းတူလက်လှမ်းမီစေနိုင်သော အရည်အသွေးပြည့်ဝသည့် ပညာရေးကို ပေးအပ်နိုင်ရေးနှင့် အားလုံးလက်လှမ်းမီနိုင်သော တစ်သက်တာပညာရေးအခွင့်အလမ်းများကို မြှင့်တင်ပေးရန်
         </h1>
       </div>
     </div>
@@ -327,9 +327,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.1</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.1</span>
         </h3>
-        <span class="target-name">By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes</span>
+        <span class="target-name">၂၀၃၀ တွင် မိန်းကလေးငယ်များနှင့် ယောက်ျားလေးငယ်များအားလုံးသည် လွတ်လပ်ပြီးမျှတသော၊ အရည်အသွေးပြည့်ဝသော မူလတန်း၊ အလယ်တန်းပညာရေးများကို ရရှိသင်ကြားနိုင်ပြီး သင့်တော်ထိရောက်သော သင်ကြားရေးရလဒ်များကို ရရှိရန်။</span>
         
 
           
@@ -343,12 +343,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.1.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-1-1">Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-1-1">(က) ၂တန်း၊ ၃တန်း တွင်တက်ရောက်နေသော (ခ) မူလတန်းပြီးမြောက်သော (ဂ) (၁) စာဖတ်ခြင်းနှင့် (၂) သင်္ချာတွင် အနည်းဆုံးလိုအပ်သည့် တတ်ကျွမ်းမှုများကို တတ်မြောက်ပြီးဖြစ်သော အလယ်တန်းပြီးမြောက်သည့် ကလေးနှင့် လူငယ်များ၏ အချိုးအစားကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -358,9 +358,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.2</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.2</span>
         </h3>
-        <span class="target-name">By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre‐primary education so that they are ready for primary education</span>
+        <span class="target-name">၂၀၃၀ တွင် မိန်းကလေးငယ်များနှင့် ယောက်ျားလေးငယ်များအားလုံးသည် မူလတန်းပညာရေးအတွက် အဆင်သင့်ဖြစ်နေစေရန် အရည်အသွေးပြည့်ဝသော အစောပိုင်းကာလဖွံ့ဖြိုးရေးနှင့် စောက်ရှောက်ရေးများကို ရရှိခံစားနိုင်ရန်။ </span>
         
 
           
@@ -374,12 +374,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.2.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-2-1">Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-2-1">ကျန်းမာရေး၊ သင်ကြားမှုနှင့် လူမှုစိတ်ပိုင်းဆိုင်ရာ ကောင်းမွန်မှု ဖွံ့ဖြိုးတိုးတက်မှု လမ်းကြောင်းပေါ်တွင်ရောက်နေပြီဖြစ်သော အသက် (၅)နှစ်အောက်အရွယ် ကလေးများ၏ အချိုးအစားကို ကျား/မ ပေါ် မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -396,43 +396,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.2.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.2.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-2-2">Participation rate in organized learning (one year before the official primary entry age), by sex</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-2-2">တရားဝင် မူလတန်းတက်ရောက်သည့် အသက်အရွယ်အရောက်ခင် တစ်နှစ်အလိုတွင် သင်ယူမှုလုပ်ငန်းများ စတင်ဆောင်ရွက်ရာတွင် ပါဝင်မှုနှုန်းကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.3</span>
-        </h3>
-        <span class="target-name">By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.3.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-3-1">Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -442,9 +411,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.4</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.3</span>
         </h3>
-        <span class="target-name">By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship</span>
+        <span class="target-name">၂၀၃၀ တွင် အမျိုးသမီးတိုင်းနှင့် အမျိုးသားတိုင်းသည် တန်ဖိုးမျှတပြီး အရည်အသွေးပြည့်ဝသော ပညာရပ်ပိုင်းဆိုင်ရာ၊ အသက်မွေးဝမ်းကျောင်းမှုဆိုင်ရာ ပညာရေး၊ အထက်တန်းနှင့် တက္ကသိုလ်ပညာရေးများကို တန်းတူသင်ကြားနိုင်ရန်။ </span>
         
 
           
@@ -458,12 +427,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.4.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-4-1">Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-3-1">လွန်ခဲ့သော (၁၂)လအတွင်း ကျောင်းတွင်းနှင့် ကျောင်းပြင်ပ ပညာရေးနှင့် သင်တန်းများ တက်ရောက်ခွင့်ရသော လူငယ်များနှင့် လူကြီးများ ပါဝင်မှုနှုန်းကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -473,9 +442,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.5</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.4</span>
         </h3>
-        <span class="target-name">By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations</span>
+        <span class="target-name">၂၀၃၀ တွင် သင့်တင့်လျောက်ပတ်သော အလုပ်အကိုင်များရရှိပြီးနှင့် စွန့်ဦးတီထွင်လုပ်ငန်းများကိုဆောင်ရွက်နိုင်ရန်အတွက် သက်ဆိုင်ရာကျွမ်းကျင်မှုများ၊ ပညာရပ်ပိုင်းဆိုင်ရာနှင့် အသက်မွေးမှုဆိုင်ရာ ကျွမ်းကျင်မှုများ တတ်မြောက်ထားသော လူငယ်နှင့် အရွယ်ရောက်ပြီးသူအရေအတွက် များစွာတိုးပွားလာနိုင်စေရန်။</span>
         
 
           
@@ -489,12 +458,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.5.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-5-1">Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-4-1">သတင်းအချက်အလက်နှင့် နည်းပညာဆိုင်ရာ ကျွမ်းကျင်မှုများကိုပိုင်ဆိုင်သော လူငယ်များနှင့် လူကြီးများ အချိုးအစားကို ကျွမ်းကျင်မှု အမျိုးအစားပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -504,9 +473,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.6</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.5</span>
         </h3>
-        <span class="target-name">By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy</span>
+        <span class="target-name">၂၀၃၀ တွင် ပညာရေး၌ ကျား/မ ခွဲခြားကွာဟမှုကို ပပျောက်စေရန်။ ထိခိုက်လွယ်သူများ၊ မသန်စွမ်းသူများ၊ဌာနေတိုင်းရင်းသားလူမျိုးစုများနှင့် ထိခိုက်လွယ်သော အခြေအနေတွင်နေထိုင်ရသော ကလေးငယ်များအတွက် ပညာရေးပုံစံအားလုံးနှင့် အသက်မွေးဝမ်းကျောင်းပညာရပ်များကို တန်းတူညီမျှရရှိစေရန်။</span>
         
 
           
@@ -520,12 +489,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.6.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-6-1">Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-5-1">(ကျား/မ၊ ကျေးလက်/မြို့ပြ၊ ကြွယ်ဝချမ်းသာမှုလိုင်း အောက်/အထက် နှင့် မသန်စွမ်းမှုအခြေအနေ၊ ‌ဒေသခံဌာနေတိုင်းရင်းသားများနှင့် ပဋိပက္ခဒဏ်ခံရသော နေရာများတွင်နေထိုင်သူများ စသည့်ဒေတာများ) ပါဝင်သော ဤစာရင်းပေါ်ရှိ ပညာရေးဆိုင်ရာအညွှန်းများအားလုံးအတွက် ခွဲခြားပြသနိုင်သော တန်းတူညီမျှမှု အညွှန်းကိန်းများ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -535,9 +504,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.7</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.6</span>
         </h3>
-        <span class="target-name">By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</span>
+        <span class="target-name">၂၀၃၀ တွင် လူငယ်အားလုံးနှင့် အမျိုးသားနှင့် အမျိုးသမီးများအပါအဝင် အရွယ်ရောက်ပြီးသူအများအပြားသည် စာနှင့်ဂဏန်းသင်္ချာကို တတ်မြောက်နားလည်အသုံးချတတ်စေရန်။ </span>
         
 
           
@@ -551,12 +520,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.7.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-7-1">Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-6-1">အသက်အရွယ်အပိုင်းအခြားအလိုက် အနည်းဆုံးရှိရမည်ဖြစ်သော (က) စာတတ်မြောက်မှု နှင့်  (ခ) ဂဏန်းသင်္ချာတတ်ကျွမ်းမှုတို့ကို ပြည့်မီသော လူဦးရေအချိုးအစားကို ကျား၊မ ပေါ် မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -566,9 +535,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.a</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.7</span>
         </h3>
-        <span class="target-name">Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all</span>
+        <span class="target-name">၂၀၃၀ တွင် ပညာသင်ကြားသူအားလုံးသည် စဉ်ဆက်မပြတ်ဖွံ့ဖြိုးတိုးတက်ရေးကို တိုးမြှင့်ရန်အတွက် လိုအပ်သည့်အသိပညာနှင့် ကျွမ်းကျင်မှုများကို ရှိနေစေရန်။ ထိုပညာများထဲတွင် သဟဇာတမျှတသော ဘဝနေထိုင်မှု၊ လူ့အခွင့်အရေး၊ ကျား/မ တန်းတူညီမျှရှိရေး၊ ငြိမ်းချမ်းရေးနှင့် အကြမ်းမဖက်ရေးအသိကို တိုးမြှင့်ရေး၊ ကမ္ဘာ့နိုင်ငံသားများဖြစ်လာရေး၊ ယဉ်ကျေးမှုကွဲပြားခြင်းများကို လေးစားတတ်စေရေး၊ နှင့် စဉ်ဆက်မပြတ်ဖွံ့ဖြိုးတိုးတက်ရေးဆောင်ရွက်ရာတွင် ယဉ်ကျေးမှုများ၏ အရေးပါမှုကို နားလည်စေရေး စသည်တို့ကို လေ့လာသိရှိနေစေရန်။</span>
         
 
           
@@ -582,12 +551,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.a.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-a-1">Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-7-1">(၁) ကမ္ဘာ့နိုင်ငံသားပညာရေး နှင့် (၂) ကျား၊မ တန်းတူညီမျှမှုနှင့် လူ့အခွင့်အရေးတို့ပါဝင်သော စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်မှုအကြောင်းများပါဝင်သောပညာရေးကို (‌က)အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် ပညာရေးမူဝါဒများ (ခ) သင်ရိုးများ (ဂ) ဆရာအတတ်သင်ပညာရေးနှင့် (ဃ) တတ်ကျွမ်းမှုစစ်ဆေးခြင်းများတွင် ထည့်သွင်းအသုံးပြုသောအခြေအနေ အတိုင်းအဆ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -597,9 +566,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.b</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.a</span>
         </h3>
-        <span class="target-name">By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries</span>
+        <span class="target-name">ကလေးငယ်များ၊ မသန်စွမ်းများနှင့် ကျား/မ တန်းတူညီမျှရေးကို အလေးပေးသော ပညာရေးအဖြစ် အဆင့်မြှင့်တင်ပြီး ဘေးကင်းသော၊အကြမ်းမဖက်သော၊ အားလုံးပါဝင်နိုင်သော ထိရောက်သော သင်ကြားရေး ပတ်ဝန်းကျင်တစ်ခုကို ထောက်ပံ့တည်ဆောက်ပေးနိုင်ရန်။ </span>
         
 
           
@@ -613,12 +582,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.b.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-b-1">Volume of official development assistance flows for scholarships by sector and type of study</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-a-1">(က) လျှပ်စစ်ဓာတ်အား (ခ) သင်ကြားရေးလုပ်ငန်းများအတွက် အင်တာနက် (ဂ) သင်ကြားရေးလုပ်ငန်းများအတွက် ကွန်ပျူတာများ (ဃ) မသန်စွမ်းသော ကျောင်းသားကျောင်းသူများအတွက် အထူးဆောက်လုပ်ပေးထားသော အခြေခံအဆောက်အအုံများနှင့် ပြုလုပ်ပေးထားသော အခြေခံပစ္စည်းများ၊ (င) သောက်သုံးရေသန့်(စ) ကျား၊မ ခွဲထားသော အိမ်သာများနှင့် (ဆ) (WASH အညွှန်းအဓိပ္ပာယ်ဖွင့်ဆိုချက်များနှင့် ကိုက်ညီမှုရှိအောင် လက်ဆေးရန်နေရာများ ထားရှိပေးထားသော ကျောင်း အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -628,9 +597,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 4.c</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.b</span>
         </h3>
-        <span class="target-name">By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing States</span>
+        <span class="target-name">၂၀၂၀ တွင် ဖွံ့ဖြိုးဆဲနိုင်ငံများ၊ ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများနှင့် ဖွံ့ဖြိုးဆဲကျွန်းငယ်နိုင်ငံများ၊ အာဖရိကန်နိုင်ငံများအတွက် ပညာသင်ဆုများများစွာ ပေးအပ်နိုင်ရန်။ အဆင့်မြင့် ပညာရေးဖြစ်သည့်သက်မွေးပညာရပ်များ၊ သတင်းအချက်အလက်၊ ဆက်သွယ်ရေးနည်းပညာများ၊ နည်းပညာဆိုင်ရာပညာရပ်များ၊ အင်ဂျင်နီယာပညာရပ်များနှင့် သိပ္ပံနည်းပညာအစီအစဉ်များအား ဖွံ့ဖြိုးပြီးနှင့် ဖွံ့ဖြိုးဆဲနိုင်ငံရှိ ကျောင်းသားကျောင်းသူများတက်ရောက်နိုင်ရေးအတွက် အကောင်အထည်ဖော်ဆောင်ရွက်ရန်။</span>
         
 
           
@@ -644,12 +613,43 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 4.c.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/4-c-1">Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-b-1">ပညာသင်ဆုများအနေဖြင့် ပေးအပ်သော တရားဝင်ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့ပမာဏ ကို ကဏ္ဍနှင့် ဘာသာရပ်အမျိုးအစားပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+            </span>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 4.c</span>
+        </h3>
+        <span class="target-name">၂၀၃၀ တွင် ဖွံ့ဖြိုးဆဲနိုင်ငံများ၊ အထူးသဖြင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများနှင့် ဖွံ့ဖြိုးဆဲကျွန်းငယ်နိုင်ငံများတွင် နိုင်ငံတကာပူးပေါင်းဆောင်ရွက်မှုများမှတစ်ဆင့် ဆရာဖြစ်သင်တန်းများ ဆောင်ရွက်ပြီး အရည်အသွေးပြည့်ဝသော ဆရာ၊ ဆရာမအရေအတွက်ကို တိုးမြှင့်ရန်။ </span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 4.c.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/4-c-1">(‌က) မူလတန်းကြို (ခ) မူလတန်း (ဂ) အလယ်တန်းနှင့် (ဃ) အထက်တန်းပညာရေးတို့တွင် သင်ကြားရေးကောင်းမွန်ရန်အတွက် မဖြစ်မနေတက်ရောက်ရသည့် ဆရာအတတ်သင်သင်တန်းပို့ချမှု (ဥပမာ - သင်ကြားနည်းပညာဆိုင်ရာသင်တန်းများ) ကို အလုပ်မဝင်ခင်နှင့် အလုပ်ဝင်နေဆဲကာလတွင် တက်ရောက်ခွင့်ရရှိကြသော နိုင်ငံအတွင်းရှိ ဆရာ၊ ဆရာမ အချိုးအစား</a></span>
+            <span class="sr-only">Indicator status</span>
+            <span class="status notstarted">
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -665,25 +665,25 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org"></a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">ဆက်သွယ်ရန်</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">တွစ်တာ</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">ဖေ့စ်ဘွတ်</a>
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-myanmar-indicators/about/cookies-and-privacy/"></a>
                 
                 </li>
               
@@ -714,12 +714,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'ရှာဖွေရန်';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201117125223'></script>
+<script src='/sdg-myanmar-indicators/assets/js/sdg.js?v=20201117172744'></script>
 
 <script>
 $(function() {

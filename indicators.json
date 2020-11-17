@@ -2,119 +2,119 @@
   {
     "goal": {
       "id": "1",
-      "title": "End poverty in all its forms everywhere",
+      "title": "ဆင်းရဲနွမ်းပါးမှု ပုံစံမျိုးစုံကို နေရာတိုင်းတွင် ပပျောက်စေရေး",
       "indicators": [
         
         {
           "id": "1-1-1",
-          "title": "Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",
+          "title": "နိုင်ငံတကာ ဆင်းရဲနွမ်းပါးမှုမျဉ်းအောက်ရောက်ရှိနေသော လူဦးရေ အချိုးအစားကို ကျား/မ ၊ အလုပ်အကိုင် နှင့် တည်နေရာအနေအထား (မြို့/ရွာ) တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-1-1",
+          "href": "/sdg-myanmar-indicators/1-1-1",
           "status": "complete"
         },
         {
           "id": "1-2-1",
-          "title": "Proportion of population living below the national poverty line, by sex and age",
+          "title": "နိုင်ငံ၏ ဆင်းရဲနွမ်းပါးမှုမျဉ်းအောက်ရောက်ရှိနေသော လူဦးရေ အချိုးအစားကို ကျား/မ နှင့် အသက်အရွယ် တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-2-1",
+          "href": "/sdg-myanmar-indicators/1-2-1",
           "status": "notstarted"
         },
         {
           "id": "1-2-2",
-          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+          "title": "နိုင်ငံ၏ အဓိပ္ပာယ် ဖွင့်ဆိုချက်များအရ အဘက်ဘက်တွင် ဆင်းရဲနွမ်းပါးစွာနေထိုင်နေရသော ကျား/မ နှင့် ကလေးဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-2-2",
+          "href": "/sdg-myanmar-indicators/1-2-2",
           "status": "notstarted"
         },
         {
           "id": "1-3-1",
-          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
+          "title": "ကျား/မ ၊ အများနှင့်မတူသည့် ကလေးငယ်များ၊ အလုပ်လက်မဲ့များ၊ သက်ကြီးရွယ်အိုများ၊ မသန်စွမ်းသူများ၊ ကိုယ်ဝန်ဆောင်များ၊ မွေးကင်းစကလေးငယ်များ၊ လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရသူများ၊ ဆင်းရဲနွမ်းပါသူများနှင့် ထိခိုက်လွယ်သူများ စသဖြင့် လူတန်းစားအမျိုးမျိုးအား လူမှုဖူလုံရေးစနစ်မှ အကာအကွယ်ပေးသော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-3-1",
+          "href": "/sdg-myanmar-indicators/1-3-1",
           "status": "notstarted"
         },
         {
           "id": "1-4-1",
-          "title": "Proportion of population living in households with access to basic services",
+          "title": "အခြေခံ ဝန်ဆောင်မှုများ ရရှိနိုင်သော အိမ်ထောင်စုများတွင် နေထိုင်နေသော လူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-4-1",
+          "href": "/sdg-myanmar-indicators/1-4-1",
           "status": "notstarted"
         },
         {
           "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, with legally recognized documentation, and who perceive their rights to land as secure, by sex and by type of tenure",
+          "title": "ဥပဒေကြောင်းအရခိုင်လုံသော စာရွက်စာတမ်းအထောက်အထားနှင့် လုံခြုံစိတ်ချရသော မြေယာခံစားခွင့်ရှိသော၊ မြေယာများကို ရပိုင်ခွင့်အား နားလည်သည့် အရွယ်ရောက်ပြီးသားသူအားလုံးကို ကျား/မ နှင့် ခံစားခွင့်အမျိုးအစားအလိုက် ခွဲခြားသတ်မှတ်ထားသော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-4-2",
+          "href": "/sdg-myanmar-indicators/1-4-2",
           "status": "notstarted"
         },
         {
           "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "လူဦးရေတစ်သိန်းလျှင် ဘေးအန္တရာယ်များကြောင့် သေဆုံး၊ ပျောက်ဆုံး နှင့် တိုက်ရိုက်သက်ရောက်မှု ဒဏ်ခံရသော လူဦးရေအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-5-1",
+          "href": "/sdg-myanmar-indicators/1-5-1",
           "status": "notstarted"
         },
         {
           "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
+          "title": "သဘာဝဘေးအန္တရာယ်ဒဏ်များကြောင့် စီးပွားရေးဆိုင်ရာ တိုက်ရိုက်ဆုံးရှုံးမှုများကို ကမ္ဘာလုံးဆိုင်ရာ ပြည်တွင်း အသားတင် ကုန်ထုတ်လုပ်မှု (GDP) နှင့် နှိုင်းယှဉ်ကြည့်ခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-5-2",
+          "href": "/sdg-myanmar-indicators/1-5-2",
           "status": "notstarted"
         },
         {
           "id": "1-5-3",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "၂၀၁၅-၂၀၃၀  သဘာဝဘေးအန္တရာယ်လျှော့ချရေး ဆန်ဒိုင်းမူဘောင်အရ အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-5-3",
+          "href": "/sdg-myanmar-indicators/1-5-3",
           "status": "notstarted"
         },
         {
           "id": "1-5-4",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို အခြေခံ၍ ဒေသဆိုင်ရာ သဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော ‌ဒေသအစိုးရများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-5-4",
+          "href": "/sdg-myanmar-indicators/1-5-4",
           "status": "notstarted"
         },
         {
           "id": "1-a-1",
-          "title": "Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes",
+          "title": "အစိုးရအနေဖြင့် ဆင်းရဲနွမ်းပါးမှု လျှော့ချရေး အစီအစဉ်များအတွက် ပြည်တွင်းတွင် ထုတ်လုပ်သော အရင်းအမြစ်များကို တိုက်ရိုက် ခွဲဝေပေးသည့် အချိုးအစားပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-a-1",
+          "href": "/sdg-myanmar-indicators/1-a-1",
           "status": "notstarted"
         },
         {
           "id": "1-a-2",
-          "title": "Proportion of total government spending on essential services (education, health and social protection)",
+          "title": "မရှိမဖြစ်လိုအပ်သော ဝန်ဆောင်မှုများ (ပညာရေး၊ ကျန်းမာရေးနှင့် လူမှုဖူလုံရေး) အတွက် အစိုးရအနေဖြင့် အသုံးပြုသော စုစုပေါင်းကုန်ကျစရိတ် အချိုးအစားပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-a-2",
+          "href": "/sdg-myanmar-indicators/1-a-2",
           "status": "notstarted"
         },
         {
           "id": "1-a-3",
-          "title": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP",
+          "title": "နိုင်ငံ့ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ၏ အချိုးအစား တစ်ခု အနေဖြင့် ဆင်းရဲနွမ်းပါးမှုလျှော့ချရေးအစီအစဉ်များကို တိုက်ရိုက်ပေးအပ်သော ထောက်ပံ့ကြေးအားလုံးနှင့် အကြွေးမဖြစ်စေသော ထောက်ပံ့ငွေများ၏ စုစုပေါင်းပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-a-3",
+          "href": "/sdg-myanmar-indicators/1-a-3",
           "status": "notstarted"
         },
         {
           "id": "1-b-1",
-          "title": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups",
+          "title": "အမျိုးသမီးများ၊ ဆင်းရဲနွမ်းပါးသူများနှင့် အားနည်းသူများအတွက် ဖိဖိစီးစီး အကျိုးပြုနေသော ကဏ္ဍများအတွက် အစိုးရ၏ ပုံမှန်အသုံးစရိတ်နှင့် ရင်းနှီးငွေ စုစုပေါင်း၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-b-1",
+          "href": "/sdg-myanmar-indicators/1-b-1",
           "status": "notstarted"
         }]
     }
@@ -122,111 +122,111 @@
   {
     "goal": {
       "id": "2",
-      "title": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+      "title": "ငတ်မွတ်ခေါင်းပါးမှုကို အပြီးတိုင်နိဂုံးချုပ်နိုင်ရန်၊ စားနပ်ရိက္ခာဖူလုံမှုရှိစေရန်၊ အာဟာရရရှိမှု တိုးတက်လာစေရန် နှင့် စိုက်ပျိုးရေးကဏ္ဍ ရေရှည်ဖွံ့ဖြိုးတိုးတက်အောင် မြှင့်တင်ပေးရန်",
       "indicators": [
         
         {
           "id": "2-1-1",
-          "title": "Prevalence of undernourishment",
+          "title": "အာဟာရချို့တဲခြင်း ပိုမိုဖြစ်ပွားမှု။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-1-1",
+          "href": "/sdg-myanmar-indicators/2-1-1",
           "status": "notstarted"
         },
         {
           "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+          "title": "အစားအစာဖူလုံမှုမရှိခြင်း တွေ့ကြုံခံစားရမှုပမာဏ (FIES) ကို အခြေခံပြီး လူသားများကြုံတွေ့နေရသည့် အတော်အတန် သို့မဟုတ် ပြင်းထန်သော အစားအစာဖူလုံမှုမရှိခြင်း ပိုမိုဖြစ်ပွားမှု။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-1-2",
+          "href": "/sdg-myanmar-indicators/2-1-2",
           "status": "notstarted"
         },
         {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "အသက်(၅)နှစ်အောက် ကလေးငယ်များတွင်  ကြီးထွားမှုရပ်တန့်သွားခြင်းများ ပိုမိုဖြစ်ပွားလာခြင်း (အသက်နှစ်နှစ်အောက် ကလေးငယ်များအနေဖြင့် ကမ္ဘာ့ကျန်းမာရေးအဖွဲ့ (WHO)၏ ကလေးငယ်များ ကြီးထွားမှုစံနှုန်းများကို သွေဖီပြီး သတ်မှတ်ထားသော ပျမ်းမျှအရပ်ကို မရရှိခြင်း)",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-2-1",
+          "href": "/sdg-myanmar-indicators/2-2-1",
           "status": "notstarted"
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "အသက်(၅)နှစ်အောက် ကလေးငယ်များတွင်  အာဟာရချို့တဲ့မှု ပိုမိုဖြစ်ပွားလာခြင်း (WHO ၏ ကလေးငယ်များ ကြီးထွားမှုစံနှုန်းများကို သွေဖီပြီး အရပ်နှင့်ကိုက်ညီသော ခန္ဓာကိုယ်အလေးချိန်မရရှိခြင်း) ကို ပိန်လှီခြင်းနှင့် အဝလွန်ခြင်း အမျိုးအစားပေါ်လိုက်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-2-2",
+          "href": "/sdg-myanmar-indicators/2-2-2",
           "status": "notstarted"
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "title": "အလုပ်သမားတစ်ဦးလျှင် ထုတ်လုပ်သောထုတ်ကုန်ပမာဏကို လယ်ယာလုပ်ငန်း၊ မွေးမြူရေးလုပ်ငန်း၊ သစ်တောလုပ်ငန်းများ၏ အရွယ်အစားပေါ်အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-3-1",
+          "href": "/sdg-myanmar-indicators/2-3-1",
           "status": "notstarted"
         },
         {
           "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
+          "title": "အစားအစာကို တစ်နိုင်တစ်ပိုင်ထုတ်လုပ်သူများ၏ ပျမ်းမျှဝင်ငွေကို ကျား/မနှင့် ဌာနေတိုင်းရင်းသားလူမျိုးစုများပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-3-2",
+          "href": "/sdg-myanmar-indicators/2-3-2",
           "status": "notstarted"
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "ထုတ်လုပ်မှုအားကောင်းပြီး ရေရှည်တည်တံ့သော စိုက်ပျိုးရေးလုပ်ငန်းများကို လုပ်ကိုင်လျက်ရှိသော စိုက်ပျိုးမြေဧရိယာ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-4-1",
+          "href": "/sdg-myanmar-indicators/2-4-1",
           "status": "notstarted"
         },
         {
           "id": "2-5-1",
-          "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities",
+          "title": "‌ရေလတ် (သို့မဟုတ်) ရေရှည် ထိန်းသိမ်းစောင့်ရှောက်မှု အဆောက်အအုံများတွင် လုံခြုံစွာသိမ်းဆည်းထားသော အစားအစာနှင့် စိုက်ပျိုးရေးအတွက် အပင်နှင့် သတ္တဝါမျိုးရိုးဗီဇရင်းမြစ်များ အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-5-1",
+          "href": "/sdg-myanmar-indicators/2-5-1",
           "status": "notstarted"
         },
         {
           "id": "2-5-2",
-          "title": "Proportion of local breeds classified as being at risk, not at risk or at unknown level of risk of extinction",
+          "title": "မျိုးသုန်းသည့်အန္တရာယ် ရှိနေသော၊ မျိုးသုန်းသည့်အန္တရာယ် မရှိသော (သို့မဟုတ်) မျိုးသုန်းသည့်အန္တရာယ်အဆင့်ကို မသိရသော ပြည်တွင်းရှိတောရိုင်းတိရိစ္ဆာန်များ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-5-2",
+          "href": "/sdg-myanmar-indicators/2-5-2",
           "status": "notstarted"
         },
         {
           "id": "2-a-1",
-          "title": "The agriculture orientation index for government expenditures",
+          "title": "စိုက်ပျိုး‌ရေးနှင့် ပတ်သက်သော လုပ်ငန်းများအတွက် အသုံးပြုသော အစိုးရအသုံးစရိတ် အချိုးအစားပမာဏ ညွှန်းကိန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-a-1",
+          "href": "/sdg-myanmar-indicators/2-a-1",
           "status": "notstarted"
         },
         {
           "id": "2-a-2",
-          "title": "Total official flows (official development assistance plus other official flows) to the agriculture sector",
+          "title": "စိုက်ပျိုးရေးကဏ္ဍအတွက် (တရားဝင် ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့အပြင် အခြား တရားဝင်ပံ့ပိုးမှုများ)ပါဝင်သော တရားဝင် ပံ့ပိုးမှု စုစုပေါင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-a-2",
+          "href": "/sdg-myanmar-indicators/2-a-2",
           "status": "notstarted"
         },
         {
           "id": "2-b-1",
-          "title": "Agricultural export subsidies",
+          "title": "စိုက်ပျိုးရေးဆိုင်ရာထုတ်ကုန်များတင်ပို့မှုကိုထောက်ပံ့ငွေ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-b-1",
+          "href": "/sdg-myanmar-indicators/2-b-1",
           "status": "notstarted"
         },
         {
           "id": "2-c-1",
-          "title": "Indicator of food price anomalies",
+          "title": "အစားအစာစျေးနှုန်း မူမမှန်ခြင်းအညွှန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/2-c-1",
+          "href": "/sdg-myanmar-indicators/2-c-1",
           "status": "notstarted"
         }]
     }
@@ -234,223 +234,223 @@
   {
     "goal": {
       "id": "3",
-      "title": "Ensure healthy lives and promote well-being for all at all ages",
+      "title": "လူသားမရွေး အသက်အရွယ်မရွေး ကျန်းမာသောဘဝ ရရှိနိုင်ရေးနှင့် အားလုံးအတွက် ကောင်းမွန်သော ကျန်းမာရေးစောင့်ရှောက်မှုများကို တည်ဆောက်ပေးနိုင်ရေး",
       "indicators": [
         
         {
           "id": "3-1-1",
-          "title": "Maternal mortality ratio",
+          "title": "မိခင်သေပျောက်မှုအချိုး",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-1-1",
+          "href": "/sdg-myanmar-indicators/3-1-1",
           "status": "notstarted"
         },
         {
           "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
+          "title": "အရည်အချင်းပြည့်ဝသော ကျန်းမာရေးဝန်ထမ်း၏ စောင့်ရှောက်မှုဖြင့် ကလေးမွေးဖွားရသော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-1-2",
+          "href": "/sdg-myanmar-indicators/3-1-2",
           "status": "notstarted"
         },
         {
           "id": "3-2-1",
-          "title": "Under‐five mortality rate",
+          "title": "ငါးနှစ်အောက်ကလေး အသေအပျောက်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-2-1",
+          "href": "/sdg-myanmar-indicators/3-2-1",
           "status": "notstarted"
         },
         {
           "id": "3-2-2",
-          "title": "Neonatal mortality rate",
+          "title": "မွေးကင်းစကလေး အသေအပျောက်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-2-2",
+          "href": "/sdg-myanmar-indicators/3-2-2",
           "status": "notstarted"
         },
         {
           "id": "3-3-1",
-          "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+          "title": "ရောဂါကူးစက်မှုမရှိသေးသော လူတစ်ထောင်လျှင် အိတ်ချ်အိုင်ဗွီ ရောဂါပိုး ကူးစက်မှုအသစ် ဖြစ်ပွားမှုများကို ကျား/မ၊ အသက်အရွယ်နှင့် အဓိကကျသော လူဦးရေများပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-1",
+          "href": "/sdg-myanmar-indicators/3-3-1",
           "status": "notstarted"
         },
         {
           "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
+          "title": "လူတစ်သိန်းလျှင် တီဘီ ရောဂါဖြစ်ပွားမှု အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-2",
+          "href": "/sdg-myanmar-indicators/3-3-2",
           "status": "notstarted"
         },
         {
           "id": "3-3-3",
-          "title": "Malaria incidence per 1,000 population",
+          "title": "လူတစ်ထောင်လျှင် ငှက်ဖျားရောဂါ ဖြစ်ပွားမှု အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-3",
+          "href": "/sdg-myanmar-indicators/3-3-3",
           "status": "notstarted"
         },
         {
           "id": "3-3-4",
-          "title": "Hepatitis B incidence per 100,000 population",
+          "title": "လူတစ်သိန်းလျှင် အသည်းရောင်အသားဝါ(ဘီ)ရောဂါ ဖြစ်ပွားမှု အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-4",
+          "href": "/sdg-myanmar-indicators/3-3-4",
           "status": "notstarted"
         },
         {
           "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "title": "အပူပိုင်းဒေသတွင်ဖြစ်ပွားသော ရောဂါများကို လျစ်လျူရှုရာမှ ဆေးကုသမှုလိုအပ်လာခဲ့သော လူဦးရေ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-5",
+          "href": "/sdg-myanmar-indicators/3-3-5",
           "status": "notstarted"
         },
         {
           "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "title": "နှလုံးရောဂါ၊ ကင်ဆာ၊ ဆီးချိုရောဂါနှင့် နာတာရှည် အသက်ရှူလမ်းကြောင်းဆိုင်ရာ ရောဂါများကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-4-1",
+          "href": "/sdg-myanmar-indicators/3-4-1",
           "status": "notstarted"
         },
         {
           "id": "3-4-2",
-          "title": "Suicide mortality rate",
+          "title": "ကိုယ့်ကိုယ်ကို သတ်သေမှုများကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-4-2",
+          "href": "/sdg-myanmar-indicators/3-4-2",
           "status": "notstarted"
         },
         {
           "id": "3-5-1",
-          "title": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",
+          "title": "မူးယစ်ဆေးဝါး စွဲလန်းမှုအတွက် ပြုလုပ်ပေးသော ဆေးကုသမှုများ (ဆေးဘက်ဆိုင်ရာ၊ လူမှုစိတ်ပိုင်းဆိုင်ရာ၊ ပြန်လည်သန်စွမ်းမှုနှင့် ဆေးရုံဆင်းပြီး ဆက်လက်စောင့်‌ရှောက်သော ဝန်ဆောင်မှုများ) လွှမ်းခြုံမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-5-1",
+          "href": "/sdg-myanmar-indicators/3-5-1",
           "status": "notstarted"
         },
         {
           "id": "3-5-2",
-          "title": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-5-2",
+          "href": "/sdg-myanmar-indicators/3-5-2",
           "status": "notstarted"
         },
         {
           "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
+          "title": "မော်တော်ယာဉ် မတော်တဆဖြစ်မှုများကြောင့် သေဆုံးမှုနှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-6-1",
+          "href": "/sdg-myanmar-indicators/3-6-1",
           "status": "notstarted"
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "title": "မွေးဖွားမှုထိန်းချုပ်ခြင်းလိုအပ်ချက်ကို ခေတ်သစ်နည်းလမ်းများဖြင့် ဆောင်ရွက်ကြသော မျိုးဖွားနိုင်သည့်အရွယ် (အသက် ၁၅နှစ်မှ ၄၉နှစ်) အတွင်းရှိသော အမျိုးသမီးများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-7-1",
+          "href": "/sdg-myanmar-indicators/3-7-1",
           "status": "notstarted"
         },
         {
           "id": "3-7-2",
-          "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group",
+          "title": "လူတစ်ထောင်လျှင် (အသက် ၁၀နှစ်မှ ၁၄နှစ်အတွင်းနှင့် အသက် ၁၅နှစ်မှ ၁၉နှစ်အတွင်း) ရှိသော ဖော်ပြပါ အသက်အပိုင်းအခြားအုပ်စုများ၏ ဆယ်ကျော်သက် ကိုယ်ဝန်ဆောင်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-7-2",
+          "href": "/sdg-myanmar-indicators/3-7-2",
           "status": "notstarted"
         },
         {
           "id": "3-8-1",
-          "title": "Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-8-1",
+          "href": "/sdg-myanmar-indicators/3-8-1",
           "status": "notstarted"
         },
         {
           "id": "3-8-2",
-          "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income",
+          "title": "အိမ်အသုံးစရိတ်စုစုပေါင်း (သို့မဟုတ်) အိမ်ဝင်ငွေစုစုပေါင်း၏ အစိတ်အပိုင်းအတော်များများကို ကျန်းမာရေးအတွက် အသုံးပြုနေသော လူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-8-2",
+          "href": "/sdg-myanmar-indicators/3-8-2",
           "status": "notstarted"
         },
         {
           "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
+          "title": "အိမ်တွင်းနှင့် ပတ်ဝန်းကျင် လေထုညစ်ညမ်းမှုကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-9-1",
+          "href": "/sdg-myanmar-indicators/3-9-1",
           "status": "notstarted"
         },
         {
           "id": "3-9-2",
-          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
+          "title": "မသန့်ရှင်းသောရေ၊ မသန့်ရှင်းသော မိလ္လာစနစ်နှင့် တစ်ကိုယ်ရေသန့်ရှင်းရေး အားနည်းမှုများကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-9-2",
+          "href": "/sdg-myanmar-indicators/3-9-2",
           "status": "notstarted"
         },
         {
           "id": "3-9-3",
-          "title": "Mortality rate attributed to unintentional poisoning",
+          "title": "မတော်တဆအဆိပ်သင့်ခြင်းကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-9-3",
+          "href": "/sdg-myanmar-indicators/3-9-3",
           "status": "notstarted"
         },
         {
           "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+          "title": "အသက် (၁၅)နှစ်နှင့် အထက်ရှိသူများတွင် လက်ရှိဆေးလိပ်နှင့် ဆေးရွက်ကြီးတို့ကို အသုံးပြုနေမှု များပြားသည့် အသက်အရွယ် အပိုင်းအခြား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-a-1",
+          "href": "/sdg-myanmar-indicators/3-a-1",
           "status": "notstarted"
         },
         {
           "id": "3-b-1",
-          "title": "Proportion of the target population covered by all vaccines included in their national programme",
+          "title": "သတ်မှတ်လူဦးရေထဲတွင် အမျိုးသားအဆင့်/ နိုင်ငံလုံးဆိုင်ရာ အစီအစဉ်အရ ကာကွယ်ဆေးထိုးပေးနိုင်ခဲ့သော လူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-b-1",
+          "href": "/sdg-myanmar-indicators/3-b-1",
           "status": "notstarted"
         },
         {
           "id": "3-b-2",
-          "title": "Total net official development assistance to medical research and basic health sectors",
+          "title": "ဆေးသုတေသနနှင့် အခြေခံ ကျန်းမာရေးကဏ္ဍများအတွက် တရားဝင် ပေးအပ်သော ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့စုစုပေါင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-b-2",
+          "href": "/sdg-myanmar-indicators/3-b-2",
           "status": "notstarted"
         },
         {
           "id": "3-b-3",
-          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
+          "title": "မရှိမဖြစ်လိုအပ်သော ဆေးဝါးများ တန်ဖိုးမျှတစွာ ရေရှည်ရရှိလည်ပတ်နိုင်သော ကျန်းမာရေးစောင့်ရှောက်မှုဌာနများ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-b-3",
+          "href": "/sdg-myanmar-indicators/3-b-3",
           "status": "notstarted"
         },
         {
           "id": "3-c-1",
-          "title": "Health worker density and distribution",
+          "title": "ကျန်းမာရေးလုပ်သားများ၏ သိပ်သည်းမှုနှင့် ဖြန့်ကြတ်ထားရှိမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-c-1",
+          "href": "/sdg-myanmar-indicators/3-c-1",
           "status": "notstarted"
         },
         {
           "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
+          "title": "နိုင်ငံတကာကျန်းမာရေးစည်းမျဉ်းစည်းကမ်းများ (IHR) ကို လက်ခံကျင့်သုံးနေမှုနှင့် အရေးပေါ် ကျန်းမာရေး အခြေအနေများအတွက် အသင့်ပြင်ထားရှိမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-d-1",
+          "href": "/sdg-myanmar-indicators/3-d-1",
           "status": "notstarted"
         }]
     }
@@ -458,95 +458,95 @@
   {
     "goal": {
       "id": "4",
-      "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+      "title": "ကျား-မ နှင့် ဆင်းရဲချမ်းသာကွာဟချက်များမရှိပဲ တန်းတူလက်လှမ်းမီစေနိုင်သော အရည်အသွေးပြည့်ဝသည့် ပညာရေးကို ပေးအပ်နိုင်ရေးနှင့် အားလုံးလက်လှမ်းမီနိုင်သော တစ်သက်တာပညာရေးအခွင့်အလမ်းများကို မြှင့်တင်ပေးရန်",
       "indicators": [
         
         {
           "id": "4-1-1",
-          "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
+          "title": "(က) ၂တန်း၊ ၃တန်း တွင်တက်ရောက်နေသော (ခ) မူလတန်းပြီးမြောက်သော (ဂ) (၁) စာဖတ်ခြင်းနှင့် (၂) သင်္ချာတွင် အနည်းဆုံးလိုအပ်သည့် တတ်ကျွမ်းမှုများကို တတ်မြောက်ပြီးဖြစ်သော အလယ်တန်းပြီးမြောက်သည့် ကလေးနှင့် လူငယ်များ၏ အချိုးအစားကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-1-1",
+          "href": "/sdg-myanmar-indicators/4-1-1",
           "status": "notstarted"
         },
         {
           "id": "4-2-1",
-          "title": "Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex",
+          "title": "ကျန်းမာရေး၊ သင်ကြားမှုနှင့် လူမှုစိတ်ပိုင်းဆိုင်ရာ ကောင်းမွန်မှု ဖွံ့ဖြိုးတိုးတက်မှု လမ်းကြောင်းပေါ်တွင်ရောက်နေပြီဖြစ်သော အသက် (၅)နှစ်အောက်အရွယ် ကလေးများ၏ အချိုးအစားကို ကျား/မ ပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-2-1",
+          "href": "/sdg-myanmar-indicators/4-2-1",
           "status": "notstarted"
         },
         {
           "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
+          "title": "တရားဝင် မူလတန်းတက်ရောက်သည့် အသက်အရွယ်အရောက်ခင် တစ်နှစ်အလိုတွင် သင်ယူမှုလုပ်ငန်းများ စတင်ဆောင်ရွက်ရာတွင် ပါဝင်မှုနှုန်းကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-2-2",
+          "href": "/sdg-myanmar-indicators/4-2-2",
           "status": "notstarted"
         },
         {
           "id": "4-3-1",
-          "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
+          "title": "လွန်ခဲ့သော (၁၂)လအတွင်း ကျောင်းတွင်းနှင့် ကျောင်းပြင်ပ ပညာရေးနှင့် သင်တန်းများ တက်ရောက်ခွင့်ရသော လူငယ်များနှင့် လူကြီးများ ပါဝင်မှုနှုန်းကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-3-1",
+          "href": "/sdg-myanmar-indicators/4-3-1",
           "status": "notstarted"
         },
         {
           "id": "4-4-1",
-          "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+          "title": "သတင်းအချက်အလက်နှင့် နည်းပညာဆိုင်ရာ ကျွမ်းကျင်မှုများကိုပိုင်ဆိုင်သော လူငယ်များနှင့် လူကြီးများ အချိုးအစားကို ကျွမ်းကျင်မှု အမျိုးအစားပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-4-1",
+          "href": "/sdg-myanmar-indicators/4-4-1",
           "status": "notstarted"
         },
         {
           "id": "4-5-1",
-          "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
+          "title": "(ကျား/မ၊ ကျေးလက်/မြို့ပြ၊ ကြွယ်ဝချမ်းသာမှုလိုင်း အောက်/အထက် နှင့် မသန်စွမ်းမှုအခြေအနေ၊ ‌ဒေသခံဌာနေတိုင်းရင်းသားများနှင့် ပဋိပက္ခဒဏ်ခံရသော နေရာများတွင်နေထိုင်သူများ စသည့်ဒေတာများ) ပါဝင်သော ဤစာရင်းပေါ်ရှိ ပညာရေးဆိုင်ရာအညွှန်းများအားလုံးအတွက် ခွဲခြားပြသနိုင်သော တန်းတူညီမျှမှု အညွှန်းကိန်းများ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-5-1",
+          "href": "/sdg-myanmar-indicators/4-5-1",
           "status": "notstarted"
         },
         {
           "id": "4-6-1",
-          "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
+          "title": "အသက်အရွယ်အပိုင်းအခြားအလိုက် အနည်းဆုံးရှိရမည်ဖြစ်သော (က) စာတတ်မြောက်မှု နှင့်  (ခ) ဂဏန်းသင်္ချာတတ်ကျွမ်းမှုတို့ကို ပြည့်မီသော လူဦးရေအချိုးအစားကို ကျား၊မ ပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-6-1",
+          "href": "/sdg-myanmar-indicators/4-6-1",
           "status": "notstarted"
         },
         {
           "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "(၁) ကမ္ဘာ့နိုင်ငံသားပညာရေး နှင့် (၂) ကျား၊မ တန်းတူညီမျှမှုနှင့် လူ့အခွင့်အရေးတို့ပါဝင်သော စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်မှုအကြောင်းများပါဝင်သောပညာရေးကို (‌က)အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် ပညာရေးမူဝါဒများ (ခ) သင်ရိုးများ (ဂ) ဆရာအတတ်သင်ပညာရေးနှင့် (ဃ) တတ်ကျွမ်းမှုစစ်ဆေးခြင်းများတွင် ထည့်သွင်းအသုံးပြုသောအခြေအနေ အတိုင်းအဆ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-7-1",
+          "href": "/sdg-myanmar-indicators/4-7-1",
           "status": "notstarted"
         },
         {
           "id": "4-a-1",
-          "title": "Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)",
+          "title": "(က) လျှပ်စစ်ဓာတ်အား (ခ) သင်ကြားရေးလုပ်ငန်းများအတွက် အင်တာနက် (ဂ) သင်ကြားရေးလုပ်ငန်းများအတွက် ကွန်ပျူတာများ (ဃ) မသန်စွမ်းသော ကျောင်းသားကျောင်းသူများအတွက် အထူးဆောက်လုပ်ပေးထားသော အခြေခံအဆောက်အအုံများနှင့် ပြုလုပ်ပေးထားသော အခြေခံပစ္စည်းများ၊ (င) သောက်သုံးရေသန့်(စ) ကျား၊မ ခွဲထားသော အိမ်သာများနှင့် (ဆ) (WASH အညွှန်းအဓိပ္ပာယ်ဖွင့်ဆိုချက်များနှင့် ကိုက်ညီမှုရှိအောင် လက်ဆေးရန်နေရာများ ထားရှိပေးထားသော ကျောင်း အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-a-1",
+          "href": "/sdg-myanmar-indicators/4-a-1",
           "status": "notstarted"
         },
         {
           "id": "4-b-1",
-          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
+          "title": "ပညာသင်ဆုများအနေဖြင့် ပေးအပ်သော တရားဝင်ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့ပမာဏ ကို ကဏ္ဍနှင့် ဘာသာရပ်အမျိုးအစားပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-b-1",
+          "href": "/sdg-myanmar-indicators/4-b-1",
           "status": "notstarted"
         },
         {
           "id": "4-c-1",
-          "title": "Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country",
+          "title": "(‌က) မူလတန်းကြို (ခ) မူလတန်း (ဂ) အလယ်တန်းနှင့် (ဃ) အထက်တန်းပညာရေးတို့တွင် သင်ကြားရေးကောင်းမွန်ရန်အတွက် မဖြစ်မနေတက်ရောက်ရသည့် ဆရာအတတ်သင်သင်တန်းပို့ချမှု (ဥပမာ - သင်ကြားနည်းပညာဆိုင်ရာသင်တန်းများ) ကို အလုပ်မဝင်ခင်နှင့် အလုပ်ဝင်နေဆဲကာလတွင် တက်ရောက်ခွင့်ရရှိကြသော နိုင်ငံအတွင်းရှိ ဆရာ၊ ဆရာမ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-c-1",
+          "href": "/sdg-myanmar-indicators/4-c-1",
           "status": "notstarted"
         }]
     }
@@ -554,119 +554,119 @@
   {
     "goal": {
       "id": "5",
-      "title": "Achieve gender equality and empower all women and girls",
+      "title": "ကျား-မ တန်းတူညီမျှမှု ရရှိရေး နှင့် အမျိုးသမီးနှင့် မိန်းကလေးငယ်များအား စွမ်းဆောင်ရည်မြှင့်တင်ပေးရေး",
       "indicators": [
         
         {
           "id": "5-1-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex",
+          "title": "တန်းတူညီမျှမှုနှင့် ကျား၊မဆိုင်ရာ ခွဲခြားဆက်ဆံမှုမရှိခြင်းတို့ကို မြှင့်တင်ပေးပြီး စည်းကမ်းလိုက်နာကြစေရန် စောင့်ကြည့်သော ဥပဒေမူဘောင်များ ရှိ/မရှိ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-1-1",
+          "href": "/sdg-myanmar-indicators/5-1-1",
           "status": "notstarted"
         },
         {
           "id": "5-2-1",
-          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+          "title": "လွန်ခဲ့သော (၁၂)လအတွင်း မိမိ၏လက်ရှိ လက်တွဲဖော်ပြဖြစ်စေ၊ ယခင်လက်တွဲဖော်မှဖြစ်စေ ရုပ်ပိုင်းဆိုင်ရာ၊ လိင်ပိုင်းဆိုင်ရာနှင့် စိတ်ပိုင်းဆိုင်ရာ အကြမ်းဖက်ခြင်းခံခဲ့ရသော အမျိုးသမီးများနှင့် မိန်းကလေးငယ်များ အချိုးအစားကို အကြမ်းဖက်မှုပုံစံနှင့် အသက်အရွယ်တို့အပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-2-1",
+          "href": "/sdg-myanmar-indicators/5-2-1",
           "status": "notstarted"
         },
         {
           "id": "5-2-2",
-          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+          "title": "လွန်ခဲ့သော (၁၂)လအတွင်း မိမိ၏ အိမ်ထောင်ဖက်မှလွဲ၍ အခြားသူများ၏ လိင်ပိုင်းဆိုင်ရာ အကြမ်းဖက်ခြင်းခံခဲ့ရသော အသက် (၁၅)နှစ်အထက် မိန်းကလေးငယ်များနှင့် အမျိုးသမီးများ အချိုးအစားကို အသက်အရွယ်နှင့် ဖြစ်ပွားသောနေရာတို့အပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-2-2",
+          "href": "/sdg-myanmar-indicators/5-2-2",
           "status": "notstarted"
         },
         {
           "id": "5-3-1",
-          "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18",
+          "title": "အသက် (၁၅)နှစ် မတိုင်မီနှင့် အသက် (၁၈)နှစ်မတိုင်မီ အိမ်ထောင်ကျကြသော (သို့မဟုတ်) အိမ်ထောင်ချပေးခံရသော အသက် (၂၀)မှ (၂၄)ကြား အမျိုးသမီးများ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-3-1",
+          "href": "/sdg-myanmar-indicators/5-3-1",
           "status": "notstarted"
         },
         {
           "id": "5-3-2",
-          "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age",
+          "title": "အမ မျိုးပွားအင်္ဂါ ဖျက်ဆီးခံရခြင်း/ သားကြောဖြတ်ခြင်းခံရသော အသက် (၁၅)နှစ်မှ (၄၉)နှစ်ကြား မိန်းကလေးငယ်များနှင့် အမျိုးသမီးများ အချိုးအစားကို အသက်အရွယ်ပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-3-2",
+          "href": "/sdg-myanmar-indicators/5-3-2",
           "status": "notstarted"
         },
         {
           "id": "5-4-1",
-          "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location",
+          "title": "အဖိုးအခမရရှိသော အိမ်တွင်းစောင့်ရှောက်မှုလုပ်ငန်းမျာလုပ်ကိုင်ရာတွင် ကုန်ဆုံးသောအချိန် အချိုးအစားကို ကျား/မ၊ အသက်အရွယ်နှင့် နေထိုင်ရာနေရာတို့ပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-4-1",
+          "href": "/sdg-myanmar-indicators/5-4-1",
           "status": "notstarted"
         },
         {
           "id": "5-5-1",
-          "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
+          "title": "(က) အမျိုးသား/နိုင်ငံတော်အဆင့်လွှတ်တော်များ နှင့် (ခ) ‌ဒေသဆိုင်ရာ အစိုးရများတွင် ပါဝင်သော အမျိုးသမီးဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-5-1",
+          "href": "/sdg-myanmar-indicators/5-5-1",
           "status": "notstarted"
         },
         {
           "id": "5-5-2",
-          "title": "Proportion of women in managerial positions",
+          "title": "စီမံအုပ်ချုပ်မှုဆိုင်ရာ ရာထူးများတွင် လုပ်ကိုင်နေသော အမျိုးသမီး အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-5-2",
+          "href": "/sdg-myanmar-indicators/5-5-2",
           "status": "notstarted"
         },
         {
           "id": "5-6-1",
-          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+          "title": "လိင်ဆက်ဆံမှု၊ သားဆက်ခြားကိရိယာ အသုံးပြုမှုနှင့် မျိုးပွားမှုဆိုင်ရာကျန်းမားရေး‌စောင့်ရှောက်မှုတို့အတွက် ကိုယ်ပိုင်ဆုံးဖြတ်ချက်မှချမှတ်နိုင်ရန် အချက်အလက်များကို အပြည့်အဝသိရှိပြီးဖြစ်သော အသက်(၁၅)နှစ်မှ (၄၉)နှစ်ကြားရှိ အမျိုးသမီး အမျိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-6-1",
+          "href": "/sdg-myanmar-indicators/5-6-1",
           "status": "notstarted"
         },
         {
           "id": "5-6-2",
-          "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",
+          "title": "လိင်ပိုင်းဆိုင်ရာနှင့် မျိုးပွားမှုဆိုင်ရာ ကျန်းမာရေးစောင့်ရှောက်မှု နှင့် ပညာရေးအချက်အလက်များရရှိစေရန်အတွက် အသက် (၁၅)နှစ်အထက် အမျိုးသားနှင့် အမျိုးသမီးများ ပြည့်ဝစွာတန်းတူ အခွင့်အလမ်းရရှိရန် အာမခံသော ဥပဒေများနှင့် စည်းမျဉ်းစည်းကမ်းများရှိသော နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-6-2",
+          "href": "/sdg-myanmar-indicators/5-6-2",
           "status": "notstarted"
         },
         {
           "id": "5-a-1",
-          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+          "title": "(‌က) စိုက်ပျိုးမြေများကို ပိုင်ဆိုင်သော (သို့မဟုတ်) စိုက်ပျိုးမြေနှင့် ပတ်သက်၍ ခိုင်မာသော အခွင့်အလမ်းများရှိသော စိုက်ပျိုးရေးလုပ်ငန်းလုပ်ကိုင်သူဦးရေ အချိုးအစားကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း (ခ) စိုက်ပျိုးမြေများကို ပိုင်ဆိုင်သော (သို့မဟုတ်) စိုက်ပျိုးမြေနှင့် ပတ်သက်၍ ခိုင်မာသော အခွင့်အလမ်းများရှိသော ပိုင်ရှင်များထဲတွင်ပါဝင်သော အမျိုးသမီးဦးရေအချိုးအစားကို လုပ်ပိုင်ခွင့်/သက်တမ်း အမျိုးအစားပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-a-1",
+          "href": "/sdg-myanmar-indicators/5-a-1",
           "status": "notstarted"
         },
         {
           "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
+          "title": "မြေပိုင်ဆိုင်မှု နှင့်/သို့မဟုတ် မြေထိန်းသိမ်းစောင့်ရှောက်နိုင်ခွင့်နှင့် ပတ်သက်၍ အမျိုးသမီးများ တန်းတူအခွင့်အရေး ရရှိနိုင်ခွင့်ကို ကာကွယ်ပေးသော ဥပဒေမူဘောင်နှင့် ဓလေ့ထုံးတမ်းဥပဒေများရှိသော နိုင်ငံများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-a-2",
+          "href": "/sdg-myanmar-indicators/5-a-2",
           "status": "notstarted"
         },
         {
           "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
+          "title": "မိုဘိုင်းဖုန်းပိုင်ဆိုင်သူများ၏အချိုးအစားကို ကျား/မပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-b-1",
+          "href": "/sdg-myanmar-indicators/5-b-1",
           "status": "notstarted"
         },
         {
           "id": "5-c-1",
-          "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
+          "title": "ကျား၊မ တန်းတူညီမျှမှုရရှိ‌ရေးနှင့် အမျိုးသမီး စွမ်းဆောင်ရည်မြှင့်တင်ရေးလုပ်ငန်းများကို မျက်ခြေမပြတ်စောင့်ကြည့်နိုင်ပြီး အများပြည်သူခွဲတမ်းများပြုလုပ်ပေးနိုင်သော နိုင်ငံများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-c-1",
+          "href": "/sdg-myanmar-indicators/5-c-1",
           "status": "notstarted"
         }]
     }
@@ -674,95 +674,95 @@
   {
     "goal": {
       "id": "6",
-      "title": "Ensure availability and sustainable management of water and sanitation for all",
+      "title": "အားလုံးအတွက် သန့်ရှင်းသောသောက်သုံးရေနှင့် မိလ္လာစနစ်ရရှိရေး နှင့် ရေရှည်ဖွံ့ဖြိုးတိုးတက်အောင် စီမံခန့်ခွဲနိုင်ရေး",
       "indicators": [
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "အန္တရာယ်ကင်းအောင် စီမံထားသည့် သောက်သုံးရေကို အသုံးပြုရရှိနိုင်သော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-1-1",
+          "href": "/sdg-myanmar-indicators/6-1-1",
           "status": "notstarted"
         },
         {
           "id": "6-2-1",
-          "title": "Proportion of population using safely managed sanitation services, including a handwashing facility with soap and water",
+          "title": "လက်ဆေးဆပ်ပြာနှင့် လက်‌ဆေးရေစသည့် ပစ္စည်းများရှိသော အန္တရာယ်ကင်းအောင် စီမံထားသည့် မိလ္လာစနစ်ကို အသုံးပြူသည့် လူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-2-1",
+          "href": "/sdg-myanmar-indicators/6-2-1",
           "status": "notstarted"
         },
         {
           "id": "6-3-1",
-          "title": "Proportion of wastewater safely treated",
+          "title": "အန္တရာယ်ကင်းစေရန် ဆောင်ရွက်ပြီးမှ စွန့်ပစ်သော ရေဆိုးများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-3-1",
+          "href": "/sdg-myanmar-indicators/6-3-1",
           "status": "notstarted"
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "ရေထုအရည်အသွေးကောင်းမွန်သော ရေအချိုးအစားကို ရေထုအားလုံးပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-3-2",
+          "href": "/sdg-myanmar-indicators/6-3-2",
           "status": "notstarted"
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "အချိန်နှင့်အမျှပြောင်းလဲနေသော ရေချွေတာသုံးစွဲမှု ပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-4-1",
+          "href": "/sdg-myanmar-indicators/6-4-1",
           "status": "notstarted"
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "ရေလျော့နည်းမှုအဆင့်/ ရေရှားပါးမှုအဆင့် - အသုံးပြုသော ရေချိုအချိုးအစားကို ရရှိနိုင်သော ရေချိုအရင်းအမြစ်ပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-4-2",
+          "href": "/sdg-myanmar-indicators/6-4-2",
           "status": "notstarted"
         },
         {
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management implementation (0 to 100)",
+          "title": "အလုံးစုံသော ရေအရင်းအမြစ် စီမံခန့်ခွဲ အကောင်အထည်ဖော်ရေး အခြေအနေ (၀ မှ ၁၀၀ ထိ)",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-5-1",
+          "href": "/sdg-myanmar-indicators/6-5-1",
           "status": "notstarted"
         },
         {
           "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+          "title": "ရေကြောင်းဆိုင်ရာ ပူးပေါင်းဆောင်ရွက်မှုအတွက် လုပ်ငန်းလည်ပတ်ရေး အစီအစဉ်များထားရှိထားသော နယ်နိမိတ်ဖြတ်ကျော် မြစ်ဝှမ်းဒေသဧရိယာ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-5-2",
+          "href": "/sdg-myanmar-indicators/6-5-2",
           "status": "notstarted"
         },
         {
           "id": "6-6-1",
-          "title": "Change in the extent of water-related ecosystems over time",
+          "title": "ရေနှင့်သက်ဆိုင်သော ‌ဂေဟစနစ်များ အချိန်နှင့်အမျှ ပြောင်းလဲလာမှု အခြေအနေအတိုင်းအဆ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-6-1",
+          "href": "/sdg-myanmar-indicators/6-6-1",
           "status": "notstarted"
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "အစိုးရ၏ အသုံးစရိတ် အစီအစဉ်တွင်ပါဝင်သည့် ရေ၊ မိလ္လာစနစ်တို့နှင့် သက်ဆိုင်သော ဖွံ့ဖြိုးတိုးတက်မှုဆိုင်ရာ တရားဝင် အထောက်အပံ့၏ ပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-a-1",
+          "href": "/sdg-myanmar-indicators/6-a-1",
           "status": "notstarted"
         },
         {
           "id": "6-b-1",
-          "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
+          "title": "ရေနှင့် မိလ္လာစနစ် စီမံခန့်ခွဲ‌ရေးအတွက် ဒေသခံလူမှုအသိုင်းအဝန်း၏ ပါဝင်လုပ်ဆောင်မှု ရရှိစေရန်အတွက် လုပ်ငန်းလည်ပတ်ရေးမူဝါဒများနှင့် လုပ်ထုံးလုပ်နည်းများ ချမှတ်လုပ်ဆောင်နေသော ဒေသဆိုင်ရာစီမံခန့်ခွဲမှု ဌာနခွဲများ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-b-1",
+          "href": "/sdg-myanmar-indicators/6-b-1",
           "status": "notstarted"
         }]
     }
@@ -770,55 +770,55 @@
   {
     "goal": {
       "id": "7",
-      "title": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+      "title": "ရေရှည်တည်တံ့ခိုင်မြဲသော နောက်ဆုံးပေါ်စွမ်းအင်များကို လူတိုင်းလက်လှမ်းမီမှုရှိပြီး စိတ်ချယုံကြည်စွာ အသုံးပြုနိုင်ရေး",
       "indicators": [
         
         {
           "id": "7-1-1",
-          "title": "Proportion of population with access to electricity",
+          "title": "လျှပ်စစ်ဓာတ်အားသုံးစွဲနိုင်သော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-1-1",
+          "href": "/sdg-myanmar-indicators/7-1-1",
           "status": "notstarted"
         },
         {
           "id": "7-1-2",
-          "title": "Proportion of population with primary reliance on clean fuels and technology",
+          "title": "သန့်ရှင်းသော လောင်စာများနှင့် နည်းပညာပေါ်တွင် အဓိက မှီခိုအားထားနေရသော လူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-1-2",
+          "href": "/sdg-myanmar-indicators/7-1-2",
           "status": "notstarted"
         },
         {
           "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
+          "title": "အဆုံးသတ် စွမ်းအင်သုံးစွဲမှုစုစုပေါင်းတွင် ပါဝင်သော ပြန်ပြည့်မြဲစွမ်းအင် အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-2-1",
+          "href": "/sdg-myanmar-indicators/7-2-1",
           "status": "notstarted"
         },
         {
           "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "title": "စွမ်းအင်ပြင်းအားကို မူလစွမ်းအင်နှင့် ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) တို့အပေါ်လိုက်၍ တိုင်းတာခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-3-1",
+          "href": "/sdg-myanmar-indicators/7-3-1",
           "status": "notstarted"
         },
         {
           "id": "7-a-1",
-          "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
+          "title": "သန့်ရှင်းသောစွမ်းအင်ရရှိရေး သုတေသနနှင့် ဖွံ့ဖြိုးတိုးတက်မှုဆိုင်ရာ လုပ်ငန်းများနှင့် ဖက်စပ်စနစ်များပါ ပါဝင်သော ပြန်ပြည့်မြဲစွမ်းအင်ထုတ်လုပ်ရေး လုပ်ငန်းများကို ကူညီထောက်ပံ့ပေးရန်အတွက် ဖွံ့ဖြိုးဆဲနိုင်ငံများသို့ နိုင်ငံတကာမှ ငွေကြေးစီးဆင်းမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-a-1",
+          "href": "/sdg-myanmar-indicators/7-a-1",
           "status": "notstarted"
         },
         {
           "id": "7-b-1",
-          "title": "Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services",
+          "title": "စွမ်းအင်ခြွေတာရေးလုပ်ငန်းများတွင် ပြုလုပ်ထားသော ရင်းနှီးမြှုပ်နှံမှု အချိုးအစားကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP)ပေါ် မူတည်၍ ဖော်ပြခြင်း နှင့် နိုင်ငံခြားတိုက်ရိုက်ရင်းနှီးမြှုပ်နှံမှုပမာဏကို ရေရှည်ဖွံ့ဖြိုးတိုးတက်စေနိုင်သော အခြေခံအဆောက်အအုံနှင့် နည်းပညာများအတွက် ငွေကြေးလွှဲပြောင်းမှုပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-b-1",
+          "href": "/sdg-myanmar-indicators/7-b-1",
           "status": "notstarted"
         }]
     }
@@ -826,143 +826,143 @@
   {
     "goal": {
       "id": "8",
-      "title": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
+      "title": "ရေရှည်တည်တံ့ခိုင်မြဲပြီး အားလုံးပူးပေါင်းပါဝင်နိုင်သော စီးပွားရေးတိုးတက်မှုကို မြှင့်တင်ပေးရန်၊ လူသားအားလုံးအတွက် အကျိုးဖြစ်ထွန်းသော အလုပ်အကိုင်များ နှင့်  သင့်တင့်လျောက်ပတ်သော အလုပ်အကိုင်များ ရရှိစေရန်",
       "indicators": [
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "လူတစ်ဦးချင်းစီအတွက် အမှန်ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ၏ နှစ်စဉ်တိုးတက်လာနှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-1-1",
+          "href": "/sdg-myanmar-indicators/8-1-1",
           "status": "notstarted"
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "အလုပ်အကိုင်ရှိသူတစ်ဦးချင်းစီအတွက် အမှန်ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ၏ နှစ်စဉ်တိုးတက်လာနှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-2-1",
+          "href": "/sdg-myanmar-indicators/8-2-1",
           "status": "notstarted"
         },
         {
           "id": "8-3-1",
-          "title": "Proportion of informal employment in non‐agriculture employment, by sex",
+          "title": "စိုက်ပျိုး‌ရေးမဟုတ်သော လုပ်ငန်းများတွင် လုပ်ကိုင်နေသော တရားမဝင် အလုပ်အကိုင်များ၏ အချိုးအစားကို ကျား/မ ပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-3-1",
+          "href": "/sdg-myanmar-indicators/8-3-1",
           "status": "notstarted"
         },
         {
           "id": "8-4-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "ပစ္စည်းခြေရာ၊ လူတစ်ဦးချင်းစီ၏ ပစ္စည်းခြေရာ၊ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ပေါ်တွင်အခြေခံသော ပစ္စည်းခြေရာ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-4-1",
+          "href": "/sdg-myanmar-indicators/8-4-1",
           "status": "notstarted"
         },
         {
           "id": "8-4-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "title": "ပြည်တွင်း ပစ္စည်းသုံးစွဲမှု၊ လူတစ်ဦးချင်းစီ၏ ပြည်တွင်းပစ္စည်းသုံးစွဲမှု၊ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ပေါ်တွင်အခြေခံသော ပြည်တွင်းပစ္စည်းသုံးစွဲမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-4-2",
+          "href": "/sdg-myanmar-indicators/8-4-2",
           "status": "notstarted"
         },
         {
           "id": "8-5-1",
-          "title": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+          "title": "အမျိုးသမီးနှင့် အမျိုးသားဝန်ထမ်းများ၏ တစ်နာရီလျှင်ပျမ်းမျှရရှိငွေကို အလုပ်အကိုင်အမျိုးအစား၊ အသက်အရွယ်၊ မသန်စွမ်းမှုအခြေအနေများပေါ်တွင် မူတည်၍ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-5-1",
+          "href": "/sdg-myanmar-indicators/8-5-1",
           "status": "notstarted"
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
+          "title": "အလုပ်လက်မဲ့ဖြစ်ပွားနှုန်းကို ကျား/မ ၊ အသက်အရွယ်၊ မသန်စွမ်းမှုအခြေအနေများပေါ်တွင် မူတည်၍ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-5-2",
+          "href": "/sdg-myanmar-indicators/8-5-2",
           "status": "notstarted"
         },
         {
           "id": "8-6-1",
-          "title": "Proportion of youth (aged 15–24 years) not in education, employment or training",
+          "title": "ပညာရေး၊ အလုပ်အကိုင် သို့မဟုတ် သင်တန်း တက်ရောက်နေခြင်းမရှိသော အသက် (၁၅)နှစ်မှ (၂၄)နှစ်အတွင်းရှိ လူငယ်များ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-6-1",
+          "href": "/sdg-myanmar-indicators/8-6-1",
           "status": "notstarted"
         },
         {
           "id": "8-7-1",
-          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "title": "ကလေးလုပ်သားအဖြစ် စေခိုင်းခံနေရသော အသက် (၅)နှစ်မှ (၁၇)နှစ်အတွင်းရှိ ကလေးအရေအတွက်နှင့် အချိုးအစားကို ကျား/မ နှင့် အသက်အရွယ်တို့ပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-7-1",
+          "href": "/sdg-myanmar-indicators/8-7-1",
           "status": "notstarted"
         },
         {
           "id": "8-8-1",
-          "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
+          "title": "အသက်ဆုံးရှုံးမှုရှိသော လုပ်ငန်းခွင်ဆိုင်ရာ ထိခိုက်ဒဏ်ရာ ရရှိမှုများ နှင့် အသက်ဆုံးရှုံးမှုမရှိသော လုပ်ငန်းခွင်ဆိုင်ရာ ထိခိုက်ဒဏ်ရာ ရရှိမှုများ ကြိမ်နှုန်းကို ကျား/မ နှင့် ရွှေ့ပြောင်းလုပ်ကိုင်ခြင်းတို့အပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-8-1",
+          "href": "/sdg-myanmar-indicators/8-8-1",
           "status": "notstarted"
         },
         {
           "id": "8-8-2",
-          "title": "Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
+          "title": "အလုပ်သမားရပိုင်ခွင့်များနှင့် ပတ်သက်၍",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-8-2",
+          "href": "/sdg-myanmar-indicators/8-8-2",
           "status": "notstarted"
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+          "title": "ခရီးသွားလုပ်ငန်းမှ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP)ကို ထည့်ဝင်နေသော အချိုးအစားကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP)စုစုပေါင်းနှင့် တိုးတက်နှုန်းတို့အပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-9-1",
+          "href": "/sdg-myanmar-indicators/8-9-1",
           "status": "notstarted"
         },
         {
           "id": "8-9-2",
-          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
+          "title": "ရေရှည်တည်တံ့ခိုင်မြဲသော ခရီးသွားလုပ်ငန်းများတွင် ရှိသော အလုပ်အကိုင်အရေအတွက်အချိုးအစားကို ခရီးသွားလုပ်ငန်းအားလုံးတွင်ရှိသော အလုပ်အကိုင်အရေအတွက်ပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-9-2",
+          "href": "/sdg-myanmar-indicators/8-9-2",
           "status": "notstarted"
         },
         {
           "id": "8-a-1",
-          "title": "Aid for Trade commitments and disbursements",
+          "title": "ကုန်သွယ်မှုကတိကဝတ်များနှင့် ငွေချေမှုများအတွက် အကူအညီအထောက်အပံ့",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-a-1",
+          "href": "/sdg-myanmar-indicators/8-a-1",
           "status": "notstarted"
         },
         {
           "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "title": "လူငယ်များအလုပ်အကိုင်ရရှိနိုင်ရေးအတွက် အဆင့်ဆင့် အကောင်အထည်ဖော်နိုင်ရန် အသင့်ဖြစ်နေသော သီးသန့် အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် မဟာဗျူဟာတစ်ခု ရေးဆွဲချမှတ်ခြင်း (သို့မဟုတ်) အလုပ်အကိုင် မဟာဗျူဟာတစ်ရပ်၏ အစိတ်အပိုင်းတစ်ခုအဖြစ် သတ်မှတ်လုပ်ဆောင်မှုရှိခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-b-1",
+          "href": "/sdg-myanmar-indicators/8-b-1",
           "status": "notstarted"
         },
         {
           "id": "8-10-1",
-          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
+          "title": "(က) လူတစ်သိန်းကျစီအတွက် အသုံးပြုနိုင်‌သော စီးပွားရေးဘဏ်ခွဲအရေအတွက် နှင့် (ခ) လူတစ်သိန်းကျစီအတွက် အသုံးပြုနိုင်သော အလိုအလျောက်ငွေထုတ်စက် အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-10-1",
+          "href": "/sdg-myanmar-indicators/8-10-1",
           "status": "notstarted"
         },
         {
           "id": "8-10-2",
-          "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
+          "title": "ဘဏ် (သို့မဟုတ်) အခြားငွေကြေးဆိုင်ရာအဖွဲ့အစည်း (သို့မဟုတ်) မိုဘိုင်းငွေကြေးဝန်ဆောင်မှု တို့တွင် စာရင်းဖွင့်ထားသော အသက် (၁၅)နှစ်အထက် လူကြီးများ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-10-2",
+          "href": "/sdg-myanmar-indicators/8-10-2",
           "status": "notstarted"
         }]
     }
@@ -970,103 +970,103 @@
   {
     "goal": {
       "id": "9",
-      "title": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
+      "title": "ကြံ့ကြံ့ခံနိုင်သော အခြေခံအဆောက်အအုံများကို တည်ဆောက်ကာ အားလုံးပူးပေါင်းပါဝင်နိုင်ပြီး ရေရှည်တည်တံ့ခိုင်မြဲသော စက်မှုလုပ်ငန်းများကို မြှင့်တင်ပေးခြင်းနှင့် ဆန်းသစ်တီထွင်မှုများကို ကူညီထောက်ပံ့ပေးခြင်း",
       "indicators": [
         
         {
           "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
+          "title": "တစ်နှစ်ပတ်လုံး သွားလာ၍ရသော လမ်းများ၏ (၂)ကီလိုမီတာ အကွာအဝေးအတွင်းတွင် နေထိုင်ကြသော ကျေးရွာနေ လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-1-1",
+          "href": "/sdg-myanmar-indicators/9-1-1",
           "status": "notstarted"
         },
         {
           "id": "9-1-2",
-          "title": "Passenger and freight volumes, by mode of transport",
+          "title": "ခရီးသွားများနှင့် ကုန်စည်စီးဆင်းမှုပမာဏကို ခရီးသွားလာ‌ရေးလမ်းကြောင်းများဖြင့် ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-1-2",
+          "href": "/sdg-myanmar-indicators/9-1-2",
           "status": "notstarted"
         },
         {
           "id": "9-2-1",
-          "title": "Manufacturing value added as a proportion of GDP and per capita",
+          "title": "ကုန်ထုတ်လုပ်မှုတန်ဖိုးမြှင့်ခြင်အချိုးအစားကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) နှင့် လူတစ်ဦးချင်းစီပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-2-1",
+          "href": "/sdg-myanmar-indicators/9-2-1",
           "status": "notstarted"
         },
         {
           "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
+          "title": "ကုန်ထုတ်လုပ်မှုဆိုင်ရာအလုပ်အကိုင်များ အချိုးအစားကို အလုပ်အကိုင်အားလုံးပေါ် မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-2-2",
+          "href": "/sdg-myanmar-indicators/9-2-2",
           "status": "notstarted"
         },
         {
           "id": "9-3-1",
-          "title": "Proportion of small-scale industries in total industry value added",
+          "title": "လုပ်ငန်းကဏ္ဍတစ်ခုလုံး တန်ဖိုးမြှင့်မှု စုစုပေါင်းတွင် အသေးစားလုပ်ငန်းများ၏ ပါဝင်မှု အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-3-1",
+          "href": "/sdg-myanmar-indicators/9-3-1",
           "status": "notstarted"
         },
         {
           "id": "9-3-2",
-          "title": "Proportion of small-scale industries with a loan or line of credit",
+          "title": "အကြွေး (သို့မဟုတ်) ချေးငွေဖြင့် လည်ပတ်နေရသော အသေးစားလုပ်ငန်းများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-3-2",
+          "href": "/sdg-myanmar-indicators/9-3-2",
           "status": "notstarted"
         },
         {
           "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
+          "title": "တန်ဖိုးမြှင့်ထုတ်ကုန်တစ်ယူနစ်အတွက် ကာဗွန်ဒိုင်အောက်ဆိုဒ် ထုတ်လွှတ်မှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-4-1",
+          "href": "/sdg-myanmar-indicators/9-4-1",
           "status": "notstarted"
         },
         {
           "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "title": "သုတေသနနှင့် ဖွံ့ဖြိုးတိုးတက်‌ရေးလုပ်ငန်းများတွင် အသုံးပြုသော ကုန်ကျစရိတ်အချိုးအစားကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP)အပေါ်မူတည်၌ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-5-1",
+          "href": "/sdg-myanmar-indicators/9-5-1",
           "status": "notstarted"
         },
         {
           "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "title": "လူဦးရေ တစ်သန်းလျှင် အချိန်ပြည့် သုတေသီအဖြစ်လုပ်ကိုင်သူ အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-5-2",
+          "href": "/sdg-myanmar-indicators/9-5-2",
           "status": "notstarted"
         },
         {
           "id": "9-a-1",
-          "title": "Total official international support (official development assistance plus other official flows) to infrastructure",
+          "title": "အခြေခံအဆောက်အအုံများအတွက် တရားဝင် အပြည်ပြည်ဆိုင်ရာ အထောက်အပံ့ (တရားဝင်ဖွံ့ဖြိုးတိုးတက်မှုအထောက်အပံ့နှင့် အခြား တရားဝင် စီးဆင်းမှုများ) စုစုပေါင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-a-1",
+          "href": "/sdg-myanmar-indicators/9-a-1",
           "status": "notstarted"
         },
         {
           "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "title": "တန်ဖိုးမြှင့်မှုစုစုပေါင်းတွင် ပါဝင်သော အလတ်စားနှင့် အမြင့်စားနည်းပညာ လုပ်ငန်းများ၏ လုပ်ငန်းတန်ဖိုး အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-b-1",
+          "href": "/sdg-myanmar-indicators/9-b-1",
           "status": "notstarted"
         },
         {
           "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
+          "title": "မိုဘိုင်းကွန်ယက် နှင့် နည်ပညာများရရှိနိုင်သော လူဉီးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-c-1",
+          "href": "/sdg-myanmar-indicators/9-c-1",
           "status": "notstarted"
         }]
     }
@@ -1074,95 +1074,95 @@
   {
     "goal": {
       "id": "10",
-      "title": "Reduce inequality within and among countries",
+      "title": "နိုင်ငံတွင်းနှင့် နိုင်ငံတကာတွင် ကျား၊မ တန်းတူညီမျှမှု ရှိရေး",
       "indicators": [
         
         {
           "id": "10-1-1",
-          "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
+          "title": "တိုးတက်လာသော အိမ်အသုံးစရိတ်များ (သို့မဟုတ်) လူဦးရေ၏ အောက်ခြေ (၄၀)ရာခိုင်နှုန်းတွင်ရှိသော လူတစ်ဦးချင်းစီ၏ ဝင်ငွေနှင့် လူဦးရေအားလုံး၏ တစ်ဦးချင်းဝင်ငွေ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-1-1",
+          "href": "/sdg-myanmar-indicators/10-1-1",
           "status": "notstarted"
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "ပျမ်းမျှဝင်ငွေအောက် ၅၀ ရာခိုင်နှုန်းတွင် နေထိုင်သော လူဦးရေအချိုးအစားကို  ကျား/မ ၊ အသက် နှင့် မသန်စွမ်းသောသူများ စသည်တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-2-1",
+          "href": "/sdg-myanmar-indicators/10-2-1",
           "status": "notstarted"
         },
         {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "နိုင်ငံတကာ လူ့အခွင့်အရေးဥပဒေအောက်တွင် သတ်မှတ်ထားသည့် လူတန်းစားခွဲခြားခြင်းဟူသော အဓိပ္ပာယ်ဖွင့်ဆိုချက်အရ လွန်ခဲ့သော (၁၂)လအတွင်း လူတန်းစားခွဲခြားခံရခြင်း၊ အရှက်တကွဲဖြစ်စေရန် နှောက်ယှက်စော်ကားခံရခြင်းများကို တိုင်ကြားသော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-3-1",
+          "href": "/sdg-myanmar-indicators/10-3-1",
           "status": "notstarted"
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP, comprising wages and social protection transfers",
+          "title": "လစာများနှင့် လူမှုဖူလုံရေး ငွေလွှဲခြင်းများပါဝင်သော ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) အတွက် လုပ်သားများထည့်ဝင်သောဝေစု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-4-1",
+          "href": "/sdg-myanmar-indicators/10-4-1",
           "status": "notstarted"
         },
         {
           "id": "10-5-1",
-          "title": "Financial Soundness Indicators (FSIs)",
+          "title": "ငွေကြေးအခြေအနေကောင်းမွန်ခြင်းပြ အညွှန်းများ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-5-1",
+          "href": "/sdg-myanmar-indicators/10-5-1",
           "status": "notstarted"
         },
         {
           "id": "10-6-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "နိုင်ငံတကာအဖွဲ့အစည်းများတွင်ပါဝင်သော ဖွံ့ဖြိုးဆဲနိုင်ငံများ၏ အဖွဲ့ဝင်နှင့် မဲပေးနိုင်ခွင့်ရှိသူ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-6-1",
+          "href": "/sdg-myanmar-indicators/10-6-1",
           "status": "notstarted"
         },
         {
           "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
+          "title": "ဦးတည်သွားရောက်သည့်နိုင်ငံတွင် ရရှိသော တစ်နှစ်စာဝင်ငွေထဲမှ ဝန်ထမ်းအနေဖြင့်ကျခံရသော အလုပ်ရှာဖွေခြင်း ကုန်ကျစရိတ် အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-7-1",
+          "href": "/sdg-myanmar-indicators/10-7-1",
           "status": "notstarted"
         },
         {
           "id": "10-7-2",
-          "title": "Number of countries that have implemented well-managed migration policies",
+          "title": "ရွှေ့ပြောင်းနေထိုင်ခြင်းဆိုင်ရာ မူဝါဒမျာကို ကောင်းမွန်စွာ စီမံခန့်ခွဲ အကောင်အထည်ဖော်နိုင်ခဲ့သော နိုင်ငံ အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-7-2",
+          "href": "/sdg-myanmar-indicators/10-7-2",
           "status": "notstarted"
         },
         {
           "id": "10-a-1",
-          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
+          "title": "ဖွံ့ဖြိုးမှု နိမ့်ပါးသည့် နိုင်ငံများနှင့် သွင်းကုန်စည်းကြပ်အခွန် သုညရှိသော နိုင်ငံများမှ သွင်းကုန်များအပေါ် ထားရှိထားသော သွင်းကုန်စည်းကြပ်အခွန်မျဉ်းများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-a-1",
+          "href": "/sdg-myanmar-indicators/10-a-1",
           "status": "notstarted"
         },
         {
           "id": "10-b-1",
-          "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
+          "title": "ဖွံ့ဖြိုးတိုးတက်မှုအတွက် စီးဆင်းနေသော အရင်းအမြစ်စုစုပေါင်းကို အလှူလက်ခံသောနိုင်ငံ၊ လှူဒါန်းသောနိုင်ငံနှင့် စီးဆင်းပုံအမျိုးအစားပေါ်ကို လိုက်၍ ဖော်ပြခြင်း (ဥပမာ - တရားဝင်ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့၊ နိုင်ငံခြားတိုက်ရိုက်ရင်းနှီးမြှုပ်နှံမှု နှင့် အခြား စီးဆင်းမှုပုံစံများ)",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-b-1",
+          "href": "/sdg-myanmar-indicators/10-b-1",
           "status": "notstarted"
         },
         {
           "id": "10-c-1",
-          "title": "Remittance costs as a proportion of the amount remitted",
+          "title": "အမိနိုင်ငံသို့ ပြန်လည်ပေးပို့သော ငွေပမာဏအတွက် ငွေလွှဲခ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-c-1",
+          "href": "/sdg-myanmar-indicators/10-c-1",
           "status": "notstarted"
         }]
     }
@@ -1170,127 +1170,127 @@
   {
     "goal": {
       "id": "11",
-      "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
+      "title": "မြို့ကြီးများနှင့် လူထုနေရာချထားမှုများကို ဘေးကင်းလုံခြုံ၍ အားလုံးတတ်နိုင်ပြီး ဒဏ်ခံနိုင်စွမ်းရှိကာ စဉ်ဆက်မပြတ်တိုးတက်မှုရှိအောင်ပြုလုပ်ရေး",
       "indicators": [
         
         {
           "id": "11-1-1",
-          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
+          "title": "ဆင်းရဲသားရပ်ကွက်များ၊ တရားမဝင်နေထိုင်မှုများနှင့် မလုံလောက်သော အိမ်ရာထိုင်ခင်းတို့ဖြင့် နေထိုင်နေရသော မြို့ပြနေလူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-1-1",
+          "href": "/sdg-myanmar-indicators/11-1-1",
           "status": "notstarted"
         },
         {
           "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "title": "အများသုံး ပို့ဆောင်ဆက်သွယ်ရေး ဝန်ဆောင်မှုများကို သက်တောင့်သက်သာ အသုံးပြုနိုင်သော လူဦးရေအချိုးအစားကို  ကျား/မ ၊ အသက် နှင့် မသန်စွမ်းသောသူများ စသည်တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-2-1",
+          "href": "/sdg-myanmar-indicators/11-2-1",
           "status": "notstarted"
         },
         {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
+          "title": "မြေအသုံးပြုမှုနှင့် လူဦးရေတိုးတက်လာမှု အချိုး",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-3-1",
+          "href": "/sdg-myanmar-indicators/11-3-1",
           "status": "notstarted"
         },
         {
           "id": "11-3-2",
-          "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "title": "ဒီမိုကရေစီနည်းလမ်းတကျ ပုံမှန်လည်ပတ်နေသော မြို့ပြစီမံကိန်းနှင့် စီမံခန့်ခွဲရေးလုပ်ငန်းများတွင် အရပ်ဖက်အသိုင်းအဝန်းမှ တိုက်ရိုက်ပါဝင်နိုင်သော စနစ်ကို အကောင်အထည်ဖော်ထားသော မြို့များ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-3-2",
+          "href": "/sdg-myanmar-indicators/11-3-2",
           "status": "notstarted"
         },
         {
           "id": "11-4-1",
-          "title": "Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)",
+          "title": "ယဉ်ကျေးမှုနှင့် သဘာဝအမွေအနှစ်အားလုံးကို ကာကွယ်ထိန်းသိမ်းခြင်းအပေါ်တွင် လူတစ်ဦးချင်းစီ၏ (အစိုးရနှင့် ပုဂ္ဂလိက) စုစုပေါင်း အသုံးစရိတ်ကို အမွေအနှစ်အမျိုးအစား (ယဉ်ကျေးမှု၊ သဘာဝ၊ အရောအမျိုးအစား၊ နှင့် ကမ္ဘာ့အမွေနှစ်ဗဟိုဌာနမှ သတ်မှတ်ထားသော အမွေနှစ်များ)၊ အစိုးရ၏ အဆင့် (နိုင်ငံတော်အဆင့်၊ တိုင်းဒေသကြီးအဆင့်၊ ဒေသခံနှင့် စည်ပင်အဆင့်)၊ အသုံးစရိတ်အမျိုးအစား (လုပ်ငန်းဆောင်ရွက်မှုကုန်ကျစရိတ်နှင့် ရင်းနှီးမြှုပ်နှံမှု)၊ နှင့် ပုဂ္ဂလိကငွေကြေးမတည်ခြင်း အမျိုးအစားများ (အလှူငွေ၊ ပုဂ္ဂလိက အမြတ်မယူသော ငွေကြေးမတည်မှုများ၊ ပံ့ပိုးငွေများ) စသည်တို့ပေါ်မူတည်၍ ခွဲခြားဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-4-1",
+          "href": "/sdg-myanmar-indicators/11-4-1",
           "status": "notstarted"
         },
         {
           "id": "11-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "လူဦးရေတစ်သိန်းလျှင် ဘေးအန္တရာယ်များကြောင့် သေဆုံး၊ ပျောက်ဆုံး နှင့် တိုက်ရိုက်သက်ရောက်မှု ဒဏ်ခံရသော လူဦးရေအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-5-1",
+          "href": "/sdg-myanmar-indicators/11-5-1",
           "status": "notstarted"
         },
         {
           "id": "11-5-2",
-          "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",
+          "title": "ဘေးအန္တရာယ်များကြောင့် ပျက်ဆီးဆုံးရှုံးခဲ့ရသော အခြေခံအဆောက်အအုံများ နှင့် အခြေခံဝန်ဆောင်မှုများ ကမောက်ကမဖြစ်ခြင်းကြောင့် တိုက်ရိုက်စီးပွားရေးဆုံးရှုံးမှုများကို ကမ္ဘာ့ GDP နှင့် နှိုင်းယှဉ်ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-5-2",
+          "href": "/sdg-myanmar-indicators/11-5-2",
           "status": "notstarted"
         },
         {
           "id": "11-6-1",
-          "title": "Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",
+          "title": "မြို့ကြီးများတွင် ပုံမှန်သိမ်းဆည်းပေး‌နေသော အစိုင်အခဲစွန့်ပစ်ပစ္စည်းများ နှင့် နောက်ဆုံးစွန့်ပစ်မှုပြုလုပ်ရန် လုံလောက်မှု အချိုးအစားကို  မြို့ကြီးများမှ စုစုပေါင်းထွက်ရှိသော အစိုင်အခဲ စွန့်ပစ်ပစ္စည်းပေါ်  မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-6-1",
+          "href": "/sdg-myanmar-indicators/11-6-1",
           "status": "notstarted"
         },
         {
           "id": "11-6-2",
-          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
+          "title": "မြို့ကြီးများ၏ လေထဲ၌ ရှိနေသော အန္တရာယ်ရှိသည့်အရည်နှင့် အစိုင်အခဲ အမှုန်အမွှားများ (ဥပမာ PM2.5 နှင့် PM10) နှစ်စဉ်တိုင်းတာရရှိမှု ၏  (လူဦးရေနှင့် အချိုးချပြီး) ပျမ်းမျှပမာဏ။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-6-2",
+          "href": "/sdg-myanmar-indicators/11-6-2",
           "status": "notstarted"
         },
         {
           "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-7-1",
+          "href": "/sdg-myanmar-indicators/11-7-1",
           "status": "notstarted"
         },
         {
           "id": "11-7-2",
-          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
+          "title": "လွန်ခဲ့သော ၁၂လအတွင်း ရုပ်ပိုင်းဆိုင်ရာနှင့် လိင်ပိုင်းဆိုင်ရာ နှောင့်ယှက်ခံရသူများ၏ အချိုးအစားကို ကျား/မ ၊ အသက် နှင့် မသန်စွမ်းမှုအဆင့်နှင့်် ဖြစ်ပွားရာနေရာ စသည်တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-7-2",
+          "href": "/sdg-myanmar-indicators/11-7-2",
           "status": "notstarted"
         },
         {
           "id": "11-a-1",
-          "title": "Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city",
+          "title": "အနာဂတ်လူဦး‌ရေအလားအလာနှင့် လိုအပ်သော အရင်းအမြစ် စသည်တို့ပါဝင်သော မြို့ပြနှင့် ဒေသဆိုင်ရာ ဖွံ့ဖြိုးတိုးတက်မှု အစီအစဉ်များကို ချမှတ်အကောင်အထည်ဖော်နေသော မြို့ကြီးများတွင်နေထိုင်သော လူဦးရေအချိုးအစားကို မြို့ကြီး၏အရွယ်အစားပေါ်လိုက်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-a-1",
+          "href": "/sdg-myanmar-indicators/11-a-1",
           "status": "notstarted"
         },
         {
           "id": "11-b-1",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "၂၀၁၅-၂၀၃၀  သဘာဝဘေးအန္တရာယ်လျှော့ချရေး ဆန်ဒိုင်းမူဘောင်အရ အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-b-1",
+          "href": "/sdg-myanmar-indicators/11-b-1",
           "status": "notstarted"
         },
         {
           "id": "11-b-2",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို အခြေခံ၍ ဒေသဆိုင်ရာ သဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော ‌ဒေသအစိုးရများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-b-2",
+          "href": "/sdg-myanmar-indicators/11-b-2",
           "status": "notstarted"
         },
         {
           "id": "11-c-1",
-          "title": "Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials",
+          "title": "ဒေသထွက်ပစ္စည်းများကို အသုံးပြုပြီး ရေရှည်တည်တံ့ခိုင်မြဲကာ ကြံ့ကြံ့ခံနိုင်သော သယံဇာတများကို အကျိုးရှိစွာ အသုံးပြုသည့် အဆောက်အဦများ ဆောက်လုပ်ရေးနှင့် ပြုပြင်မွမ်းမံရန်အတွက် ဖွံ့ဖြိုးမှု နိမ့်ပါးသော နိုင်ငံများအား ခွဲဝေပေးသည့် မတည်ငွေ အချိုးအစား။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-c-1",
+          "href": "/sdg-myanmar-indicators/11-c-1",
           "status": "notstarted"
         }]
     }
@@ -1298,111 +1298,111 @@
   {
     "goal": {
       "id": "12",
-      "title": "Ensure sustainable consumption and production patterns",
+      "title": "ရေရှည်တည်တံ့နိုင်သော စားသုံးမှုနှင့် ထုတ်လုပ်မှုပုံစံများ ဖြစ်ပေါ်စေရေး",
       "indicators": [
         
         {
           "id": "12-1-1",
-          "title": "Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies",
+          "title": "ရေရှည်တည်တံ့ခိုင်မြဲသော စားသုံးမှုနှင့် ထုတ်လုပ်မှု အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် စီမံချက်များရှိသောနိုင်ငံအရေအတွက် (သို့မဟုတ်) အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် မူဝါဒများချမှတ်ရာတွင် ရေရှည်တည်တံ့ခိုင်မြဲသော စားသုံးမှုနှင့် ထုတ်လုပ်မှုကို ဦးစားပေးကဏ္ဍအဖြစ် သတ်မှတ်ထားသော နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-1-1",
+          "href": "/sdg-myanmar-indicators/12-1-1",
           "status": "notstarted"
         },
         {
           "id": "12-2-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "ပစ္စည်းခြေရာ၊ လူတစ်ဦးချင်းစီ၏ ပစ္စည်းခြေရာ၊ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ပေါ်တွင်အခြေခံသော ပစ္စည်းခြေရာ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-2-1",
+          "href": "/sdg-myanmar-indicators/12-2-1",
           "status": "notstarted"
         },
         {
           "id": "12-2-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "title": "ပြည်တွင်း ပစ္စည်းသုံးစွဲမှု၊ လူတစ်ဦးချင်းစီ၏ ပြည်တွင်းပစ္စည်းသုံးစွဲမှု၊ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ပေါ်တွင်အခြေခံသော ပြည်တွင်းပစ္စည်းသုံးစွဲမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-2-2",
+          "href": "/sdg-myanmar-indicators/12-2-2",
           "status": "notstarted"
         },
         {
           "id": "12-3-1",
-          "title": "Global food loss index",
+          "title": "ကမ္ဘာ့အစားအသောက်ဆုံးရှုံးမှု ညွှန်းကိန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-3-1",
+          "href": "/sdg-myanmar-indicators/12-3-1",
           "status": "notstarted"
         },
         {
           "id": "12-4-1",
-          "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
+          "title": "နိုင်ငံတကာနှင့် ဘက်ပေါင်းစုံသဘောတူညီမှုလိုအပ်ချက်များအရ အန္တရာယ်ရှိသော စွန့်ပစ်ပစ္စည်းနှင့် အခြားဓာတုပစ္စည်းများကို ကိုင်တွယ်ဖြေရှင်းရာတွင် သတင်းအချက်အလက်များကို မျှဝေရာ၌ ဤပေးထားသောကတိကဝတ်များနှင့် တာဝန်များကို လိုက်နာလက်ခံဆောင်ရွက်သော အဖွဲ့အစည်း အရေအတွက်။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-4-1",
+          "href": "/sdg-myanmar-indicators/12-4-1",
           "status": "notstarted"
         },
         {
           "id": "12-4-2",
-          "title": "Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment",
+          "title": "လူတစ်ဦးချင်းစီထုတ်လုပ်သော အန္တရာယ်ရှိသည့်စွန့်ပစ်ပစ္စည်းပမာဏ နှင့် ပြန်လည်သန့်စင်ထားသော စွန့်ပစ်ပစ္စည်း အချိုးအစားကို ပြန်လည်သန့်စင်မှု အမျိုးအစားပေါ် အခြေခံ၍ ‌ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-4-2",
+          "href": "/sdg-myanmar-indicators/12-4-2",
           "status": "notstarted"
         },
         {
           "id": "12-5-1",
-          "title": "National recycling rate, tons of material recycled",
+          "title": "အမျိုးသားအဆင့်/ နိုင်ငံတော်အဆင့်/ တစ်နိုင်ငံလုံး၏ စွန့်ပစ်ပစ္စည်း ပြန်လည်သုံးစွဲမှုနှုန်း၊ ပြန်လည်သုံးစွဲနိုင်ရန်ပြုလုပ်သော ပစ္စည်းများတန်ချိန်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-5-1",
+          "href": "/sdg-myanmar-indicators/12-5-1",
           "status": "notstarted"
         },
         {
           "id": "12-6-1",
-          "title": "Number of companies publishing sustainability reports",
+          "title": "အစီရင်ခံစာများကို ထုတ်ပြန်သော ကုမ္ပဏီများ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-6-1",
+          "href": "/sdg-myanmar-indicators/12-6-1",
           "status": "notstarted"
         },
         {
           "id": "12-7-1",
-          "title": "Number of countries implementing sustainable public procurement policies and action plans",
+          "title": "ရေရှည်တည်တံ့ခိုင်မြဲသော ပြည်သူပိုင်လုပ်ငန်းများအတွက် ပစ္စည်းဝယ်ယူရေး မူဝါဒများနှင့် စီမံချက်များကို  အကောင်အထည်ဖော်နေသော နိုင်ငံ အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-7-1",
+          "href": "/sdg-myanmar-indicators/12-7-1",
           "status": "notstarted"
         },
         {
           "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "(၁) ကမ္ဘာ့နိုင်ငံသားပညာရေး နှင့် (၂) ကျား၊မ တန်းတူညီမျှမှုနှင့် လူ့အခွင့်အရေးတို့ပါဝင်သော စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်မှုအကြောင်းများပါဝင်သောပညာရေးကို (‌က)အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် ပညာရေးမူဝါဒများ (ခ) သင်ရိုးများ (ဂ) ဆရာအတတ်သင်ပညာရေးနှင့် (ဃ) တတ်ကျွမ်းမှုစစ်ဆေးခြင်းများတွင် ထည့်သွင်းအသုံးပြုသောအခြေအနေ အတိုင်းအဆ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-8-1",
+          "href": "/sdg-myanmar-indicators/12-8-1",
           "status": "notstarted"
         },
         {
           "id": "12-a-1",
-          "title": "Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies",
+          "title": "ဖွံ့ဖြိုးဆဲနိုင်ငံများအနေဖြင့် ရေရှည်တည်တံ့ခိုင်မြဲသော စားသုံးမှုပုံစံ၊ ထုတ်လုပ်မှုပုံစံ နှင့် သဘာဝပတ်ဝန်းကျင်နှင့် လိုက်လျောညီထွေမှုရှိသည့် နည်းပညာများအတွက် သုတေသနနှင့် ဖွံ့ဖြိုးတိုးတက်မှုလုပ်ငန်းများလုပ်ဆောင်ရန် ကူညီထောက်ပံ့ပေးမှု ပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-a-1",
+          "href": "/sdg-myanmar-indicators/12-a-1",
           "status": "notstarted"
         },
         {
           "id": "12-b-1",
-          "title": "Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools",
+          "title": "ရေရှည်တည်တံ့ခိုင်မြဲသော ခရီးသွားလုပ်ငန်းအတွက် နည်းဗျူဟာများ၊ မူဝါဒများ၊ စောင့်ကြပ်ထိန်းသိမ်းမှုများပါဝင်သော အကောင်အထည်ဖော်ပြီး စီမံချက်များ အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-b-1",
+          "href": "/sdg-myanmar-indicators/12-b-1",
           "status": "notstarted"
         },
         {
           "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels",
+          "title": "ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) - ထုတ်လုပ်မှုနှင့် စားသုံးမှု တစ်ယူနစ်လျှင် ဖြေလျှော့ပေးသော ရှေးရုပ်ကြွင်းလောင်စာဆီပမာဏနှင့် ထိုပမာဏအချိုးအစားကို ရှေးရုပ်ကြွင်းလောင်စာဆီအတွက် နိုင်ငံ၏ ကုန်ကျစရိတ်စုစုပေါင်းပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-c-1",
+          "href": "/sdg-myanmar-indicators/12-c-1",
           "status": "notstarted"
         }]
     }
@@ -1410,71 +1410,71 @@
   {
     "goal": {
       "id": "13",
-      "title": "Take urgent action to combat climate change and its impacts",
+      "title": "ရာသီဥတုပြောင်းလဲမှုနှင့် ၎င်း၏ အကျိုးသက်ရောက်မှုများကို တိုက်ဖျက်နိုင်ရန် အရေးပေါ် လုပ်ငန်းစဉ်များ ချမှတ် ဆောင်ရွက်ရေး",
       "indicators": [
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "လူဦးရေတစ်သိန်းလျှင် ဘေးအန္တရာယ်များကြောင့် သေဆုံး၊ ပျောက်ဆုံး နှင့် တိုက်ရိုက်သက်ရောက်မှု ဒဏ်ခံရသော လူဦးရေအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-1-1",
+          "href": "/sdg-myanmar-indicators/13-1-1",
           "status": "notstarted"
         },
         {
           "id": "13-1-2",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "၂၀၁၅-၂၀၃၀  သဘာဝဘေးအန္တရာယ်လျှော့ချရေး ဆန်ဒိုင်းမူဘောင်အရ အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-1-2",
+          "href": "/sdg-myanmar-indicators/13-1-2",
           "status": "notstarted"
         },
         {
           "id": "13-1-3",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို အခြေခံ၍ ဒေသဆိုင်ရာ သဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော ‌ဒေသအစိုးရများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-1-3",
+          "href": "/sdg-myanmar-indicators/13-1-3",
           "status": "notstarted"
         },
         {
           "id": "13-2-1",
-          "title": "Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)",
+          "title": "ရာသီဥတုပြောင်းလဲမှု၏ ဆိုးကျိုးများ အသားကျခံနိုင်ရည်ရှိရန်နှင့် အစားအစာထုတ်လုပ်ခြင်းကို မထိခိုက်စေဘဲ ရာသီဥတုဒဏ်ကိုခံနိုင်ပြီး ဖန်လုံအိမ်ဓာတ်ငွေ့များထုတ်လွှင့်ခြင်းကို လျော့ကျစေမှုများပါဝင်သည့် (မူဝါဒ၊ နည်းဗျူဟာ၊ အစီအစဉ်) များကို ရေးဆွဲအကောင်အထည်ဖော်သည့် နိုင်ငံအရေအတွက် (အမျိုးသားအဆင့်/နိုင်ငံလုံးဆိုင်ရာ နေသားကျရန်လုပ်ဆောင်ခြင်းအစီအစဉ်၊ တစ်နိုင်ငံလုံး သဘောတူသတ်မှတ်ထားသော ပူးပေါင်းပါဝင်ခြင်း၊ အမျိုးသားအဆင့်/ နိုင်ငံတော်အဆင့် ပြန်ကြားဆက်သွယ်ရေး၊ နှစ်နှစ်တစ်ခါ တင်ပြသော အစီရင်ခံ နှင့် အခြားအစီအစဉ်များ)",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-2-1",
+          "href": "/sdg-myanmar-indicators/13-2-1",
           "status": "notstarted"
         },
         {
           "id": "13-3-1",
-          "title": "Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula",
+          "title": "မကောင်းသည့်အကျိုးဆက်များအား လျှော့ချခြင်း၊ အသားကျခံနိုင်ရည်ရှိခြင်း၊ ၎င်း၏သက်ရောက်မှုကိုလျော့နည်းစေခြင်းနှင့် ကြိုတင်သတိပေးခြင်းလုပ်ငန်းစဉ်များကို မူလတန်း၊ အလယ်တန်းနှင့် အထက်တန်းသင်ရိုးများတွင် ထည့်သွင်းသင်ကြားသော နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-3-1",
+          "href": "/sdg-myanmar-indicators/13-3-1",
           "status": "notstarted"
         },
         {
           "id": "13-3-2",
-          "title": "Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions",
+          "title": "မကောင်းသည့်အကျိုးဆက်များအား အသားကျခံနိုင်ရည်ရှိခြင်း၊ လျှော့ချခြင်းနှင့် နည်းပညာလက်ဆင့်ကမ်းခြင်း၊ ဖွံ့ဖြိုးရေးလုပ်ဆောင်မှုများ စသည်တို့ကို အကောင်အထည်ဖော်ရန် အဖွဲ့အစည်းဆိုင်ရာ၊ စနစ်ဆိုင်ရာ၊ လူတစ်ဦးချင်းစီဆိုင်ရာ စွမ်းရည်မြှင့်တင်ခြင်းကို ဆောင်ရွက်သည့် နိုင်ငံအရေအတွက်=",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-3-2",
+          "href": "/sdg-myanmar-indicators/13-3-2",
           "status": "notstarted"
         },
         {
           "id": "13-a-1",
-          "title": "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment",
+          "title": "ဒေါ်လာ သန်း(၁၀၀) ပေးအပ်မည်ဟု ကတိကဝတ်ထားသော မတည်ငွေများထဲမှ ၂၀၂၀ နှင့် ၂၀၂၅ခုနှစ် ကြားတွင် တစ်နှစ်စီအသုံးပြုမည့် အမေရိကန်ဒေါ်လာပမာဏ။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-a-1",
+          "href": "/sdg-myanmar-indicators/13-a-1",
           "status": "notstarted"
         },
         {
           "id": "13-b-1",
-          "title": "Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities",
+          "title": "အမျိုးသမီးများ၊ လူငယ်နှင့် ဒေသခံလူနည်းစုများကို အဓိကထားပြီး ရာသီဥတုပြောင်းလဲခြင်းကို ကောင်းမွန်စွာစီမံခန့်ခွဲရန်အတွက် ငွေကြေး၊ နည်းပညာ၊ စွမ်းရည်မြှင့်တင်ခြင်းစသည်တို့ပါဝင်သော ကူညီထောက်ပံ့မှုပမာဏနှင့် ထိုအထူးအကူအညီများ ရရှိသော ဖွံ့ဖြိုးမှုနိမ့်ပါးသည့် နိုင်ငံများနှင့် ဖွံ့ဖြိုးဆဲ ကျွန်းငယ်နိုင်ငံများ အရေအတွက်။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-b-1",
+          "href": "/sdg-myanmar-indicators/13-b-1",
           "status": "notstarted"
         }]
     }
@@ -1482,87 +1482,87 @@
   {
     "goal": {
       "id": "14",
-      "title": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
+      "title": "သမုဒ္ဒရာများ၊ ပင်လယ်များ၊ အဏ္ဏဝါသယံဇာတ အရင်းအမြစ်များကို စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်စေရန် ထိန်းသိမ်းစောင့်ရှောက်ပြီး ရေရှည်တည်တံ့ရေးကိုရှေးရှု၍ ထုတ်ယူအသုံးပြုရေး",
       "indicators": [
         
         {
           "id": "14-1-1",
-          "title": "Index of coastal eutrophication and floating plastic debris density",
+          "title": "ကမ်းရိုးတန်းတွင် ရေညှိဖြစ်ပေါ်ခြင်းနှင့် မျောပါလာသော ပလတ်စတစ်အမှိုက်များ၏ သိပ်သည်းမှုတို့ကို ပြသောညွှန်းကိန်း။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-1-1",
+          "href": "/sdg-myanmar-indicators/14-1-1",
           "status": "notstarted"
         },
         {
           "id": "14-2-1",
-          "title": "Proportion of national exclusive economic zones managed using ecosystem-based approaches",
+          "title": "ဂေဟစနစ်အခြေပြု နည်းလမ်းများကို အသုံးပြု၍ စီမံခန့်ခွဲမှုများ ပြုလုပ်နေသော နိုင်ငံ၏ အထူးစီးပွားရေးဇုန်များ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-2-1",
+          "href": "/sdg-myanmar-indicators/14-2-1",
           "status": "notstarted"
         },
         {
           "id": "14-3-1",
-          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
+          "title": "တရားဝင်နမူနာယူထား‌သော ဌာနများ၏ သတ်မှတ်ချက်အရ တိုင်းတာထားသော ပင်လယ်ရေထု၏ ပျမ်းမျှ အက်ဆစ်ဓာတ် (ပီအိတ်ချ်)",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-3-1",
+          "href": "/sdg-myanmar-indicators/14-3-1",
           "status": "notstarted"
         },
         {
           "id": "14-4-1",
-          "title": "Proportion of fish stocks within biologically sustainable levels",
+          "title": "သတ္တဗေဒဆိုင်ရာရေရှည်တည်တံ့နိုင်မှုသတ်မှတ်ချက်ထဲတွင်ဝင်သော ငါးကောင်ရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-4-1",
+          "href": "/sdg-myanmar-indicators/14-4-1",
           "status": "notstarted"
         },
         {
           "id": "14-5-1",
-          "title": "Coverage of protected areas in relation to marine areas",
+          "title": "ကာကွယ်စောင်ရှောက်ထားသော ဧရိယာဖုံးလွှမ်းမှုကို ဧရိယာပေါ်လိုက်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-5-1",
+          "href": "/sdg-myanmar-indicators/14-5-1",
           "status": "notstarted"
         },
         {
           "id": "14-6-1",
-          "title": "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
+          "title": "တရားမဝင်သော၊ ခွင့်မပြုသော၊ စည်းစနစ်မကျသော ငါးဖမ်းလုပ်ငန်းကို တိုက်ဖျက်ရန် ရည်ရွယ်သည့် နိုင်ငံတကာပူးပေါင်းဆောင်ရွက်မှုများ အကောင်အထည်ဖော်ခြင်း၏ တိုးတက်မှုပမာဏ။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-6-1",
+          "href": "/sdg-myanmar-indicators/14-6-1",
           "status": "notstarted"
         },
         {
           "id": "14-7-1",
-          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
+          "title": "နိုင်ငံများအားလုံး၊ ဖွံ့ဖြိုးဆဲကျွန်းငယ်နိုင်ငံများ၊ ဖွံ့ဖြိုးမှု နိမ့်ပါးသောနိုင်ငံများတွင် လုပ်ဆောင်သော ရေရှည်တည်တံ့ခိုင်မြဲသည့် ငါးဖမ်းမှုများကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP)ပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-7-1",
+          "href": "/sdg-myanmar-indicators/14-7-1",
           "status": "notstarted"
         },
         {
           "id": "14-a-1",
-          "title": "Proportion of total research budget allocated to research in the field of marine technology",
+          "title": "အဏ္ဏဝါနည်းပညာများကို သုတေသနပြုလုပ်ရန်အတွက် ခွဲတမ်းချထားသော သုတေသန ခန့်မှန်းခြေအသုံးစရိတ်စုစုပေါင်း အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-a-1",
+          "href": "/sdg-myanmar-indicators/14-a-1",
           "status": "notstarted"
         },
         {
           "id": "14-b-1",
-          "title": "Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+          "title": "ငါးဖမ်းလုပ်ငန်းငယ်များ၏ အခွင့်အရေးကို အသိအမှတ်ပြုပြီး ကာကွယ်သော ဥပဒေ၊ လုပ်ထုံးလုပ်နည်း၊ မူဝါဒ၊ အဖွဲ့အစည်းဆိုင်ရာမူဘောင်ကို အသုံးချမှုတွင် နိုင်ငံအသီးသီး၏ တိုးတက်မှုပမာဏ။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-b-1",
+          "href": "/sdg-myanmar-indicators/14-b-1",
           "status": "notstarted"
         },
         {
           "id": "14-c-1",
-          "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
+          "title": "ကုလသမဂ္ဂ၏ ရေကြောင်းဥပဒေဆိုင်ရာ ပဋိဉာဉ်စာတမ်းတွင် ပါရှိသည့်အတိုင်း နိုင်ငံတကာ ဥပဒေ၊ မူဝါဒနှင့် အဖွဲ့အစည်းဆိုင်ရာ မူဘောင်များကို အသုံးပြု၍ သမုဒ္ဒရာများနှင့် ၎င်းတို့၏သယံဇာတများကို ထိန်းသိမ်းပြီး ရေရှည်တည်တံ့ခိုင်မြဲအောင် အသုံးပြုရေးခြင်း လုပ်ငန်းများကို အတည်ပြုခြင်း၊ လက်ခံခြင်း၊ အကောင်အထည်ဖော်ခြင်းများတွင် တိုးတက်မှုရှိသော နိုင်ငံအရေအတွက်။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/14-c-1",
+          "href": "/sdg-myanmar-indicators/14-c-1",
           "status": "notstarted"
         }]
     }
@@ -1570,119 +1570,119 @@
   {
     "goal": {
       "id": "15",
-      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
+      "title": "ကုန်းနေဂေဟစနစ်များကို ကာကွယ်ထိန်းသိမ်းပြီး ရေရှည်တည်တံ့ရေးကိုရှေးရှု၍ ထုတ်ယူအသုံးပြုမှုများကို မြှင့်တင်ရေး၊ သစ်တောများကို ရေရှည်တည်တံ့အောင်စီမံခန့်ခွဲရေး၊ သဲကန္တာရဖြစ်ထွန်းလာမှုကို တိုက်ဖျက်ရေး၊ ကုန်းမြေတစစယိုယွင်းလာမှုကို ရပ်တန့်ပြီး နောက်ကြောင်းပြန်လှည့်စေရေး နှင့် ဇီဝမျိုးစုံမျိုးကွဲများ ဆုံးရှုံးမှုကို ရပ်တန့်စေရေး",
       "indicators": [
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "သစ်တောဧရိယာအချိုးအစားကို မြေဧရိယာစုစုပေါင်းပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-1-1",
+          "href": "/sdg-myanmar-indicators/15-1-1",
           "status": "notstarted"
         },
         {
           "id": "15-1-2",
-          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
+          "title": "ဂေဟစနစ်အမျိုးအစားအရ ကာကွယ်ထိန်းသိမ်းထားသော ဒေသများရှိ ကုန်းနေရေနေ ဇီဝမျိုးကွဲများအတွက် ထားရှိသော အရေးပါသည့် နယ်မြေအချိုးအစား။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-1-2",
+          "href": "/sdg-myanmar-indicators/15-1-2",
           "status": "notstarted"
         },
         {
           "id": "15-2-1",
-          "title": "Progress towards sustainable forest management",
+          "title": "သစ်တောများကို ‌ရေရှည်တည်တံ့အောင် စီမံခန့်ခွဲမှုပြုလုပ်နိုင်ခြင်းအတွက် တိုးတက်မှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-2-1",
+          "href": "/sdg-myanmar-indicators/15-2-1",
           "status": "notstarted"
         },
         {
           "id": "15-3-1",
-          "title": "Proportion of land that is degraded over total land area",
+          "title": "မြေဆီလွှာပျက်စီးဆုံးရှုံးမှုဖြစ်ပွားသော မြေဧရိယာအချိုးအစားကို မြေဧရိယာစုစုပေါင်းပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-3-1",
+          "href": "/sdg-myanmar-indicators/15-3-1",
           "status": "notstarted"
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "တောတောင်ဇီဝမျိုးစုံမျိုးကွဲများအတွက် အရေးကြီးသော နေရာများအဖြစ် ကာကွယ်ထိန်းသိမ်းထားသော ဧရိယာ ဖုံးလွှမ်းမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-4-1",
+          "href": "/sdg-myanmar-indicators/15-4-1",
           "status": "notstarted"
         },
         {
           "id": "15-4-2",
-          "title": "Mountain Green Cover Index",
+          "title": "တောတောင် အစိမ်းရောင်ဖုံးလွှမ်းမှု ညွှန်းကိန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-4-2",
+          "href": "/sdg-myanmar-indicators/15-4-2",
           "status": "notstarted"
         },
         {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "အနီရောင်စာရင်းညွှန်းကိန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-5-1",
+          "href": "/sdg-myanmar-indicators/15-5-1",
           "status": "notstarted"
         },
         {
           "id": "15-6-1",
-          "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
+          "title": "အကျိုးခံစားခွင့်များကို တရားမျှတစွာ သာတူညီမျှ ရရှိရေးအတွက် ဥပဒေပိုင်းဆိုင်ရာ၊ အုပ်ချုပ်မှုပိုင်းဆိုင်ရာနှင့် မူဝါဒပိုင်းဆိုင်ရာမူဘောင်များကို လက်ခံကျင့်သုံးကြသော နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-6-1",
+          "href": "/sdg-myanmar-indicators/15-6-1",
           "status": "notstarted"
         },
         {
           "id": "15-7-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "‌တရားမဝင် ဖမ်းဆီးသတ်ဖြတ်ခြင်း (သို့မဟုတ်) တရားမဝင် ကုန်ကူးရောင်းချခြင်းခံရသော တောရိုင်းတိရိစ္ဆာန်များ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-7-1",
+          "href": "/sdg-myanmar-indicators/15-7-1",
           "status": "notstarted"
         },
         {
           "id": "15-8-1",
-          "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species",
+          "title": "မူလဌာနေမျိုးစိတ်မဟုတ်သော မျိုးကွဲများကို ထိန်းချုပ်ခြင်း (သို့မဟုတ်) ကာကွယ်ခြင်းများတွင် သက်ဆိုင်ရာ အမျိုးသားဥပဒေများ ပြဌာန်းသော နိုင်ငံများ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-8-1",
+          "href": "/sdg-myanmar-indicators/15-8-1",
           "status": "notstarted"
         },
         {
           "id": "15-9-1",
-          "title": "Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020",
+          "title": "ဇီဝမျိုးစုံမျိုးကွဲများအတွက် မဟာဗျူဟာအစီအစဉ် ၂၀၁၁-၂၀၂၀ တွင် ပါဝင်သော အီချီ ဇီဝမျိုးစုံမျိုးကွဲ ရည်မှန်းချက် နံပါတ် (၂) နှင့် အညီ အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် ရည်မှန်းချက်များ ချမှတ်ရာတွင် တိုးတက်မှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-9-1",
+          "href": "/sdg-myanmar-indicators/15-9-1",
           "status": "notstarted"
         },
         {
           "id": "15-a-1",
-          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+          "title": "ဇီဝမျိုးစုံမျိုးကွဲများနှင့် ဂေဟစနစ်များကို ရေရှည်တည်တံ့အောင်ထိန်းသိမ်းစောင့်ရှောက်အသုံးပြုရန် တရားဝင်ရရှိသော ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့နှင့် ပြည်သူအတွက်ကျခံသော အစိုးရ၏ ကုန်ကျစရိတ်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-a-1",
+          "href": "/sdg-myanmar-indicators/15-a-1",
           "status": "notstarted"
         },
         {
           "id": "15-b-1",
-          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+          "title": "ဇီဝမျိုးစုံမျိုးကွဲများနှင့် ဂေဟစနစ်များကို ရေရှည်တည်တံ့အောင်ထိန်းသိမ်းစောင့်ရှောက်အသုံးပြုရန် တရားဝင်ရရှိသော ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့နှင့် ပြည်သူအတွက်ကျခံသော အစိုးရ၏ ကုန်ကျစရိတ်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-b-1",
+          "href": "/sdg-myanmar-indicators/15-b-1",
           "status": "notstarted"
         },
         {
           "id": "15-c-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "‌တရားမဝင် ဖမ်းဆီးသတ်ဖြတ်ခြင်း (သို့မဟုတ်) တရားမဝင် ကုန်ကူးရောင်းချခြင်းခံရသော တောရိုင်းတိရိစ္ဆာန်များ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-c-1",
+          "href": "/sdg-myanmar-indicators/15-c-1",
           "status": "notstarted"
         }]
     }
@@ -1690,191 +1690,191 @@
   {
     "goal": {
       "id": "16",
-      "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
+      "title": "စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်အောင် ငြိမ်းချမ်းပြီး အားလုံးပါဝင်နိုင်သော လူမှုအသိုင်းအဝိုင်းများကို မြှင့်တင်ပေးရေး၊ လူသားအားလုံး တရားမျှတမှုရရှိနိုင်ရေးအတွက် ထိရောက်မှုရှိပြီး တာဝန်ယူမှု တာဝန်ခံမှုရှိသော အဖွဲ့အစည်းများ အဆင့်တိုင်းတွင် ပေါ်ပေါက်လာနိုင်ရေး",
       "indicators": [
         
         {
           "id": "16-1-1",
-          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
+          "title": "လူတစ်သိန်းလျှင် ရည်ရွယ်ချက်ဖြင့်ပြုလုပ်သော လူသတ်မှု၏ သားကောင်ဖြစ်ခဲ့သူ အရေအတွက်ကို ကျား/မ နှင့် အသက်အရွယ်ပေါ်အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-1-1",
+          "href": "/sdg-myanmar-indicators/16-1-1",
           "status": "notstarted"
         },
         {
           "id": "16-1-2",
-          "title": "Conflict-related deaths per 100,000 population, by sex, age and cause",
+          "title": "လူတစ်သိန်းလျှင် ပဋိပက္ခဖြစ်ပွားမှုနှင့်ဆိုင်သော ကိစ္စရပ်များကြောင့် သေဆုံးမှုများကို ကျား/မ၊ အသက်အရွယ်နှင့် အ‌ကြောင်းရင်းပေါ်အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-1-2",
+          "href": "/sdg-myanmar-indicators/16-1-2",
           "status": "notstarted"
         },
         {
           "id": "16-1-3",
-          "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",
+          "title": "လွန်ခဲ့သော (၁၂)လအတွင်း (၁) ရုပ်ပိုင်းဆိုင်ရာ အကြမ်းဖက်မှု၊ (ခ) စိတ်ပိုင်းဆိုင်ရာ အကြမ်းဖက်မှု၊ (ဂ) လိင်ပိုင်းဆိုင်ရာအကြမ်းဖက်မှုများကို ခံစားခဲ့ရသူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-1-3",
+          "href": "/sdg-myanmar-indicators/16-1-3",
           "status": "notstarted"
         },
         {
           "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "title": "မိမိနေထိုင်သောနေရာ ဧရိယာပတ်ဝန်းကျင်တွင် တစ်ဦးတည်းလမ်းလျှောက်သွားရသည်ကို လုံခြုံမှုရှိသည်ဟု ခံစားရသူဦးရေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-1-4",
+          "href": "/sdg-myanmar-indicators/16-1-4",
           "status": "notstarted"
         },
         {
           "id": "16-2-1",
-          "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month",
+          "title": "လွန်ခဲ့သောလအတွင်း အုပ်ထိန်းသူများမှ ရုပ်ပိုင်းဆိုင်ရာ ပြစ်ဒဏ်ပေးခြင်း နှင့်/သို့မဟုတ် စိတ်ပိုင်းဆိုင်ရာ အကြမ်းဖက်ခြင်းများကို ကြုံတွေ့ခံစားခဲ့ရသော ၁ နှစ်မှ ၁၇ နှစ်အရွယ်အတွင်းရှိ ကလေးငယ်များအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-2-1",
+          "href": "/sdg-myanmar-indicators/16-2-1",
           "status": "notstarted"
         },
         {
           "id": "16-2-2",
-          "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
+          "title": "လူတစ်သိန်းလျှင် လူကုန်ကူးခံရသူအရေအတွက်ကို ကျား/မ၊ အသက်အရွယ် နှင့် ခေါင်းပုံဖြတ်အမြတ်ထုတ်ခံရခြင်း အမျိုးအစားပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-2-2",
+          "href": "/sdg-myanmar-indicators/16-2-2",
           "status": "notstarted"
         },
         {
           "id": "16-2-3",
-          "title": "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18",
+          "title": "အသက် (၁၈)နှစ် မပြည့်မီ လိင်ပိုင်းဆိုင်ရာ အကြမ်းဖက်မှုကို ခံစားခဲ့ရသော အသက် (၁၈)နှစ်မှ (၂၉)ကြားရှိ အမျိုးသားငယ်၊ အမျိုးသမီးငယ်များ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-2-3",
+          "href": "/sdg-myanmar-indicators/16-2-3",
           "status": "notstarted"
         },
         {
           "id": "16-3-1",
-          "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
+          "title": "လွန်ခဲ့သော (၁၂) လအတွင်း အကြမ်းဖက်ခံရမှုကို လုပ်ပိုင်ခွင့်အာဏာရှိသော အာဏာပိုင်အဖွဲ့အစည်းများသို့ (သို့မဟုတ်) တရားဝင်အသိအမှတ်ပြုထားသော ပဋိပက္ခဖြေရှင်းသည့် အဖွဲ့အစည်းများသို့ တိုင်ကြားခဲ့သည့် အကြမ်းဖက်ခံရသူ အရေအတွက်။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-3-1",
+          "href": "/sdg-myanmar-indicators/16-3-1",
           "status": "notstarted"
         },
         {
           "id": "16-3-2",
-          "title": "Unsentenced detainees as a proportion of overall prison population",
+          "title": "ပြစ်ဒဏ်ချမှတ်ခြင်း မခံရသေးသော အချုပ်သား အချိုးအစားကို အကျဉ်းထောင်အတွင်းရှိ ထောင်သားဦးရေစုစုပေါင်းပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-3-2",
+          "href": "/sdg-myanmar-indicators/16-3-2",
           "status": "notstarted"
         },
         {
           "id": "16-4-1",
-          "title": "Total value of inward and outward illicit financial flows (in current United States dollars)",
+          "title": "တရားမဝင်ငွေကြေးစီးဆင်းမှု၏ အဝင်နှင့် အထွက် စုစုပေါင်းပမာဏ (လက်ရှိ အမေရိကန်‌‌ဒေါ်လာတန်ဖိုးဖြင့်)",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-4-1",
+          "href": "/sdg-myanmar-indicators/16-4-1",
           "status": "notstarted"
         },
         {
           "id": "16-4-2",
-          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
+          "title": "နိုင်ငံတကာစာချုပ်စာတမ်းများအရ လုပ်ပိုင်ခွင့်အာဏာရှိသည့် အာဏာပိုင်အဖွဲ့အစည်းမှ ခြေရာခံအတည်ပြုထားသည့် တရားမဝင်မူလတည်နေရာ သို့မဟုတ် အခြေအနေတစ်ခုမှ ဖမ်းဆီးရရှိသော၊ တွေ့ရှိသော၊ ပြန်လည်ပေးအပ်သော လက်နက်များ၏ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-4-2",
+          "href": "/sdg-myanmar-indicators/16-4-2",
           "status": "notstarted"
         },
         {
           "id": "16-5-1",
-          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+          "title": "လွန်ခဲ့သော (၁၂) လအတွင်း အစိုးရဝန်ထမ်းများနှင့် အနည်းဆုံး တစ်ကြိမ် ဆက်သွယ်ခဲ့ဖူးသူ၊ လာဘ်ပေးဖူးသူ သို့မဟုတ် အစိုးရဝန်ထမ်းမှ လာဘ်ပေးရန် တောင်းဆိုခြင်းခံခဲ့ရသူ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-5-1",
+          "href": "/sdg-myanmar-indicators/16-5-1",
           "status": "notstarted"
         },
         {
           "id": "16-5-2",
-          "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-5-2",
+          "href": "/sdg-myanmar-indicators/16-5-2",
           "status": "notstarted"
         },
         {
           "id": "16-6-1",
-          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+          "title": "မူလကတည်းက အတည်ပြုထားသော ခန့်မှန်းခြေရသုံးငွေပမာဏ (သို့မဟုတ် ဘတ်ဂျက်ကုဒ် သို့မဟုတ် အလားတူဘတ်ဂျက်) ၏ အချိုးအစားကို အစိုးရ၏ မူရင်းအသုံးစရိတ်များပေါ်မူတည်၍  ကဏ္ဍအလိုက်‌‌ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-6-1",
+          "href": "/sdg-myanmar-indicators/16-6-1",
           "status": "notstarted"
         },
         {
           "id": "16-6-2",
-          "title": "Proportion of population satisfied with their last experience of public services",
+          "title": "နောက်ဆုံးရရှိခဲ့သည့် ပြည်သူ့ဝန်ဆောင်မှုအတွေ့ကြုံများနှင့်ပတ်သက်ပြီး ကျေနပ်အားရမှုရှိသော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-6-2",
+          "href": "/sdg-myanmar-indicators/16-6-2",
           "status": "notstarted"
         },
         {
           "id": "16-7-1",
-          "title": "Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions",
+          "title": "အစိုးရအဖွဲ့အစည်းများ (နိုင်ငံတော်နှင့် ဒေသဆိုင်ရာ ဥပဒေပြုလွှတ်တော်၊ ပြည်သူ့ဝန်ဆောင်မှုနှင့် တရားစီရင်ရေး) များတွင် ထားရှိသော ရာထူးများနှင့် နိုင်ငံတစ်ဝှမ်းလုံးတွင် ရှိသောရာထူးများကို နှိုင်းယှဉ်ထားသော အချိုးအစားကို ကျား/မ၊ အသက်အရွယ်၊ မသန်စွမ်းမှုအခြေအနေနှင့် လူ့အဖွဲ့အစည်းများပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-7-1",
+          "href": "/sdg-myanmar-indicators/16-7-1",
           "status": "notstarted"
         },
         {
           "id": "16-7-2",
-          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
+          "title": "ဆုံးဖြတ်ချက်ချခြင်းလုပ်ငန်းစဉ်သည် အားလုံးပါဝင်ခွင့်ရှိပြီး တုံ့ပြန်မှုအားကောင်းသည်ဟု ယုံကြည်သော လူဦးရေအချိုးအစားကို အသက်အရွယ်၊ မသန်စွမ်းမှုအခြေအနေနှင့် လူ့အဖွဲ့အစည်းများပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-7-2",
+          "href": "/sdg-myanmar-indicators/16-7-2",
           "status": "notstarted"
         },
         {
           "id": "16-8-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "နိုင်ငံတကာအဖွဲ့အစည်းများတွင်ပါဝင်သော ဖွံ့ဖြိုးဆဲနိုင်ငံများ၏ အဖွဲ့ဝင်နှင့် မဲပေးနိုင်ခွင့်ရှိသူ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-8-1",
+          "href": "/sdg-myanmar-indicators/16-8-1",
           "status": "notstarted"
         },
         {
           "id": "16-9-1",
-          "title": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
+          "title": "ပြည်သူ့ရေးရာအာဏာပိုင်တစ်ဦးဆီသို့ မွေးဖွားမှုမှတ်ပုံတင်ထားသော အသက် (၅)နှစ်အောက်ကလေးငယ်များ၏ အချိုးအစားကို အသက်အရွယ်ပေါ်အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-9-1",
+          "href": "/sdg-myanmar-indicators/16-9-1",
           "status": "notstarted"
         },
         {
           "id": "16-a-1",
-          "title": "Existence of independent national human rights institutions in compliance with the Paris Principles",
+          "title": "ပါရီဥပဒေသများနှင့်ကိုက်ညီစွာ တည်ထောင်ထားသည့် လွတ်လပ်သော အမျိုးသားလူ့အခွင့်အရေးအဖွဲ့အစည်းများတည်ရှိမှု",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-a-1",
+          "href": "/sdg-myanmar-indicators/16-a-1",
           "status": "notstarted"
         },
         {
           "id": "16-b-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "နိုင်ငံတကာ လူ့အခွင့်အရေးဥပဒေအောက်တွင် သတ်မှတ်ထားသည့် လူတန်းစားခွဲခြားခြင်းဟူသော အဓိပ္ပာယ်ဖွင့်ဆိုချက်အရ လွန်ခဲ့သော (၁၂)လအတွင်း လူတန်းစားခွဲခြားခံရခြင်း၊ အရှက်တကွဲဖြစ်စေရန် နှောက်ယှက်စော်ကားခံရခြင်းများကို တိုင်ကြားသော လူဦးရေအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-b-1",
+          "href": "/sdg-myanmar-indicators/16-b-1",
           "status": "notstarted"
         },
         {
           "id": "16-10-1",
-          "title": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
+          "title": "လွန်ခဲ့သော (၁၂) လအတွင်း သတင်းထောက်များ၊ သက်ဆိုင်ရာမီဒီယာကိုယ်စားလှယ်များ၊ ကုန်သွယ်ရေး သမဂ္ဂဝင်များ၊ လူ့အခွင့်အရေး ဆောင်ရွက်သူများကို သတ်ဖြတ်ခြင်း၊ ပြန်ပေးဆွဲခြင်း၊ လတ်စတုံးဖျောက်ဖျတ်ခြင်း၊ တစ်ဖက်သတ်အကျဉ်းချခြင်း၊ နှင့် ညှင်းပန်းနှိပ်စက်ခြင်းများ ဖြစ်ပွားကြောင်း အတည်ပြုသည့်အမှုများ အရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-10-1",
+          "href": "/sdg-myanmar-indicators/16-10-1",
           "status": "notstarted"
         },
         {
           "id": "16-10-2",
-          "title": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
+          "title": "သတင်းအချက်အလက်များကို  ပြည်သူများ ရရှိစေရန်အတွက် ဖွဲ့စည်းပုံဥပဒေဆိုင်ရာ၊ ပြဌာန်း ဥပဒေဆိုင်ရာ နှင့်/သို့မဟုတ် မူဝါဒဆိုင်ရာ အာမခံချက်များကို ကျင့်သုံးအကောင်အထည်ဖော်သည့် နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-10-2",
+          "href": "/sdg-myanmar-indicators/16-10-2",
           "status": "notstarted"
         }]
     }
@@ -1882,207 +1882,207 @@
   {
     "goal": {
       "id": "17",
-      "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+      "title": "စဉ်ဆက်မပြတ်ဖွံ့ဖြိုးတိုးတက်မှုများကို အသက်ဝင်အောင် အကောင်အထည်ဖော်နိုင်ရေးအတွက် အပြည်ပြည်ဆိုင်ရာ မိတ်ဖက်များ အားကောင်းစွာ ပူးပေါင်းဆောင်ရွက်ရေး",
       "indicators": [
         
         {
           "id": "17-1-1",
-          "title": "Total government revenue as a proportion of GDP, by source",
+          "title": "အစိုးရ၏ စုစုပေါင်းဝင်ငွေကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP)၏ အချိုးအစားအနေဖြင့် အရင်းမြစ်များအလိုက် ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-1-1",
+          "href": "/sdg-myanmar-indicators/17-1-1",
           "status": "notstarted"
         },
         {
           "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
+          "title": "ပြည်တွင်းအခွန်အခများဖြင့် မတည်ထားသော ပြည်တွင်းခန့်မှန်းခြေရသုံးငွေ အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-1-2",
+          "href": "/sdg-myanmar-indicators/17-1-2",
           "status": "notstarted"
         },
         {
           "id": "17-2-1",
-          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
+          "title": "တရားဝင်ဖွံ့ဖြိုးတိုးတက်ရေးထောက်ပံ့မှု အသားတင်စုစုပေါင်းနှင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများကိုပေးသည့် တရားဝင်ဖွံ့ဖြိုးတိုးတက်ရေးထောက်ပံ့မှု အသားတင်ပမာဏ အချိုးအစားတို့ကို စီးပွား‌ရေးဖွံ့ဖြိုးမှုနှင့် ပူးပေါင်းဆောင်ရွက်ရေး အဖွဲ့အစည်း (OECD) ၏ ဖွံ့ဖြိုးရေးအကူအညီပေးသည့်ကော်မတီတွင် ပါဝင်သည့် အလှူရှင်များ၏ နိုင်ငံ့အသားတင်ဝင်ငွေ (GNI) ပေါ်မူတည်၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-2-1",
+          "href": "/sdg-myanmar-indicators/17-2-1",
           "status": "notstarted"
         },
         {
           "id": "17-3-1",
-          "title": "Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",
+          "title": "နိုင်ငံခြားမှရင်းနှီးမြှပ်နှံမှုများ၊ တရားဝင်ဖွံ့ဖြိုးတိုးတက်ရေးထောက်ပံ့မှု နှင့် ကမ္ဘာ့တောင်ပိုင်းအချင်းချင်း ပူးပေါင်းဆောင်ရွက်မှုအချိုးအစားကို ပြည်တွင်းခန့်မှန်းချေရသုံး‌ငွေစုစုပေါင်းပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-3-1",
+          "href": "/sdg-myanmar-indicators/17-3-1",
           "status": "notstarted"
         },
         {
           "id": "17-3-2",
-          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
+          "title": "နိုင်ငံခြားမှ ပြည်တွင်းသို့ လွှဲပေးသည့် ငွေပမာဏအချိုးအစား (အမေရိကန်ဒေါ်လာဖြင့်) ကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှုပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-3-2",
+          "href": "/sdg-myanmar-indicators/17-3-2",
           "status": "notstarted"
         },
         {
           "id": "17-4-1",
-          "title": "Debt service as a proportion of exports of goods and services",
+          "title": "ကုန်ပစ္စည်းများနှင့် ဝန်ဆောင်မှုများကို တင်ပို့ခြင်းများအတွက် ချေးငွေဝန်ဆောင်မှုများအချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-4-1",
+          "href": "/sdg-myanmar-indicators/17-4-1",
           "status": "notstarted"
         },
         {
           "id": "17-5-1",
-          "title": "Number of countries that adopt and implement investment promotion regimes for least developed countries",
+          "title": "ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများအတွက် ရင်းနှီးမြှပ်နှံမှုမြှင့်တင်ရေးစနစ်များကို ကျင့်သုံးအကောင်အထည်ဖော်နေသော နိုင်ငံများအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-5-1",
+          "href": "/sdg-myanmar-indicators/17-5-1",
           "status": "notstarted"
         },
         {
           "id": "17-6-1",
-          "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
+          "title": "နိုင်ငံများအကြား သိပ္ပံနှင့်/သို့မဟုတ် နည်းပညာပူးပေါင်းဆောင်ရွက်မှု သဘောတူညီချက်များ နှင့် အစီအစဉ်များ အရေအတွက်ကို ပူးပေါင်းဆောင်ရွက်မှုအမျိုးအစားအလိုက် ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-6-1",
+          "href": "/sdg-myanmar-indicators/17-6-1",
           "status": "notstarted"
         },
         {
           "id": "17-6-2",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "title": "လူဦးရေ ၁၀၀ တိုင်းတွင် ကြိုးမဲ့အထိုင်အင်တာနက်ချိတ်ဆက်ရန် စာရင်းပေးမှုများ ပုံသေရှိခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-6-2",
+          "href": "/sdg-myanmar-indicators/17-6-2",
           "status": "notstarted"
         },
         {
           "id": "17-7-1",
-          "title": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
+          "title": "သဘာဝပတ်ဝန်းကျင်နှင့် ကိုက်ညီသော နည်းပညာများ ဖွံ့ဖြိုးတိုးတက်ရေး၊ လွှဲပြောင်းရေး၊ မျှဝေရေး၊ ခွဲဝေရေးများကို တိုးမြှင့်ရန်အတွက် ဖွံ့ဖြိုးဆဲနိုင်ငံများတွင် ခွင့်ပြုထားသော မတည်ငွေများ၏ စုစုပေါင်းပမာဏ။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-7-1",
+          "href": "/sdg-myanmar-indicators/17-7-1",
           "status": "notstarted"
         },
         {
           "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
+          "title": "အင်တာနက်အသုံးပြုသူ အရေအတွက်အချိုးအစား",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-8-1",
+          "href": "/sdg-myanmar-indicators/17-8-1",
           "status": "notstarted"
         },
         {
           "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
+          "title": "ဖွံ့ဖြိုးဆဲနိုင်ငံများသို့ ပေးအပ်ရန်ရည်ရွယ်ထားသော (ကမ္ဘာ့မြောက်ခြမ်းနှင့် တောင်ခြမ်း၊ ကမ္ဘာ့တောင်ခြမ်းအချင်းချင်းနှင့် ဖွံ့ဖြိုးရေးမိတ်ဖက်နိုင်ငံများနှင့် နိုင်ငံတကာ အဖွဲ့အစည်းများ၏ သုံးပွင့်ဆိုင်ပူးပေါင်းဆောင်ရွက်ခြင်းများမှတဆင့် လုပ်ဆောင်သော) ငွေကြေးနှင့် ပညာရပ်ပိုင်းဆိုင်ရာထောက်ပံ့မှုများ၏ ဒေါ်လာတန်ဖိုးငွေ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-9-1",
+          "href": "/sdg-myanmar-indicators/17-9-1",
           "status": "notstarted"
         },
         {
           "id": "17-10-1",
-          "title": "Worldwide weighted tariff-average",
+          "title": "ကမ္ဘာတစ်ဝှမ်းချမှတ်ထားသော ပျမ်းမျှကုန်စည်စည်းကြပ်ခွန်နှုန်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-10-1",
+          "href": "/sdg-myanmar-indicators/17-10-1",
           "status": "notstarted"
         },
         {
           "id": "17-11-1",
-          "title": "Developing countries’ and least developed countries’ share of global exports",
+          "title": "တစ်ကမ္ဘာလုံး၏ ကုန်တင်ပို့မှုများတွင် ဖွံ့ဖြိုးဆဲနိုင်ငံများနှင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများ ပါဝင်မှု။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-11-1",
+          "href": "/sdg-myanmar-indicators/17-11-1",
           "status": "notstarted"
         },
         {
           "id": "17-12-1",
-          "title": "Average tariffs faced by developing countries, least developed countries and small island developing States",
+          "title": "ဖွံ့ဖြိုးဆဲနိုင်ငံများ၊ ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများ နှင့် ဖွံ့ဖြိုးဆဲ ကျွန်းငယ်နိုင်ငံများမှ ပေးဆောင်ရသည့် ပျမ်းမျှကုန်စည်စည်းကြပ်ခွန်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-12-1",
+          "href": "/sdg-myanmar-indicators/17-12-1",
           "status": "notstarted"
         },
         {
           "id": "17-13-1",
-          "title": "Macroeconomic Dashboard",
+          "title": "Macroeconomic  ကို ဂရပ်များ/ပုံများဖြင့် ပြသခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-13-1",
+          "href": "/sdg-myanmar-indicators/17-13-1",
           "status": "notstarted"
         },
         {
           "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "title": "စဉ်ဆက်မပြတ်ဖွံ့ဖြိုးတိုးတက်ရေး၏ မူဝါဒပိုင်းဆိုင်ရာ ချိတ်ဆက်ဆောင်ရွက်မှုများကို မြှင့်တင်ခြင်း လုပ်ငန်းများကို စနစ်တကျဆောင်ရွက်သည့် နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-14-1",
+          "href": "/sdg-myanmar-indicators/17-14-1",
           "status": "notstarted"
         },
         {
           "id": "17-15-1",
-          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
+          "title": "နိုင်ငံတော်ပိုင် ရလဒ်မူဘောင် နှင့် စီမံကိန်းဖော်ဆောင်သည့်အရာများကို ဖွံ့ဖြိုးတိုးတက်ရေး ပူးပေါင်းဆောင်ရွက်မှုပေးသူများမှ အသုံးပြုသော အတိုင်းအဆပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-15-1",
+          "href": "/sdg-myanmar-indicators/17-15-1",
           "status": "notstarted"
         },
         {
           "id": "17-16-1",
-          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
+          "title": "စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးရေးတိုးတက်ရေး ရည်မှန်းချက်ပန်းတိုင်များကိုရရှိရန် အကူအညီပေးနေသည့် အကျိုးတူပူးပေါင်းဆောင်ရွက်သူများမှ အကောင်အထည်ဖော်နေသော ဖွံ့ဖြိုးရေးလုပ်ငန်းများ၏ ထိရောက်မှုကို စောင့်ကြပ်ထိန်းသိမ်းသည့် မူဘောင်များနှင့် ပတ်သက်၍ အစီရင်ခံရာတွင် တိုးတက်မှုရှိသည့် နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-16-1",
+          "href": "/sdg-myanmar-indicators/17-16-1",
           "status": "notstarted"
         },
         {
           "id": "17-17-1",
-          "title": "Amount of United States dollars committed to public-private and civil society partnerships",
+          "title": "အစိုးရ- ပုဂ္ဂလိက နှင့် အရပ်ဘက် လူ့အဖွဲ့အစည်းများအတွက် အသုံးပြုရန် ကတိခံထားသော အမေရိကန်ဒေါ်လာပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-17-1",
+          "href": "/sdg-myanmar-indicators/17-17-1",
           "status": "notstarted"
         },
         {
           "id": "17-18-1",
-          "title": "Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
+          "title": "မိမိတို့ရောက်ရှိလိုသော ရည်မှန်းချက်ပန်းတိုင်နှင့် ဆီလျော်သောအခါ စဉ်ဆက်မပြတ်ဖွံ့ဖြိုးရေးအညွှန်းများကို တရားဝင်စာရင်းအင်းများ၏ အခြေခံစည်းမျဉ်းများနှင့်အညီ  နိုင်ငံတော်အဆင့်တွင် ကဏ္ဍအလိုက်ခွဲခြား ပြဌာန်းမှု အချိုးအစားပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-18-1",
+          "href": "/sdg-myanmar-indicators/17-18-1",
           "status": "notstarted"
         },
         {
           "id": "17-18-2",
-          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
+          "title": "တရားဝင်စာရင်းအင်းများ၏ အခြေခံစည်းမျဉ်းများနှင့်အညီ ပြဌာန်းထားသောအမျိုးသားစာရင်းအင်းဆိုင်ရာ ဥပဒေပြဌာန်းချက်များရှိသည့် နိုင်ငံအရေအတွက်",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-18-2",
+          "href": "/sdg-myanmar-indicators/17-18-2",
           "status": "notstarted"
         },
         {
           "id": "17-18-3",
-          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
+          "title": "ထောက်ပံ့ကြေးငွေအပြည့်အဝရပြီး လက်ရှိအကောင်အထည်ဖော်ဆောင်ရွက်နေသော အမျိုးသားစာရင်းအင်းဆိုင်ရာအစီအစဉ်ရှိသည့် နိုင်ငံအရေအတွက်ကို မတည်ငွေ၏ ရင်းမြစ်များ‌ပေါ် အခြေခံ၍ ဖော်ပြခြင်း",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-18-3",
+          "href": "/sdg-myanmar-indicators/17-18-3",
           "status": "notstarted"
         },
         {
           "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
+          "title": "ဖွံ့ဖြိုးဆဲနိုင်ငံများတွင် စာရင်းအင်းဆိုင်ရာလုပ်ဆောင်နိုင်စွမ်းကို ပိုမိုအားကောင်းစေရန်အတွက် အသုံးပြုနိုင်သော အရင်းအမြစ်များ၏ ဒေါ်လာဖြင့်တွက်သော တန်ဖိုးငွေပမာဏ",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-19-1",
+          "href": "/sdg-myanmar-indicators/17-19-1",
           "status": "notstarted"
         },
         {
           "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
+          "title": "(က) လွန်ခဲ့သည့် ၁၀ နှစ်တွင် လူဦးရေနှင့် အိမ်ထောင်စုစာရင်းကောက်ယူခြင်းအနည်းဆုံးတစ်ခုကို ဆောင်ရွက်ခဲ့သော နိုင်ငံအချိုးအစား (ခ) မွေးစာရင်း (၁၀၀) ရာခိုင်နှုန်းနှင့် သေစာရင်း (၈၀) ရာခိုင်နှုန်း မှတ်ပုံတင်နိုင်ခဲ့သော နိုင်ငံအရေအတွက်။",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-19-2",
+          "href": "/sdg-myanmar-indicators/17-19-2",
           "status": "notstarted"
         }]
     }

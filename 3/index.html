@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://sdg-my.github.io/sdg-myanmar-data/my',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'my',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -91,7 +91,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 3 - Good health and well-being - Indicators For The Sustainable Development Goals</title>
+    <title>ရည်မှန်းချက် 3 - ကောင်းမွန်သောကျန်းမာရေးစောင့်ရှောက်မှုရရှိရေး - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -105,13 +105,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-myanmar-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20201117125223">
+        <link rel="stylesheet" href="/sdg-myanmar-indicators/assets/css/style.css?v=20201117172744">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,18 +132,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-my layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">ပင်မအကြောင်းအရာသို့သွားရန်</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-        <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-myanmar-indicators/" id="home">
+        <img src="/sdg-myanmar-indicators/assets/img/SDG_logo.png" alt="စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်ရေး ပန်းတိုင်များ - ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/3/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -182,19 +182,19 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -206,11 +206,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/3/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -224,12 +224,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search-mobile">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -237,26 +237,26 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -268,11 +268,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/3/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -293,8 +293,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li class="active">Goal 3</li>
+  <li><a href="/sdg-myanmar-indicators/">ပင်မစာမျက်နှာ</a></li>
+  <li class="active">ရည်မှန်းချက် 3</li>
   
 </ol>
 
@@ -304,11 +304,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" id="goal-3"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/3.png" alt="ကောင်းမွန်သောကျန်းမာရေးစောင့်ရှောက်မှုရရှိရေး - ရည်မှန်းချက် 3" id="goal-3"/>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 3: </span>Ensure healthy lives and promote well-being for all at all ages
+          <span class="hidden-sm hidden-md hidden-lg">ရည်မှန်းချက် 3: </span>လူသားမရွေး အသက်အရွယ်မရွေး ကျန်းမာသောဘဝ ရရှိနိုင်ရေးနှင့် အားလုံးအတွက် ကောင်းမွန်သော ကျန်းမာရေးစောင့်ရှောက်မှုများကို တည်ဆောက်ပေးနိုင်ရေး
         </h1>
       </div>
     </div>
@@ -327,9 +327,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.1</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.1</span>
         </h3>
-        <span class="target-name">By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</span>
+        <span class="target-name">၂၀၃၀ တွင် ကမ္ဘာလုံးဆိုင်ရာ သားဖွားမိခင်တို့၏ အသေအပျောက်နှုန်းကို မွေးဖွားမှု မိခင် တစ်သိန်းတွင် (၇၀)ဦးအောက်ထိ လျှော့ချရန်။ </span>
         
 
           
@@ -343,12 +343,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-1-1">Maternal mortality ratio</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-1-1">မိခင်သေပျောက်မှုအချိုး</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -365,12 +365,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.1.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-1-2">Proportion of births attended by skilled health personnel</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-1-2">အရည်အချင်းပြည့်ဝသော ကျန်းမာရေးဝန်ထမ်း၏ စောင့်ရှောက်မှုဖြင့် ကလေးမွေးဖွားရသော လူဦးရေအချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -380,9 +380,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.2</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.2</span>
         </h3>
-        <span class="target-name">By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under‐5 mortality to at least as low as 25 per 1,000 live births</span>
+        <span class="target-name">၂၀၃၀ တွင် မွေးကင်းစကလေးများနှင့် အသက်(၅)နှစ်အောက်ကလေးများ၏ သေဆုံးမှုကို ရပ်တံ့နိုင်ရန်။ နိုင်ငံအားလုံးသည် မွေးကင်းစကလေးငယ်များသေဆုံးနှုန်းကို ကလေးတစ်ထောင်လျှင်(၁၂)ဦး အထိ လျှော့ချပြီး အသက် (၅)နှစ်အောက်ကလေးများ၏ သေဆုံးမှုကို အနည်းဆုံး ကလေးတစ်ထောင်လျှင်(၁၂)ဦးအထိ လျှော့ချရန်။</span>
         
 
           
@@ -396,12 +396,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-2-1">Under‐five mortality rate</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-2-1">ငါးနှစ်အောက်ကလေး အသေအပျောက်နှုန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -418,12 +418,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.2.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-2-2">Neonatal mortality rate</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-2-2">မွေးကင်းစကလေး အသေအပျောက်နှုန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -433,9 +433,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.3</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.3</span>
         </h3>
-        <span class="target-name">By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span>
+        <span class="target-name">၂၀၃၀ တွင် AIDS, တီဘီရောဂါ၊ ငှက်ဖျားရောဂါနှင့် လျစ်လှူရှုထားသော အပူပိုင်းရောဂါများကို အဆုံးသတ်ရန်။ အသည်းရောဂါ၊ ရေမသန့်သောကြောင့်ဖြစ်သော ရောဂါများနှင့် အခြားကူးစက်ပျံ့ပွားနိုင်သော ရောဂါများကို တားဆီးကာကွယ်ရန်။ </span>
         
 
           
@@ -449,12 +449,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-3-1">Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-3-1">ရောဂါကူးစက်မှုမရှိသေးသော လူတစ်ထောင်လျှင် အိတ်ချ်အိုင်ဗွီ ရောဂါပိုး ကူးစက်မှုအသစ် ဖြစ်ပွားမှုများကို ကျား/မ၊ အသက်အရွယ်နှင့် အဓိကကျသော လူဦးရေများပေါ် အခြေခံ၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -471,12 +471,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.3.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-3-2">Tuberculosis incidence per 100,000 population</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-3-2">လူတစ်သိန်းလျှင် တီဘီ ရောဂါဖြစ်ပွားမှု အရေအတွက်</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -493,12 +493,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.3</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.3.3</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-3-3">Malaria incidence per 1,000 population</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-3-3">လူတစ်ထောင်လျှင် ငှက်ဖျားရောဂါ ဖြစ်ပွားမှု အရေအတွက်</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -515,12 +515,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.4</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.3.4</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-3-4">Hepatitis B incidence per 100,000 population</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-3-4">လူတစ်သိန်းလျှင် အသည်းရောင်အသားဝါ(ဘီ)ရောဂါ ဖြစ်ပွားမှု အရေအတွက်</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -537,12 +537,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.5</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.3.5</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-3-5">Number of people requiring interventions against neglected tropical diseases</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-3-5">အပူပိုင်းဒေသတွင်ဖြစ်ပွားသော ရောဂါများကို လျစ်လျူရှုရာမှ ဆေးကုသမှုလိုအပ်လာခဲ့သော လူဦးရေ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -552,9 +552,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.4</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.4</span>
         </h3>
-        <span class="target-name">By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</span>
+        <span class="target-name">၂၀၃၀ တွင် မကူးစက်နိုင်သောရောဂါများကြောင့် အချိန်မတန်ဘဲ သေဆုံးခြင်းများကို ကာကွယ်ခြင်းနှင့် ကုသခြင်းများမှတဆင့် သုံးပုံတစ်ပုံအထိ လျှော့ချရန်နှင့် စိတ်ကျန်းမာရေးကောင်းမွန်စေရန် ဆောင်ရွက်ချက်များအား မြှင့်တင်ရန်။ </span>
         
 
           
@@ -568,12 +568,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-4-1">Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-4-1">နှလုံးရောဂါ၊ ကင်ဆာ၊ ဆီးချိုရောဂါနှင့် နာတာရှည် အသက်ရှူလမ်းကြောင်းဆိုင်ရာ ရောဂါများကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -590,12 +590,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-4-2">Suicide mortality rate</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-4-2">ကိုယ့်ကိုယ်ကို သတ်သေမှုများကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -605,9 +605,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.5</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.5</span>
         </h3>
-        <span class="target-name">Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol</span>
+        <span class="target-name">မူးယစ်ဆေးနှင့် အရက်သေစာကို အန္တရာယ်ရှိသည်အထိ အသုံးပြုမှုများအပါအဝင် ဆေးဝါးများကို အလွန်အကျွံလွဲမှားစွာ အသုံးပြုမှုကို ကာကွယ်ကုသခြင်းများ ပိုမိုဆောင်ရွက်ရန်။ </span>
         
 
           
@@ -621,12 +621,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-5-1">Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-5-1">မူးယစ်ဆေးဝါး စွဲလန်းမှုအတွက် ပြုလုပ်ပေးသော ဆေးကုသမှုများ (ဆေးဘက်ဆိုင်ရာ၊ လူမှုစိတ်ပိုင်းဆိုင်ရာ၊ ပြန်လည်သန်စွမ်းမှုနှင့် ဆေးရုံဆင်းပြီး ဆက်လက်စောင့်‌ရှောက်သော ဝန်ဆောင်မှုများ) လွှမ်းခြုံမှု</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -643,12 +643,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.5.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-5-2">Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-5-2"></a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -658,9 +658,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.6</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.6</span>
         </h3>
-        <span class="target-name">By 2020, halve the number of global deaths and injuries from road traffic accidents</span>
+        <span class="target-name">၂၀၂၀ တွင် တစ်ကမ္ဘာလုံးတွင် ယာဉ်မတော်တဆမှုဖြစ်သောကြောင့် သေဆုံးမှုနှင့် ထိခိုက်မှုအရေအတွက်ကို တစ်ဝက်အထိ လျှော့ချရန်။ </span>
         
 
           
@@ -674,12 +674,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.6.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-6-1">Death rate due to road traffic injuries</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-6-1">မော်တော်ယာဉ် မတော်တဆဖြစ်မှုများကြောင့် သေဆုံးမှုနှုန်း </a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -689,9 +689,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.7</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.7</span>
         </h3>
-        <span class="target-name">By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</span>
+        <span class="target-name">၂၀၃၀ တွင် လိင်ပိုင်းဆိုင်ရာနှင့်မျိုးဆက်ပွားကျန်းမာရေး ဝန်ဆောင်မှုများကို အားလုံးလက်လှမ်းမီရရှိစေရန်။ မွေးဖွားမှု ထိန်းချုပ်ခြင်းနှင့် မျိုးဆက်ပွားကျန်းမာရေးအတွက် သတင်းအချက်အလက်နှင့် အသိပညာပေးခြင်းများကို နိုင်ငံတော်မဟာဗျူဟာများနှင့် အစီအစဉ်များတွင် ထည့်သွင်းရေးဆွဲရန်။</span>
         
 
           
@@ -705,12 +705,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-7-1">Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-7-1">မွေးဖွားမှုထိန်းချုပ်ခြင်းလိုအပ်ချက်ကို ခေတ်သစ်နည်းလမ်းများဖြင့် ဆောင်ရွက်ကြသော မျိုးဖွားနိုင်သည့်အရွယ် (အသက် ၁၅နှစ်မှ ၄၉နှစ်) အတွင်းရှိသော အမျိုးသမီးများ၏ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -727,12 +727,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.7.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-7-2">Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-7-2"> လူတစ်ထောင်လျှင် (အသက် ၁၀နှစ်မှ ၁၄နှစ်အတွင်းနှင့် အသက် ၁၅နှစ်မှ ၁၉နှစ်အတွင်း) ရှိသော ဖော်ပြပါ အသက်အပိုင်းအခြားအုပ်စုများ၏ ဆယ်ကျော်သက် ကိုယ်ဝန်ဆောင်နှုန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -742,9 +742,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.8</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.8</span>
         </h3>
-        <span class="target-name">Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</span>
+        <span class="target-name">ငွေကြေးဆုံးရှုံးနိုင်ခြေကို ကာကွယ်ခြင်း၊ အရည်အသွေးပြည့်ဝပြီး အရေးကြီးသော ကျန်းမာရေးစောင့်ရှောက်မှုဝန်ဆောင်မှုများအား ရရှိစေခြင်း၊ လုံခြုံထိရောက်ပြီး  အရည်အသွေးပြည့်ဝတန်ဖိုးမျှတသော ဆေးနှင့် ကာကွယ်ဆေးများကို ရရှိရေး စသည်တို့ပါဝင်သည့် ဘက်စုံကျန်းမာရေးစောင့်ရှောက်မှုကို အကောင်အထည်ဖော်ရန်။ </span>
         
 
           
@@ -758,12 +758,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.8.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-8-1">Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-8-1"></a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -780,12 +780,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.8.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-8-2">Proportion of population with large household expenditures on health as a share of total household expenditure or income</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-8-2">အိမ်အသုံးစရိတ်စုစုပေါင်း (သို့မဟုတ်) အိမ်ဝင်ငွေစုစုပေါင်း၏ အစိတ်အပိုင်းအတော်များများကို ကျန်းမာရေးအတွက် အသုံးပြုနေသော လူဦးရေ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -795,9 +795,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.9</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.9</span>
         </h3>
-        <span class="target-name">By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</span>
+        <span class="target-name">၂၀၃၀ တွင် အန္တရာယ်၍ရှိသော ဓာတုပစ္စည်းများနှင့် လေ၊ရေနှင့် မြေဆီလွှာပျက်ဆီးညစ်ညမ်းခြင်းတို့ကြောင့် ဖြစ်ပေါ်လာသော သေဆုံးမှုနှင့် ဖျားနာမှုများကို ထိရောက်စွာ လျှော့ချနိုင်ရန်။ </span>
         
 
           
@@ -811,12 +811,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.9.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-9-1">Mortality rate attributed to household and ambient air pollution</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-9-1">အိမ်တွင်းနှင့် ပတ်ဝန်းကျင် လေထုညစ်ညမ်းမှုကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -833,12 +833,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.9.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-9-2">Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-9-2">မသန့်ရှင်းသောရေ၊ မသန့်ရှင်းသော မိလ္လာစနစ်နှင့် တစ်ကိုယ်ရေသန့်ရှင်းရေး အားနည်းမှုများကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -855,12 +855,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.3</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.9.3</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-9-3">Mortality rate attributed to unintentional poisoning</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-9-3">မတော်တဆအဆိပ်သင့်ခြင်းကြောင့် ဖြစ်ပွားသော အသေအပျောက်နှုန်း </a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -870,9 +870,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.a</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.a</span>
         </h3>
-        <span class="target-name">Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</span>
+        <span class="target-name">နိုင်ငံအားလုံးတွင် ဆေးလိပ်နှင့်ဆေးရွက်ကြီးသုံးစွဲမှုကို ထိန်းချုပ်နိုင်ရန် ချမှတ်ထားသော ကမ္ဘာ့ကျန်းမာရေးအဖွဲ့ကြီး၏မူဘောင် သဘောတူညီချက်များကို လိုအပ်သလို အကောင်အထည်ဖော်ခြင်း</span>
         
 
           
@@ -886,12 +886,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.a.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-a-1">Age-standardized prevalence of current tobacco use among persons aged 15 years and older</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-a-1">အသက် (၁၅)နှစ်နှင့် အထက်ရှိသူများတွင် လက်ရှိဆေးလိပ်နှင့် ဆေးရွက်ကြီးတို့ကို အသုံးပြုနေမှု များပြားသည့် အသက်အရွယ် အပိုင်းအခြား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -901,9 +901,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.b</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.b</span>
         </h3>
-        <span class="target-name">Support the research and development of vaccines and medicines for the communicable and non‐communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all</span>
+        <span class="target-name">ဖွံ့ဖြိုးဆဲနိုင်ငံများကို အဓိကထိခိုက်လျက်ရှိသော ကူးစက်နိုင်သောနှင့် မကူးစက်နိုင်သောရောဂါများအတွက် ကာကွယ်ဆေးနှင့် ဆေးဝါးများကို သုတေသနပြုလုပ်ရာတွင် အကူအညီပေးရန်။  လူသားအားလုံးဆေးဝါးများကို ရရှိအသုံးပြုနိုင်ပြီး ပြည်သူ့ကျန်းမာရေးကို ကာကွယ်နိုင်ရန်အတွက် ဖွံ့ဖြိုးဆဲနိုင်ငံများအနေဖြင့် ကုန်သွယ်ရေးဆိုင်ရာ ဉာဏမူပိုင်ခွင့်နှင့်ပတ်သက်သည့် ပြဌာန်းချက်များပါ အခွင့်အရေးများကို အပြည့်အဝအသုံးချနိုင်စေရန် TRIPS သဘောတူညီမှုနှင့် ပြည်သူ့ကျန်းမာရေးပေါ် အခြေခံထားသော Doha ကြေငြာချက်နှင့်အညီ တန်ဖိုးမျှတသော အရေးကြီး ဆေးဝါးနှင့် ကာကွယ်ဆေးများကို ရရှိစေရန်။</span>
         
 
           
@@ -917,12 +917,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-b-1">Proportion of the target population covered by all vaccines included in their national programme</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-b-1">သတ်မှတ်လူဦးရေထဲတွင် အမျိုးသားအဆင့်/ နိုင်ငံလုံးဆိုင်ရာ အစီအစဉ်အရ ကာကွယ်ဆေးထိုးပေးနိုင်ခဲ့သော လူဦးရေ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -939,12 +939,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.b.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-b-2">Total net official development assistance to medical research and basic health sectors</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-b-2">ဆေးသုတေသနနှင့် အခြေခံ ကျန်းမာရေးကဏ္ဍများအတွက် တရားဝင် ပေးအပ်သော ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့စုစုပေါင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -961,12 +961,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.3</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.b.3</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-b-3">Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-b-3">မရှိမဖြစ်လိုအပ်သော ဆေးဝါးများ တန်ဖိုးမျှတစွာ ရေရှည်ရရှိလည်ပတ်နိုင်သော ကျန်းမာရေးစောင့်ရှောက်မှုဌာနများ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -976,9 +976,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.c</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.c</span>
         </h3>
-        <span class="target-name">Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States</span>
+        <span class="target-name">ဖွံ့ဖြိုးဆဲနိုင်ငံများ အထူးသဖြင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများနှင့် ဖွံ့ဖြိုးဆဲကျွန်းငယ်နိုင်ငံများတွင် ကျန်းမာရေးလုပ်သားများကို ထပ်မံမွေးထုတ်ခြင်း၊ စွမ်းဆောင်ရည်မြှင့်တင်ခြင်း၊ သင်တန်းများပေးခြင်းနှင့် အလုပ်တွင်ဆက်လက်ထိန်းသိမ်းထားခြင်းတို့အပါအဝင် ကျန်းမာရေးဆိုင်ရာဝန်ဆောင်မှုများတွေ ငွေကြေးထောက်ပံ့ခြင်းများပိုမိုဆောင်ရွက်ရန်။ </span>
         
 
           
@@ -992,12 +992,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.c.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.c.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-c-1">Health worker density and distribution</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-c-1">ကျန်းမာရေးလုပ်သားများ၏ သိပ်သည်းမှုနှင့် ဖြန့်ကြတ်ထားရှိမှု</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -1007,9 +1007,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.d</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 3.d</span>
         </h3>
-        <span class="target-name">Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks</span>
+        <span class="target-name">ကျန်းမာရေးအန္တရာယ်များနှင့် ပတ်သက်၍ စောစီးစွာသတိပေးခြင်း၊ ဆုံးရှုံးနိုင်ချေလျှော့ချခြင်းနှင့် နိုင်ငံတော်နှင့် နိုင်ငံတကာကျန်းမာရေး အန္တရာယ်များကို စီမံခန့်ခွဲမှု လုပ်ငန်းစဉ်များလုပ်ဆောင်နိုင်သော စွမ်းဆောင်ရည်ကို နိုင်ငံအားလုံးတွင် အထူးသဖြင့် ဖွံ့ဖြိုးဆဲနိုင်ငံများတွင် မြှင့်တင်ပေးရန်</span>
         
 
           
@@ -1023,12 +1023,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.d.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 3.d.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/3-d-1">International Health Regulations (IHR) capacity and health emergency preparedness</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/3-d-1">နိုင်ငံတကာကျန်းမာရေးစည်းမျဉ်းစည်းကမ်းများ (IHR) ကို လက်ခံကျင့်သုံးနေမှုနှင့် အရေးပေါ် ကျန်းမာရေး အခြေအနေများအတွက် အသင့်ပြင်ထားရှိမှု</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -1044,25 +1044,25 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org"></a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">ဆက်သွယ်ရန်</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">တွစ်တာ</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">ဖေ့စ်ဘွတ်</a>
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-myanmar-indicators/about/cookies-and-privacy/"></a>
                 
                 </li>
               
@@ -1093,12 +1093,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'ရှာဖွေရန်';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201117125223'></script>
+<script src='/sdg-myanmar-indicators/assets/js/sdg.js?v=20201117172744'></script>
 
 <script>
 $(function() {

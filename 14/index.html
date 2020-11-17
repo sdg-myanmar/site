@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://sdg-my.github.io/sdg-myanmar-data/my',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'my',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -91,7 +91,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 14 - Life below water - Indicators For The Sustainable Development Goals</title>
+    <title>ရည်မှန်းချက် 14 - ရေအောက်သက်ရှိလောက ထိန်းသိမ်းစောင့်ရှောက်ရေး - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -105,13 +105,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-myanmar-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20201117125223">
+        <link rel="stylesheet" href="/sdg-myanmar-indicators/assets/css/style.css?v=20201117172744">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,18 +132,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-my layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">ပင်မအကြောင်းအရာသို့သွားရန်</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-        <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-myanmar-indicators/" id="home">
+        <img src="/sdg-myanmar-indicators/assets/img/SDG_logo.png" alt="စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်ရေး ပန်းတိုင်များ - ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/14/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/14/">
+              English
             </a>
           </li></ul>
   </div>
@@ -182,19 +182,19 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -206,11 +206,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/14/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/14/">
+              English
             </a>
           </li></ul>
   </div>
@@ -224,12 +224,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search-mobile">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -237,26 +237,26 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -268,11 +268,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/14/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/14/">
+              English
             </a>
           </li></ul>
   </div>
@@ -293,8 +293,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li class="active">Goal 14</li>
+  <li><a href="/sdg-myanmar-indicators/">ပင်မစာမျက်နှာ</a></li>
+  <li class="active">ရည်မှန်းချက် 14</li>
   
 </ol>
 
@@ -304,11 +304,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" id="goal-14"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/14.png" alt="ရေအောက်သက်ရှိလောက ထိန်းသိမ်းစောင့်ရှောက်ရေး - ရည်မှန်းချက် 14" id="goal-14"/>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 14: </span>Conserve and sustainably use the oceans, seas and marine resources for sustainable development
+          <span class="hidden-sm hidden-md hidden-lg">ရည်မှန်းချက် 14: </span>သမုဒ္ဒရာများ၊ ပင်လယ်များ၊ အဏ္ဏဝါသယံဇာတ အရင်းအမြစ်များကို စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်စေရန် ထိန်းသိမ်းစောင့်ရှောက်ပြီး ရေရှည်တည်တံ့ရေးကိုရှေးရှု၍ ထုတ်ယူအသုံးပြုရေး
         </h1>
       </div>
     </div>
@@ -327,9 +327,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.1</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.1</span>
         </h3>
-        <span class="target-name">By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution</span>
+        <span class="target-name">၂၀၂၅ တွင် ပင်လယ်ရေထုညစ်ညမ်းစေသောလုပ်ငန်းအမျိုးမျိုး၊ အထူးသဖြင့် ပင်လယ်ရေထုနှင့် ၎င်းကို မှီတင်းနေထိုင်နေသော အစားအစာရင်းမြစ်များကို ညစ်ညမ်းစေသည့် ကုန်းမြေကိုအခြေတည်သောလုပ်ငန်းများကို သိသာစွာ တားဆီးလျှော့ချနိုင်ရန်။ </span>
         
 
           
@@ -343,12 +343,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.1.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-1-1">Index of coastal eutrophication and floating plastic debris density</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-1-1">ကမ်းရိုးတန်းတွင် ရေညှိဖြစ်ပေါ်ခြင်းနှင့် မျောပါလာသော ပလတ်စတစ်အမှိုက်များ၏ သိပ်သည်းမှုတို့ကို ပြသောညွှန်းကိန်း။</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -358,9 +358,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.2</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.2</span>
         </h3>
-        <span class="target-name">By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans</span>
+        <span class="target-name">၂၀၂၀ တွင်  ပင်လယ်ရေထုနှင့် ကမ်းခြေဒေသများ၏ ကြံ့ကြံ့ခံနိုင်စွမ်းကို မြှင့်တင်ပြီး ဆိုးကျိုးများမရှိစေခြင်းဖြင့် ၎င်းတို့၏ဂေဟစနစ်ကို ထိရောက်စွာစီမံကာကွယ်နိုင်ရန်။ ထို့အပြင် ကောင်းမွန်ပြီး အကျိုးပြုနိုင်သော ပင်လယ်သမုဒ္ဒရာများအဖြစ် ပြန်လည်ဖြစ်ပေါ်လာစေရေးအတွက် လှုပ်ရှားအရေးယူမှုများ ဆောင်ရွက်ရန်။</span>
         
 
           
@@ -374,12 +374,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.2.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-2-1">Proportion of national exclusive economic zones managed using ecosystem-based approaches</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-2-1">ဂေဟစနစ်အခြေပြု နည်းလမ်းများကို အသုံးပြု၍ စီမံခန့်ခွဲမှုများ ပြုလုပ်နေသော နိုင်ငံ၏ အထူးစီးပွားရေးဇုန်များ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -389,9 +389,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.3</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.3</span>
         </h3>
-        <span class="target-name">Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels</span>
+        <span class="target-name">ပင်လယ်သမုဒ္ဒရာများတွင် အက်ဆစ်ဓာတ်များပြားလာမှုကြောင့် ဖြစ်ပေါ်လာသော အကျိုးဆက်များကို သိပ္ပံနည်းကျ ပူးပေါင်းဆောင်ရွက်မှုများကို အဘက်ဘက်မှ တိုးမြှင့်ခြင်းဖြင့် လျှော့ချရန်။ </span>
         
 
           
@@ -405,12 +405,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.3.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-3-1">Average marine acidity (pH) measured at agreed suite of representative sampling stations</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-3-1">တရားဝင်နမူနာယူထား‌သော ဌာနများ၏ သတ်မှတ်ချက်အရ တိုင်းတာထားသော ပင်လယ်ရေထု၏ ပျမ်းမျှ အက်ဆစ်ဓာတ် (ပီအိတ်ချ်)</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -420,9 +420,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.4</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.4</span>
         </h3>
-        <span class="target-name">By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics</span>
+        <span class="target-name">၂၀၂၀ တွင် အလွန်အကျွံငါးဖမ်းခြင်း၊ တရားမဝင်သော၊ ခွင့်ပြုချက်မရသော၊ သေချာမစီမံသော ငါးဖမ်းခြင်းနှင့် ထိခိုက်မှုများသော ငါးဖမ်းခြင်းများကို ထိရောက်စွာအဆုံးသတ်စေရန် စီမံခန့်ခွဲပြီး ပင်လယ်ထွက်ကုန်များ၏ ဇီဝလက္ခဏာအရ အများဆုံးဖမ်းယူနိုင်သော ပမာဏအား အချိန်တိုအတွင်း ပြန်လည်ဖြည့်ဆည်းနိုင်ရန်အတွက် သိပ္ပံနည်းပညာကို အခြေခံသော စီမံခန့်ခွဲမှုများကို ရေးဆွဲအကောင်အထည်ဖော်ရန်။</span>
         
 
           
@@ -436,12 +436,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.4.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-4-1">Proportion of fish stocks within biologically sustainable levels</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-4-1">သတ္တဗေဒဆိုင်ရာရေရှည်တည်တံ့နိုင်မှုသတ်မှတ်ချက်ထဲတွင်ဝင်သော ငါးကောင်ရေ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -451,9 +451,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.5</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.5</span>
         </h3>
-        <span class="target-name">By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information</span>
+        <span class="target-name">၂၀၂၀ တွင် ကမ်းရိုးတန်းနှင့် ပင်လယ်ဒေသများ၏ အနည်းဆုံး (၁၀) ရာခိုင်နှုန်းကို ထိန်းသိမ်းသွားရန်အတွက် အသင့်တော်ဆုံးသော သိပ္ပံနည်းကျ သတင်းအချက်အလက်များကိုအခြေခံပြီး ပြည်တွင်းနှင့် နိုင်ငံတကာဥပဒေများနှင့်အညီ ဆောင်ရွက်ခြင်း</span>
         
 
           
@@ -467,12 +467,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.5.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-5-1">Coverage of protected areas in relation to marine areas</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-5-1">ကာကွယ်စောင်ရှောက်ထားသော ဧရိယာဖုံးလွှမ်းမှုကို ဧရိယာပေါ်လိုက်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -482,9 +482,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.6</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.6</span>
         </h3>
-        <span class="target-name">By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation</span>
+        <span class="target-name">ကမ္ဘာ့ကုန်သွယ်ရေးအဖွဲ့၏ ရေထွက်လုပ်ငန်းမတည်ငွေဆိုင်ရာ ညှိနှိုင်းဆောင်ရွက်ခြင်းတွင် ဖွံ့ဖြိုးဆဲနှင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများအတွက် သင့်တော်ပြီး ထိရောက်သော တမူထူးခြားသည့် အထူးအခွင့်အရေးများအား တစ်သားတည်းပါဝင်ရေးအတွက် အသိအမှတ်ပြုရန်။ ထိုသို့ အသိအမှတ်ပြုပြီး ၂၀၂၀ တွင် အလွန်အကျွံငါးဖမ်းဆီးမှုများ နှင့် ပိုလျှံစွာသိုလှောင်ထားခြင်းများကို အားပေးသည့် မတည်ငွေပုံစံအချို့ကို တားဆီးရန်။ တရားမဝင်သော၊ ခွင့်ပြုချက်မရသော၊ စည်းကမ်းမရှိသော ငါးဖမ်းခြင်းများကို ဖယ်ရှားပြီး ထိုကဲ့သို့သော မတည်ငွေများထပ်မံမဖြစ်ပေါ်လာစေရေးအတွက် တားဆီးရန်။</span>
         
 
           
@@ -498,12 +498,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.6.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-6-1">Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-6-1">တရားမဝင်သော၊ ခွင့်မပြုသော၊ စည်းစနစ်မကျသော ငါးဖမ်းလုပ်ငန်းကို တိုက်ဖျက်ရန် ရည်ရွယ်သည့် နိုင်ငံတကာပူးပေါင်းဆောင်ရွက်မှုများ အကောင်အထည်ဖော်ခြင်း၏ တိုးတက်မှုပမာဏ။</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -513,9 +513,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.7</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.7</span>
         </h3>
-        <span class="target-name">By 2030, increase the economic benefits to small island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism</span>
+        <span class="target-name">၂၀၃၀ တွင် ငါမွေးမြူရေးလုပ်ငန်း ရေထွက်လုပ်ငန်းနှင့် ခရီးသွားလုပ်ငန်းများအား ရေရှည်တည်တံ့ခိုင်မြဲအောင် စီမံခန့်ခွဲပြီး ရေထွက်သယံဇာတများကိုကို မျှတစွာအသုံးပြုခြင်းအားဖြင့် ဖွံ့ဖြိုးဆဲကျွန်းငယ်နိုင်ငံများနှင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသော နိုင်ငံများ၏ စီးပွားရေးကို မြှင့်တင်ပေးနိုင်ရန်။</span>
         
 
           
@@ -529,12 +529,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.7.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-7-1">Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-7-1">နိုင်ငံများအားလုံး၊ ဖွံ့ဖြိုးဆဲကျွန်းငယ်နိုင်ငံများ၊ ဖွံ့ဖြိုးမှု နိမ့်ပါးသောနိုင်ငံများတွင် လုပ်ဆောင်သော ရေရှည်တည်တံ့ခိုင်မြဲသည့် ငါးဖမ်းမှုများကို ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP)ပေါ် အခြေခံ၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -544,9 +544,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.a</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.a</span>
         </h3>
-        <span class="target-name">Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries</span>
+        <span class="target-name">ဖွံ့ဖြိုးဆဲနိုင်ငံများ အထူးသဖြင့် ဖွံ့ဖြိုးဆဲကျွန်းငယ်နိုင်ငံများ နှင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသော နိုင်ငံများ တိုးတက်ရန်အတွက် ပင်လယ်သမုဒ္ဒရာများ၏ကျန်းမာရေး နှင့် ရေသတ္တဝါအမျိုးမျိုးကောင်းမွန်စွာရှင်သန်နိုင်ရေးကို တွန်းအားပေးရန်။ ထိုသို့ဆောင်ရွက်ရန်အတွက် သိပ္ပံဆိုင်ရာပညာဗဟုသုတကိုမြှင့်တင်ရန်၊ သုတေသနနှင့် ရေကြောင်းနည်းပညာလက်ဆင့်ကမ်းရေးကို အရှိန်တိုးမြှင့်ဆောင်ရွက်ရန်၊ ရေကြောင်းနည်းပညာလက်ဆင့်ကမ်းရာတွင် Intergovernmental Oceanographic Commission ၏ စံနှုန်းနှင့် လမ်းညွှန်ချက်များအရ ဆောင်ရွက်ရန်။ </span>
         
 
           
@@ -560,12 +560,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.a.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-a-1">Proportion of total research budget allocated to research in the field of marine technology</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-a-1">အဏ္ဏဝါနည်းပညာများကို သုတေသနပြုလုပ်ရန်အတွက် ခွဲတမ်းချထားသော သုတေသန ခန့်မှန်းခြေအသုံးစရိတ်စုစုပေါင်း အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -575,9 +575,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.b</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.b</span>
         </h3>
-        <span class="target-name">Provide access for small-scale artisanal fishers to marine resources and markets</span>
+        <span class="target-name">ရေထွက်အရင်းအမြစ်များနှင့် ဈေးကွက်များကို သမားရိုးကျငါးဖမ်းလုပ်ငန်းငယ်များမှ ရရှိအသုံးပြုနိုင်စေရန်။</span>
         
 
           
@@ -591,12 +591,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.b.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-b-1">Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-b-1">ငါးဖမ်းလုပ်ငန်းငယ်များ၏ အခွင့်အရေးကို အသိအမှတ်ပြုပြီး ကာကွယ်သော ဥပဒေ၊ လုပ်ထုံးလုပ်နည်း၊ မူဝါဒ၊ အဖွဲ့အစည်းဆိုင်ရာမူဘောင်ကို အသုံးချမှုတွင် နိုင်ငံအသီးသီး၏ တိုးတက်မှုပမာဏ။</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -606,9 +606,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 14.c</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 14.c</span>
         </h3>
-        <span class="target-name">Enhance the conservation and sustainable use of oceans and their resources by implementing international law as reflected in the United Nations Convention on the Law of the Sea, which provides the legal framework for the conservation and sustainable use of oceans and their resources, as recalled in paragraph 158 of “The future we want”</span>
+        <span class="target-name">ပင်လယ်သမုဒ္ဒရာများနှင့် ရေထွက်အရင်းအမြစ်များကို သဟဇာတမျှတစွာ အသုံးပြုပြီး ထိမ်းသိမ်းစောင့်ရှောက်ရန်။ ထိုသို့ဆောင်ရွက်ရန်အတွက် ဥပဒေမူဘောင်တစ်ခုဖြစ်သော ကုလသမဂ္ဂ ပင်လယ်ရေကြောင်းဥပဒေဆိုင်ရာ သဘောတူညီမှု စာချုပ်ပါ “ကျွန်ုပ်တို့လိုချင်သော အနာဂတ်” ၏ စာပိုဒ် ၁၅၈ အရ နိုင်ငံတကာဥပဒေကို အကောင်အထည်ဖော်ရန်။</span>
         
 
           
@@ -622,12 +622,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 14.c.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 14.c.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/14-c-1">Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/14-c-1">ကုလသမဂ္ဂ၏ ရေကြောင်းဥပဒေဆိုင်ရာ ပဋိဉာဉ်စာတမ်းတွင် ပါရှိသည့်အတိုင်း နိုင်ငံတကာ ဥပဒေ၊ မူဝါဒနှင့် အဖွဲ့အစည်းဆိုင်ရာ မူဘောင်များကို အသုံးပြု၍ သမုဒ္ဒရာများနှင့် ၎င်းတို့၏သယံဇာတများကို ထိန်းသိမ်းပြီး ရေရှည်တည်တံ့ခိုင်မြဲအောင် အသုံးပြုရေးခြင်း လုပ်ငန်းများကို အတည်ပြုခြင်း၊ လက်ခံခြင်း၊ အကောင်အထည်ဖော်ခြင်းများတွင် တိုးတက်မှုရှိသော နိုင်ငံအရေအတွက်။</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -643,25 +643,25 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org"></a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">ဆက်သွယ်ရန်</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">တွစ်တာ</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">ဖေ့စ်ဘွတ်</a>
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-myanmar-indicators/about/cookies-and-privacy/"></a>
                 
                 </li>
               
@@ -692,12 +692,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'ရှာဖွေရန်';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201117125223'></script>
+<script src='/sdg-myanmar-indicators/assets/js/sdg.js?v=20201117172744'></script>
 
 <script>
 $(function() {

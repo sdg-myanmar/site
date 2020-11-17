@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://sdg-my.github.io/sdg-myanmar-data/my',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'my',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -91,7 +91,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 15 - Life on land - Indicators For The Sustainable Development Goals</title>
+    <title>ရည်မှန်းချက် 15 - မြေပေါ်သက်ရှိလောက ထိန်းသိမ်းစောင့်ရှောက်ရေး - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -105,13 +105,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-myanmar-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20201117125223">
+        <link rel="stylesheet" href="/sdg-myanmar-indicators/assets/css/style.css?v=20201117172744">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,18 +132,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-my layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">ပင်မအကြောင်းအရာသို့သွားရန်</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-        <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-myanmar-indicators/" id="home">
+        <img src="/sdg-myanmar-indicators/assets/img/SDG_logo.png" alt="စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်ရေး ပန်းတိုင်များ - ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/15/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -182,19 +182,19 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -206,11 +206,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/15/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -224,12 +224,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search-mobile">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -237,26 +237,26 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -268,11 +268,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/15/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -293,8 +293,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li class="active">Goal 15</li>
+  <li><a href="/sdg-myanmar-indicators/">ပင်မစာမျက်နှာ</a></li>
+  <li class="active">ရည်မှန်းချက် 15</li>
   
 </ol>
 
@@ -304,11 +304,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" id="goal-15"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/15.png" alt="မြေပေါ်သက်ရှိလောက ထိန်းသိမ်းစောင့်ရှောက်ရေး - ရည်မှန်းချက် 15" id="goal-15"/>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 15: </span>Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+          <span class="hidden-sm hidden-md hidden-lg">ရည်မှန်းချက် 15: </span>ကုန်းနေဂေဟစနစ်များကို ကာကွယ်ထိန်းသိမ်းပြီး ရေရှည်တည်တံ့ရေးကိုရှေးရှု၍ ထုတ်ယူအသုံးပြုမှုများကို မြှင့်တင်ရေး၊ သစ်တောများကို ရေရှည်တည်တံ့အောင်စီမံခန့်ခွဲရေး၊ သဲကန္တာရဖြစ်ထွန်းလာမှုကို တိုက်ဖျက်ရေး၊ ကုန်းမြေတစစယိုယွင်းလာမှုကို ရပ်တန့်ပြီး နောက်ကြောင်းပြန်လှည့်စေရေး နှင့် ဇီဝမျိုးစုံမျိုးကွဲများ ဆုံးရှုံးမှုကို ရပ်တန့်စေရေး
         </h1>
       </div>
     </div>
@@ -327,9 +327,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.1</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.1</span>
         </h3>
-        <span class="target-name">By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements</span>
+        <span class="target-name">၂၀၂၀ တွင် ကုန်းမြေ၊ ကုန်းတွင်းရေချိုဂေဟစနစ်နှင့် ၎င်းတို့၏ရင်းမြစ်များ၊ အထူးသဖြင့် သစ်တောများ၊ စိမ့်မြေများ၊ တောင်တန်းများနှင့် မိုးနည်းဒေသများကို ကာကွယ်ထိန်းသိမ်းခြင်း၊ ပြန်လည်ကောင်းမွန်စေခြင်း၊ နှင့် သဟဇာတရှိစွာ အသုံးပြုခြင်းများကို နိုင်ငံတကာသဘောတူညီချက်များပါ တာဝန်များနှင့်အညီ ပိုမိုတိုးမြှင့်ရန်။</span>
         
 
           
@@ -343,12 +343,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.1.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-1-1">Forest area as a proportion of total land area</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-1-1">သစ်တောဧရိယာအချိုးအစားကို မြေဧရိယာစုစုပေါင်းပေါ် အခြေခံ၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -365,12 +365,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.1.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.1.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-1-2">Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-1-2">ဂေဟစနစ်အမျိုးအစားအရ ကာကွယ်ထိန်းသိမ်းထားသော ဒေသများရှိ ကုန်းနေရေနေ ဇီဝမျိုးကွဲများအတွက် ထားရှိသော အရေးပါသည့် နယ်မြေအချိုးအစား။  </a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -380,9 +380,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.2</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.2</span>
         </h3>
-        <span class="target-name">By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally</span>
+        <span class="target-name">၂၀၂၀ တွင် သစ်တောများအားလုံးကို ရေရှည်တည်တံ့ခိုင်မြဲမှုရှိအောင် စီမံခန့်ခွဲခြင်း၊ သစ်တောပြုန်းတီးမှုကို တားဆီးခြင်း၊ ပျက်စီးနေသောသစ်တောများကို ပြန်လည်ထိန်းသိမ်းခြင်းနှင့် သစ်တောအသစ်များကို ထပ်မံပျိုးထောင်ပြီး သစ်တောများကိုပြန်လည်စိုက်ပျိုးခြင်းများကို နိုင်ငံတကာနှုန်းဖြင့် အရှိန်မြှင့်တင်အကောင်အထည်ဖော် ဆောင်ရွက်ရန်။</span>
         
 
           
@@ -396,12 +396,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.2.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-2-1">Progress towards sustainable forest management</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-2-1">သစ်တောများကို ‌ရေရှည်တည်တံ့အောင် စီမံခန့်ခွဲမှုပြုလုပ်နိုင်ခြင်းအတွက် တိုးတက်မှု</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -411,9 +411,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.3</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.3</span>
         </h3>
-        <span class="target-name">By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world</span>
+        <span class="target-name">၂၀၃၀ တွင် ကန္တာရပေါ်ပေါက်ခြင်း၊ ရေကြီးရေလျှံခြင်းနှင့် မိုးခေါင်ရေရှားခြင်းများကြောင့် ပြုန်းတီးပျက်ဆီးသွားသော ကုန်းမြေနှင့် မြေဆီလွှာကို ပြန်လည်ကောင်းမွန်အောင် ဆောင်ရွက်ရန် နှင့် ဂေဟစနစ်ကို ပုံမှန်လည်ပတ်စေပြီး ပြုန်းတီးပျက်စီးခြင်းကင်းသော ကုန်းမြေအရည်အသွေးတစ်ခု ဖြစ်ပေါ်လာစေရန်။</span>
         
 
           
@@ -427,12 +427,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.3.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-3-1">Proportion of land that is degraded over total land area</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-3-1">မြေဆီလွှာပျက်စီးဆုံးရှုံးမှုဖြစ်ပွားသော မြေဧရိယာအချိုးအစားကို မြေဧရိယာစုစုပေါင်းပေါ် အခြေခံ၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -442,9 +442,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.4</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.4</span>
         </h3>
-        <span class="target-name">By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development</span>
+        <span class="target-name">၂၀၃၀ တွင် စဉ်ဆက်မပြတ်ဖွံ့ဖြိုးရေးတိုးတက်အတွက် အရေးပါသော အကျိုးကျေးဇူးများကို ပိုမိုတိုးမြှင့်ရန် လုပ်ဆောင်သော ဇီဝမျိုးကွဲများအပါအဝင် တောင်တန်းဒေသများ၏ ဂေဟစနစ်ကို ထိန်းသိမ်းနိုင်စေရန်။</span>
         
 
           
@@ -458,12 +458,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.4.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-4-1">Coverage by protected areas of important sites for mountain biodiversity</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-4-1">တောတောင်ဇီဝမျိုးစုံမျိုးကွဲများအတွက် အရေးကြီးသော နေရာများအဖြစ် ကာကွယ်ထိန်းသိမ်းထားသော ဧရိယာ ဖုံးလွှမ်းမှု</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -480,43 +480,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.4.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-4-2">Mountain Green Cover Index</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-4-2">တောတောင် အစိမ်းရောင်ဖုံးလွှမ်းမှု ညွှန်းကိန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.5</span>
-        </h3>
-        <span class="target-name">Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.5.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-5-1">Red List Index</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -526,9 +495,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.6</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.5</span>
         </h3>
-        <span class="target-name">Promote fair and equitable sharing of the benefits arising from the utilization of genetic resources and promote appropriate access to such resources, as internationally agreed</span>
+        <span class="target-name">သက်ရှိတို့၏ သဘာဝကျက်စားရာနေရာများပျက်စီးခြင်းကို တားဆီးနိုင်ရန်နှင့် ဇီဝမျိုးကွဲများဆုံးရှုံးမှုကို တားဆီးရန်အတွက် မျိုးသုန်းလုနီးပါးဖြစ်နေသော မျိုးစိတ်များကို ကာကွယ်ရန် အရေးပေါ်စီမံလုပ်ဆောင်ချက်များကို အကောင်အထည်ဖော်ဆောင်ရွက်ရန်။</span>
         
 
           
@@ -542,12 +511,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.6.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-6-1">Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-5-1">အနီရောင်စာရင်းညွှန်းကိန်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -557,9 +526,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.7</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.6</span>
         </h3>
-        <span class="target-name">Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products</span>
+        <span class="target-name">မျိုးရိုးဗီဇဆိုင်ရာရင်းမြစ်များကို အသုံးပြုခြင်းမှ ရရှိလာသော၏ အကျိုးကျေးဇူးများကို နိုင်ငံတကာသဘောတူညီထားသည့်အတိုင်း အချိုးကျအသုံးချနိုင်ခြင်းကို မြှင့်တင်ရန်။ </span>
         
 
           
@@ -573,12 +542,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.7.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-7-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-6-1">အကျိုးခံစားခွင့်များကို တရားမျှတစွာ သာတူညီမျှ ရရှိရေးအတွက် ဥပဒေပိုင်းဆိုင်ရာ၊ အုပ်ချုပ်မှုပိုင်းဆိုင်ရာနှင့် မူဝါဒပိုင်းဆိုင်ရာမူဘောင်များကို လက်ခံကျင့်သုံးကြသော နိုင်ငံအရေအတွက်</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -588,9 +557,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.8</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.7</span>
         </h3>
-        <span class="target-name">By 2020, introduce measures to prevent the introduction and significantly reduce the impact of invasive alien species on land and water ecosystems and control or eradicate the priority species</span>
+        <span class="target-name">ကာကွယ်ထားသော ဒေသရင်းအပင်များနှင့် တိရိစ္ဆာန်များကို သတ်ဖြတ်ခြင်းနှင့် ခိုးယူရောင်းချခြင်းများကို အဆုံးသတ်နိုင်ရေးအတွက် အရေးပေါ်လုပ်ဆောင်ရန်နှင့်  တောရိုင်းတိရိစ္ဆာန်မှ ရရှိသော တရားမဝင်ကုန်ပစ္စည်းများ၏ ရောင်းအားနှင့် ဝယ်အားနှစ်ခုစလုံးနှင့်ပတ်သက်ပြီး ဆွေးနွေးတိုင်ပင်ရန်။ </span>
         
 
           
@@ -604,12 +573,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.8.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-8-1">Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-7-1">‌တရားမဝင် ဖမ်းဆီးသတ်ဖြတ်ခြင်း (သို့မဟုတ်) တရားမဝင် ကုန်ကူးရောင်းချခြင်းခံရသော တောရိုင်းတိရိစ္ဆာန်များ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -619,9 +588,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.9</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.8</span>
         </h3>
-        <span class="target-name">By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts</span>
+        <span class="target-name">၂၀၂၀ တွင် ကုန်းမြေနှင့် ရေထုဆိုင်ရာဂေဟစနစ်များသို့ မူလဌာနေမျိုးစိတ်မဟုတ်သော မျိုးကွဲများကို ခေါ်ဆောင်လာပြီး ထိန်းသိမ်းထားပြီးဖြစ်သော မျိုးစိတ်များအား မျိုးသုန်းစေခြင်းကို ထိရောက်စွာတားဆီးရန်အတွက် စီမံချက်များကို အကောင်အထည်ဖော်ရန်။  </span>
         
 
           
@@ -635,12 +604,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.9.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.8.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-9-1">Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-8-1">မူလဌာနေမျိုးစိတ်မဟုတ်သော မျိုးကွဲများကို ထိန်းချုပ်ခြင်း (သို့မဟုတ်) ကာကွယ်ခြင်းများတွင် သက်ဆိုင်ရာ အမျိုးသားဥပဒေများ ပြဌာန်းသော နိုင်ငံများ၏ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -650,9 +619,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.a</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.9</span>
         </h3>
-        <span class="target-name">Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems</span>
+        <span class="target-name">၂၀၂၀ တွင် နိုင်ငံတော်နှင့် ဒေသဆိုင်ရာစီမံကိန်းများ၊ ဖွံ့ဖြိုးရေးလုပ်ငန်းစဉ်များနှင့် ဆင်းရဲမှုလျှော့ချရေးမဟာဗျူဟာများတွင် ဂေဟစနစ်နှင့် ဇီဝမျိုးစုံမျိုးကွဲတို့၏ တန်ဖိုးများကို ထည့်သွင်းရေးဆွဲလုပ်ဆောင်ရန်</span>
         
 
           
@@ -666,12 +635,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.a.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.9.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-a-1">Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-9-1">ဇီဝမျိုးစုံမျိုးကွဲများအတွက် မဟာဗျူဟာအစီအစဉ် ၂၀၁၁-၂၀၂၀ တွင် ပါဝင်သော အီချီ ဇီဝမျိုးစုံမျိုးကွဲ ရည်မှန်းချက် နံပါတ် (၂) နှင့် အညီ အမျိုးသားအဆင့်/နိုင်ငံတော်အဆင့် ရည်မှန်းချက်များ ချမှတ်ရာတွင် တိုးတက်မှု</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -681,9 +650,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.b</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.a</span>
         </h3>
-        <span class="target-name">Mobilize significant resources from all sources and at all levels to finance sustainable forest management and provide adequate incentives to developing countries to advance such management, including for conservation and reforestation</span>
+        <span class="target-name"> </span>
         
 
           
@@ -697,12 +666,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.b.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-b-1">Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-a-1">ဇီဝမျိုးစုံမျိုးကွဲများနှင့် ဂေဟစနစ်များကို ရေရှည်တည်တံ့အောင်ထိန်းသိမ်းစောင့်ရှောက်အသုံးပြုရန် တရားဝင်ရရှိသော ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့နှင့် ပြည်သူအတွက်ကျခံသော အစိုးရ၏ ကုန်ကျစရိတ်</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -712,9 +681,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.c</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.b</span>
         </h3>
-        <span class="target-name">Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities</span>
+        <span class="target-name">ရင်းမြစ်များမှ အဖိုးတန်သောသယံဇာတအားလုံးကို စနစ်တကျမျှဝေအသုံးပြုရန်နှင့် သစ်တောမြေများ ရေရှည်တည်တံ့ခိုင်မြဲစေရန် စီမံခန့်ခွဲရေးကို အဘက်ဘက်မှ ငွေကြေးလုံလောက်စွာ ထောက်ပံ့ရန်။ သစ်တောမြေထိန်းသိန်းရေးနှင့် ပြန်လည်စိုက်ပျိုးခြင်းများ အပါအဝင်ထိုကဲ့သို့သော စီမံခန့်ခွဲမှုများကိုဖွံ့ဖြိုးဆဲနိုင်ငံများတွင် အရှိန်အဟုန်မြှင့်တင်ဆောင်ရွက်ရေးအတွက် သင့်လျော်သော ထောက်ပံ့မှုများကို ပေးအပ်ရန်။ </span>
         
 
           
@@ -728,12 +697,43 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.c.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-c-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-b-1">ဇီဝမျိုးစုံမျိုးကွဲများနှင့် ဂေဟစနစ်များကို ရေရှည်တည်တံ့အောင်ထိန်းသိမ်းစောင့်ရှောက်အသုံးပြုရန် တရားဝင်ရရှိသော ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့နှင့် ပြည်သူအတွက်ကျခံသော အစိုးရ၏ ကုန်ကျစရိတ်</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+            </span>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 15.c</span>
+        </h3>
+        <span class="target-name">ဒေသခံလူ့အဖွဲ့အစည်းမှ စဉ်ဆက်မပြတ်ဖွံ့ဖြိုးတိုးတက်သော အသက်မွေးဝမ်းကျောင်း အခွင့်အလမ်းများကို ပိုမိုရရှိနိုင်ရန် နှင့် ကာကွယ်ထားသော ဒေသရင်းအပင်များနှင့် တိရိစ္ဆာန်များကို ခိုးယူရောင်းချခြင်းများအား တားဆီးရာတွင် လိုအပ်သော အထောက်အပံ့များကို တစ်ကမ္ဘာလုံးအနေဖြင့် ပိုမိုပေးအပ်နိုင်စေရန်။ </span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 15.c.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/15-c-1">‌တရားမဝင် ဖမ်းဆီးသတ်ဖြတ်ခြင်း (သို့မဟုတ်) တရားမဝင် ကုန်ကူးရောင်းချခြင်းခံရသော တောရိုင်းတိရိစ္ဆာန်များ အချိုးအစား</a></span>
+            <span class="sr-only">Indicator status</span>
+            <span class="status notstarted">
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -749,25 +749,25 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org"></a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">ဆက်သွယ်ရန်</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">တွစ်တာ</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">ဖေ့စ်ဘွတ်</a>
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-myanmar-indicators/about/cookies-and-privacy/"></a>
                 
                 </li>
               
@@ -798,12 +798,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'ရှာဖွေရန်';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201117125223'></script>
+<script src='/sdg-myanmar-indicators/assets/js/sdg.js?v=20201117172744'></script>
 
 <script>
 $(function() {

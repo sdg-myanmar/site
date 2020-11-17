@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://sdg-my.github.io/sdg-myanmar-data/my',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'my',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -91,7 +91,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 10 - Reduced inequalities - Indicators For The Sustainable Development Goals</title>
+    <title>ရည်မှန်းချက် 10 - ကျား၊မ တန်းတူညီမျှမှုရှိရေး - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -105,13 +105,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-myanmar-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20201117125223">
+        <link rel="stylesheet" href="/sdg-myanmar-indicators/assets/css/style.css?v=20201117172744">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,18 +132,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-my layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">ပင်မအကြောင်းအရာသို့သွားရန်</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag"></strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-        <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-myanmar-indicators/" id="home">
+        <img src="/sdg-myanmar-indicators/assets/img/SDG_logo.png" alt="စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်ရေး ပန်းတိုင်များ - ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/10/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -182,19 +182,19 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -206,11 +206,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/10/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -224,12 +224,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search-mobile">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -237,26 +237,26 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/sdg-myanmar-indicators/search">
+    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" />
+    <label class="sr-only" for="indicator_search">ရှာဖွေရန်</label>
+    <button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -268,11 +268,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
+      <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/10/">
-              Español
+            <a href="/sdg-myanmar-indicators/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -293,8 +293,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li class="active">Goal 10</li>
+  <li><a href="/sdg-myanmar-indicators/">ပင်မစာမျက်နှာ</a></li>
+  <li class="active">ရည်မှန်းချက် 10</li>
   
 </ol>
 
@@ -304,11 +304,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" id="goal-10"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/10.png" alt="ကျား၊မ တန်းတူညီမျှမှုရှိရေး - ရည်မှန်းချက် 10" id="goal-10"/>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 10: </span>Reduce inequality within and among countries
+          <span class="hidden-sm hidden-md hidden-lg">ရည်မှန်းချက် 10: </span>နိုင်ငံတွင်းနှင့် နိုင်ငံတကာတွင် ကျား၊မ တန်းတူညီမျှမှု ရှိရေး
         </h1>
       </div>
     </div>
@@ -327,9 +327,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.1</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.1</span>
         </h3>
-        <span class="target-name">By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</span>
+        <span class="target-name">၂၀၃၀ တွင် လူဦးရေအားလုံး၏ အောက်ခြေ ၄၀ ရာခိုင်နှုန်း၏ ဝင်ငွေများကိုတိုးပွားစေရန်နှင့် ထိုတိုးပွားမှုကို တစ်နိုင်ငံလုံး အတိုင်းအတာအရ ပျမ်းမျှထက်ပိုသောနှုန်းတစ်ခုတွင် ထိန်းထားနိုင်ရန်။ </span>
         
 
           
@@ -343,12 +343,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.1.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-1-1">Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-1-1">တိုးတက်လာသော အိမ်အသုံးစရိတ်များ (သို့မဟုတ်) လူဦးရေ၏ အောက်ခြေ (၄၀)ရာခိုင်နှုန်းတွင်ရှိသော လူတစ်ဦးချင်းစီ၏ ဝင်ငွေနှင့် လူဦးရေအားလုံး၏ တစ်ဦးချင်းဝင်ငွေ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -358,9 +358,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.2</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.2</span>
         </h3>
-        <span class="target-name">By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status</span>
+        <span class="target-name">၂၀၃၀တွင် အသက်၊ ကျား/မ၊ မသန်စွမ်းမှုအခြေအနေ၊ လူမျိုးစု၊ တိုင်းရင်းသားမျိုးနွယ်စု၊ မွေးဖွားရာဒေသ၊ ကိုးကွယ်သည့် ဘာသာ၊ စီးပွားရေး သို့မဟုတ် အခြားမည်သည့်အခြေအနေတွင် ရှိနေသည်ဖြစ်စေ ခွဲခြားမှုမရှိဘဲ လူသားတိုင်း၏ လူမှုရေး၊ စီးပွားရေးနှင့် နိုင်ငံရေး ပါဝင်နိုင်စေမှုအား လှုံ့ဆော်တိုးမြှင့်ပေးရန်။ </span>
         
 
           
@@ -374,12 +374,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.2.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-2-1">Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-2-1">ပျမ်းမျှဝင်ငွေအောက် ၅၀ ရာခိုင်နှုန်းတွင် နေထိုင်သော လူဦးရေအချိုးအစားကို  ကျား/မ ၊ အသက် နှင့် မသန်စွမ်းသောသူများ စသည်တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -389,9 +389,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.3</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.3</span>
         </h3>
-        <span class="target-name">Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard</span>
+        <span class="target-name">လူတန်းစားခွဲခြားသည့် ဥပဒေများ၊ မူဝါဒများနှင့် အလေ့အကျင့်များကို အဆုံးသတ်ပြီး သင့်တော်သော ဥပဒေပြဌာန်းမှုများ၊ မူဝါဒများနှင့် လုပ်ငန်းစဉ်များကို အရှိန်အဟုန်မြှင့်တင်ကာ လူသားတိုင်း တန်းတူအခွင့်အရေးရရှိစေရန် နှင့် မမျှတမှုများကို လျှော့ချရန်။ </span>
         
 
           
@@ -405,12 +405,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.3.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-3-1">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-3-1">နိုင်ငံတကာ လူ့အခွင့်အရေးဥပဒေအောက်တွင် သတ်မှတ်ထားသည့် လူတန်းစားခွဲခြားခြင်းဟူသော အဓိပ္ပာယ်ဖွင့်ဆိုချက်အရ လွန်ခဲ့သော (၁၂)လအတွင်း လူတန်းစားခွဲခြားခံရခြင်း၊ အရှက်တကွဲဖြစ်စေရန် နှောက်ယှက်စော်ကားခံရခြင်းများကို တိုင်ကြားသော လူဦးရေအချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -420,9 +420,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.4</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.4</span>
         </h3>
-        <span class="target-name">Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality</span>
+        <span class="target-name">ငွေကြေးဆိုင်ရာ၊ လုပ်အားခနှင့် လူမှုကာကွယ်စောင့်ရှောက်ရေး မူဝါဒများကို ချမှတ်ရန်နှင့် ထိုမူဝါဒများသည် အရှိန်အဟုန်မြင့်မားစွာ တန်းတူညီမျှမှုရှိစေရန်။ </span>
         
 
           
@@ -436,12 +436,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.4.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-4-1">Labour share of GDP, comprising wages and social protection transfers</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-4-1">လစာများနှင့် လူမှုဖူလုံရေး ငွေလွှဲခြင်းများပါဝင်သော ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) အတွက် လုပ်သားများထည့်ဝင်သောဝေစု</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -451,9 +451,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.5</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.5</span>
         </h3>
-        <span class="target-name">Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations</span>
+        <span class="target-name">နိုင်ငံတကာ ငွေကြေးဈေးကွက်နှင့် အဖွဲ့အစည်းများနှင့်ပတ်သက်သည့် လုပ်ထုံးလုပ်နည်း၊ စောင့်ကြပ်လေ့လာမှုများကို ပိုမိုကောင်းမွန်စေပြီး ၎င်းတို့ကို အားကောင်းစွာ ဆက်လက်အကောင်အထည်ဖော်နိုင်စေရန်။ </span>
         
 
           
@@ -467,12 +467,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.5.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-5-1">Financial Soundness Indicators (FSIs)</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-5-1">ငွေကြေးအခြေအနေကောင်းမွန်ခြင်းပြ အညွှန်းများ</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -482,9 +482,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.6</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.6</span>
         </h3>
-        <span class="target-name">Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions</span>
+        <span class="target-name">ပိုမိုထိရောက် မှန်ကန်ပြီး ခိုင်မာသော တရားဝင်အဖွဲ့အစည်းများ ပိုမိုများပြားစွာ ပေါ်ပေါက်လာစေရန်အတွက် နိုင်ငံတကာစီးပွားရေး၊ ငွေကြေးဆိုင်ရာ အဖွဲ့အစည်းမျာ၏ ဆုံးဖြတ်ချက်ချမှုများတွင် ဖွံ့ဖြိုးဆဲနိုင်ငံများ၏ ကိုယ်စားပြုပိုင်ခွင့်နှင့် ပါဝင်ပြောဆိုပိုင်ခွင့်ကို တိုးမြှင့်ရန်။</span>
         
 
           
@@ -498,12 +498,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.6.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-6-1">Proportion of members and voting rights of developing countries in international organizations</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-6-1">နိုင်ငံတကာအဖွဲ့အစည်းများတွင်ပါဝင်သော ဖွံ့ဖြိုးဆဲနိုင်ငံများ၏ အဖွဲ့ဝင်နှင့် မဲပေးနိုင်ခွင့်ရှိသူ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -513,9 +513,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.7</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.7</span>
         </h3>
-        <span class="target-name">Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies</span>
+        <span class="target-name">သေချာစွာစီစဉ်စီမံထားသော သက်ဆိုင်ရာမူဝါဒများကို စေ့စပ်စွာအကောင်အထည်ဖော်ခြင်းဖြင့် စနစ်ကျသော၊ လုံခြုံစိတ်ချရသော၊ ပုံမှန်ဖြစ်ပြီး တာဝန်ယူမှုရှိသော ရွှေ့ပြောင်းအခြေချနေထိုင်ခြင်းများကို ဖြည့်ဆည်းဆောင်ရွက်နိုင်ရန်။</span>
         
 
           
@@ -529,12 +529,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-7-1">Recruitment cost borne by employee as a proportion of yearly income earned in country of destination</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-7-1">ဦးတည်သွားရောက်သည့်နိုင်ငံတွင် ရရှိသော တစ်နှစ်စာဝင်ငွေထဲမှ ဝန်ထမ်းအနေဖြင့်ကျခံရသော အလုပ်ရှာဖွေခြင်း ကုန်ကျစရိတ် အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -551,43 +551,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.2</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.7.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-7-2">Number of countries that have implemented well-managed migration policies</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-7-2">ရွှေ့ပြောင်းနေထိုင်ခြင်းဆိုင်ရာ မူဝါဒမျာကို ကောင်းမွန်စွာ စီမံခန့်ခွဲ အကောင်အထည်ဖော်နိုင်ခဲ့သော နိုင်ငံ အရေအတွက်</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.a</span>
-        </h3>
-        <span class="target-name">Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.a.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-a-1">Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -597,9 +566,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.b</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.a</span>
         </h3>
-        <span class="target-name">Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes</span>
+        <span class="target-name">ဖွံ့ဖြိုးဆဲနိုင်ငံများ အထူးသဖြင့် ဖွံဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများအတွက် ကမ္ဘာ့ကုန်သွယ်မှုအဖွဲ့အစည်း (WTO) ၏ သဘောတူညီမှုများနှင့်အညီ တမူထူးခြားသော အထူးအခွင့်အရေးများ မူဝါဒရေးဆွဲပြီး အကောင်အထည်ဖော်ရန်။ </span>
         
 
           
@@ -613,12 +582,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.b.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-b-1">Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-a-1">ဖွံ့ဖြိုးမှု နိမ့်ပါးသည့် နိုင်ငံများနှင့် သွင်းကုန်စည်းကြပ်အခွန် သုညရှိသော နိုင်ငံများမှ သွင်းကုန်များအပေါ် ထားရှိထားသော သွင်းကုန်စည်းကြပ်အခွန်မျဉ်းများ၏ အချိုးအစား</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -628,9 +597,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.c</span>
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.b</span>
         </h3>
-        <span class="target-name">By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent</span>
+        <span class="target-name">အကူအညီအလိုအပ်ဆုံးဖြစ်သည့်နိုင်ငံများ၊ အထူးသဖြင့် ဖွံ့ဖြိုးမှုနိမ့်ပါးသောနိုင်ငံများ၊ အာဖရိကန်နိုင်ငံများ၊ ဖွံ့ဖြိုးဆဲ ကျွန်းငယ်နိုင်ငံများနှင့် ကုန်းတွင်းနိုင်ငံများအတွက် ၎င်းတို့၏ နိုင်ငံတော်အစီအစဉ်များနှင့်အညီ နိုင်ငံခြားမှတိုက်ရိုက်ရင်းနှီးမြှပ်နှံမှုအပါအဝင် ငွေကြေးစီးဆင်းမှုစသည့် တရားဝင်ဖွံ့ဖြိုးတိုးတက်မှုအကူအညီများကို ပိုမိုပေးအပ်ရန်။ </span>
         
 
           
@@ -644,12 +613,43 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.c.1</span>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/10-c-1">Remittance costs as a proportion of the amount remitted</a></span>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-b-1">ဖွံ့ဖြိုးတိုးတက်မှုအတွက် စီးဆင်းနေသော အရင်းအမြစ်စုစုပေါင်းကို အလှူလက်ခံသောနိုင်ငံ၊ လှူဒါန်းသောနိုင်ငံနှင့် စီးဆင်းပုံအမျိုးအစားပေါ်ကို လိုက်၍ ဖော်ပြခြင်း (ဥပမာ - တရားဝင်ဖွံ့ဖြိုးတိုးတက်မှု အထောက်အပံ့၊ နိုင်ငံခြားတိုက်ရိုက်ရင်းနှီးမြှုပ်နှံမှု နှင့် အခြား စီးဆင်းမှုပုံစံများ)</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
-              Exploring data sources
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+            </span>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">ဗဟိုချက်</span> 10.c</span>
+        </h3>
+        <span class="target-name">၂၀၃၀ တွင် ရွှေ့ပြောင်းလုပ်သားများမှ မိမိနိုင်ငံသို့ ပြန်လည်ပေးပို့သောငွေကြေး၏ ငွေလွှဲခကို ၃ ရာခိုင်နှုန်းအောက်ထိ လျှော့ချရန်နှင့် ငွေလွှဲခ ၅ရာခိုင်နှုန်းထက်များသော ငွေကြေးစီးဆင်းမှုလမ်းကြောင်းများကို အဆုံးသတ်ရန်။ </span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 10.c.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/sdg-myanmar-indicators/10-c-1">အမိနိုင်ငံသို့ ပြန်လည်ပေးပို့သော ငွေပမာဏအတွက် ငွေလွှဲခ</a></span>
+            <span class="sr-only">Indicator status</span>
+            <span class="status notstarted">
+              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
             </span>
             
           </div>
@@ -665,25 +665,25 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org"></a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">ဆက်သွယ်ရန်</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">တွစ်တာ</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">ဖေ့စ်ဘွတ်</a>
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-myanmar-indicators/about/cookies-and-privacy/"></a>
                 
                 </li>
               
@@ -714,12 +714,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'ရှာဖွေရန်';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201117125223'></script>
+<script src='/sdg-myanmar-indicators/assets/js/sdg.js?v=20201117172744'></script>
 
 <script>
 $(function() {
