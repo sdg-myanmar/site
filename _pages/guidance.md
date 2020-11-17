@@ -1,6 +1,6 @@
 ---
-title: About
-permalink: /my/about/
+title: Guidance
+permalink: /guidance/
 layout: page
 language: my
 ---

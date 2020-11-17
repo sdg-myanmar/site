@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /my/contact/
+permalink: /contact/
 language: my
 ---
 
