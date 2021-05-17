@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="my" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sdg-my.github.io/sdg-myanmar-data/my',
+  remoteDataBaseUrl: 'https://sdg-myanmar.github.io/data/my',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -19,11 +19,23 @@ var opensdg = {
     this.chartConfigAlterations.push(callback);
   },
 
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
   // A hook which can be replaced to alter whether/how the values that are
   // displayed on indicator tables/graphs get rounded.
   dataRounding: function(value) {
     // Alterations go here.
     return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
   },
 
   language: 'my',
@@ -105,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/sdg-myanmar-indicators/assets/js/lib/classList.js"></script>
+        <script src="/site/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-myanmar-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/site/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/site/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-myanmar-indicators/assets/css/style.css?v=20210127011648">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20210517130302">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -135,13 +147,14 @@ var translations = {
 <body class="language-my layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်"};</script>
+
+<script>translations['header'] = {"alpha":"အာလဖ","default_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို ပုံမှန်အရောင်ထားရန်","disable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း မပြုလုပ်ပါ။","disclaimer":"ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။","enable_high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း ပြုလုပ်ပါ။","high_contrast":"ဝက်ဘ်ဆိုဒ်စာမျက်နှာကို အရောင်တောက်စေခြင်း","skip_link":"ပင်မအကြောင်းအရာသို့သွားရန်","tag_line":"ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်","toggle_menu":"Menu ကိုပြောင်းပါ။ မီနူးကိုချဲ့ရန်သို့မဟုတ်ဖျက်ရန်ကိုနှိပ်ပါ။","toggle_search":"Search toggle ။ ရှာဖွေရန်ဘားကိုချဲ့ရန်သို့မဟုတ်ဖျက်ရန်ကိုနှိပ်ပါ။"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">ပင်မအကြောင်းအရာသို့သွားရန်</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag"></strong>
+    <strong class="phase-tag">အာလဖ</strong>
     
     ဤဝက်ဘ်စာမျက်နှာသည် တည်ဆောက်ဆဲဖြစ်ပါသည်။ မိတ်ဆွေ၏ “ဝေဖန်အကြံပြုချက်”များကို ကြိုဆိုနေပါသည်။
   </div>
@@ -149,53 +162,51 @@ var translations = {
 
 </div>
 
-<header role="banner">
+<header role="banner" class="header-default">
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/sdg-myanmar-indicators/" id="home">
-        <img src="/sdg-myanmar-indicators/assets/img/SDG_logo.png" alt="စဉ်ဆက်မပြတ် ဖွံ့ဖြိုးတိုးတက်ရေး ပန်းတိုင်များ - ကမ္ဘာကြီးကိုပြောင်းလဲရန်အတွက် ရည်မှန်းချက် (၁၇)ချက်" />
-      </a>
-
+      <a class="navbar-brand" href="/site/" id="home">
+    <img src="" alt="" />
+</a>
       <div class="mobile-widgets">
-        <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-          <div class="language-toggle-container">
+    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+        <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
       <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-myanmar-indicators/en/1/">
+            <a href="/site/en/1/">
               English
             </a>
           </li></ul>
   </div>
 </div>
 
-        </div></div>
+    </div></div>
     </div>
 
     <nav class="navbar navbar-default" id="main-nav">
-
       <ul class="top-level">
-        <li id="menuToggle"
-            aria-label=""
-            aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
-          <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
-    </li><li class="language-toggle-menu-header">
+    <li id="menuToggle"
+        aria-label="Menu ကိုပြောင်းပါ။ မီနူးကိုချဲ့ရန်သို့မဟုတ်ဖျက်ရန်ကိုနှိပ်ပါ။"
+        aria-haspopup="true">
+        <button data-target="menu-mobile" aria-expanded="false">ရွေးရန်</button>
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
+    <a href="/site/goals">ရည်မှန်းချက်များ</a>
+</li><li class="nav-link ">
+    <a href="/site/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
+</li><li class="nav-link ">
+    <a href="/site/about">ကျွန်ုပ်တို့အကြောင်း</a>
+</li><li class="nav-link ">
+    <a href="/site/guidance">လမ်းညွှန်မှု</a>
+</li><li class="nav-link ">
+    <a href="/site/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
+</li><li class="nav-link ">
+    <a href="/site/news">နောက်ဆုံးရသတင်းများ</a>
+</li><li class="language-toggle-menu-header">
     
 
 
@@ -209,7 +220,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
       <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-myanmar-indicators/en/1/">
+            <a href="/site/en/1/">
               English
             </a>
           </li></ul>
@@ -218,46 +229,45 @@ var translations = {
 
 
 
-</li></ul>
+</li>
+</ul>
 
-        </li>
-        <li id="searchToggle"
-            aria-label=""
-            aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
-          <div id="search-mobile" class="menu-target">
-  <form action="/sdg-myanmar-indicators/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" />
+    </li>
+    <li id="searchToggle"
+        aria-label="Search toggle ။ ရှာဖွေရန်ဘားကိုချဲ့ရန်သို့မဟုတ်ဖျက်ရန်ကိုနှိပ်ပါ။"
+        aria-haspopup="true">
+        <button data-target="search-mobile" aria-expanded="false">ရှာဖွေရန်</button>
+        <div id="search-mobile" class="menu-target">
+  <form action="/site/search">
     <label class="sr-only" for="indicator_search-mobile">ရှာဖွေရန်</label>
-    <button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <input type="text" name="q" id="indicator_search-mobile" title="ရှာဖွေရန်" /><!--
+    --><button aria-label="ရှာဖွေရန်" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
-        </li>
-      </ul>
-
+    </li>
+</ul>
       <div id="search" class="menu-target">
-  <form action="/sdg-myanmar-indicators/search">
-    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" />
+  <form action="/site/search">
     <label class="sr-only" for="indicator_search">ရှာဖွေရန်</label>
-    <button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <input type="text" name="q" id="indicator_search" title="ရှာဖွေရန်" /><!--
+    --><button aria-label="ရှာဖွေရန်" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
-
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/goals">ရည်မှန်းချက်များ</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/about">ကျွန်ုပ်တို့အကြောင်း</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/guidance">လမ်းညွှန်မှု</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
-    </li><li class="nav-link ">
-    <a href="/sdg-myanmar-indicators/news">နောက်ဆုံးရသတင်းများ</a>
-    </li><li class="language-toggle-menu-header">
+    <a href="/site/goals">ရည်မှန်းချက်များ</a>
+</li><li class="nav-link ">
+    <a href="/site/reporting-status">အစီရင်ခံတင်ပြမှု အခြေအနေ</a>
+</li><li class="nav-link ">
+    <a href="/site/about">ကျွန်ုပ်တို့အကြောင်း</a>
+</li><li class="nav-link ">
+    <a href="/site/guidance">လမ်းညွှန်မှု</a>
+</li><li class="nav-link ">
+    <a href="/site/faq">‌မေးလေ့ရှိသောမေးခွန်းများ</a>
+</li><li class="nav-link ">
+    <a href="/site/news">နောက်ဆုံးရသတင်းများ</a>
+</li><li class="language-toggle-menu-header">
     
 
 
@@ -271,7 +281,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">မြန်မာ</span>
       <span class="language-abbreviation">my</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-myanmar-indicators/en/1/">
+            <a href="/site/en/1/">
               English
             </a>
           </li></ul>
@@ -280,8 +290,8 @@ var translations = {
 
 
 
-</li></ul>
-
+</li>
+</ul>
 
     </nav>
   </div>
@@ -290,21 +300,24 @@ var translations = {
 <div id="top" tabindex=-1></div>
 
 
+
+
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/sdg-myanmar-indicators/">ပင်မစာမျက်နှာ</a></li>
+  <li><a href="/site/">ပင်မစာမျက်နှာ</a></li>
   <li class="active">ရည်မှန်းချက် 1</li>
   
 </ol>
 
+  
 </div>
 
 <div class="heading goal-banner goal-1">
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/1.png" alt="ဆင်းရဲနွမ်းပါးမှု ပပျောက်ရေး - ရည်မှန်းချက် 1" id="goal-1"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/my/1.png" alt="ဆင်းရဲနွမ်းပါးမှု ပပျောက်ရေး - ရည်မှန်းချက် 1" id="goal-1" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -315,6 +328,7 @@ var translations = {
   </div>
 </div>
 
+
 <div id="main-content" class="container" role="main">
 
   
@@ -322,7 +336,7 @@ var translations = {
 
 
   <div class="container">
-    <h2></h2>
+    <h2>ပစ်မှတ်များနှင့်ညွှန်းကိန်းများ</h2>
 
     
     
@@ -337,22 +351,22 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-1-1">နိုင်ငံတကာ ဆင်းရဲနွမ်းပါးမှုမျဉ်းအောက်ရောက်ရှိနေသော လူဦးရေ အချိုးအစားကို ကျား/မ ၊ အလုပ်အကိုင် နှင့် တည်နေရာအနေအထား (မြို့/ရွာ) တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-1-1">နိုင်ငံတကာ ဆင်းရဲနွမ်းပါးမှုမျဉ်းအောက်ရောက်ရှိနေသော လူဦးရေ အချိုးအစားကို ကျား/မ ၊ အလုပ်အကိုင် နှင့် တည်နေရာအနေအထား (မြို့/ရွာ) တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
       </div>
@@ -368,30 +382,25 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-2-1">နိုင်ငံ၏ ဆင်းရဲနွမ်းပါးမှုမျဉ်းအောက်ရောက်ရှိနေသော လူဦးရေ အချိုးအစားကို ကျား/မ နှင့် အသက်အရွယ် တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-2-1">နိုင်ငံ၏ ဆင်းရဲနွမ်းပါးမှုမျဉ်းအောက်ရောက်ရှိနေသော လူဦးရေ အချိုးအစားကို ကျား/မ နှင့် အသက်အရွယ် တို့ပေါ်မူတည်၍ ဖော်ပြခြင်း</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -400,12 +409,17 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.2.2</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-2-2">နိုင်ငံ၏ အဓိပ္ပာယ် ဖွင့်ဆိုချက်များအရ အဘက်ဘက်တွင် ဆင်းရဲနွမ်းပါးစွာနေထိုင်နေရသော ကျား/မ နှင့် ကလေးဦးရေ အချိုးအစား</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-2-2">နိုင်ငံ၏ အဓိပ္ပာယ် ဖွင့်ဆိုချက်များအရ အဘက်ဘက်တွင် ဆင်းရဲနွမ်းပါးစွာနေထိုင်နေရသော ကျား/မ နှင့် ကလေးဦးရေ အချိုးအစား</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
       </div>
@@ -421,22 +435,22 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-3-1">ကျား/မ ၊ အများနှင့်မတူသည့် ကလေးငယ်များ၊ အလုပ်လက်မဲ့များ၊ သက်ကြီးရွယ်အိုများ၊ မသန်စွမ်းသူများ၊ ကိုယ်ဝန်ဆောင်များ၊ မွေးကင်းစကလေးငယ်များ၊ လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရသူများ၊ ဆင်းရဲနွမ်းပါသူများနှင့် ထိခိုက်လွယ်သူများ စသဖြင့် လူတန်းစားအမျိုးမျိုးအား လူမှုဖူလုံရေးစနစ်မှ အကာအကွယ်ပေးသော လူဦးရေအချိုးအစား</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-3-1">ကျား/မ ၊ အများနှင့်မတူသည့် ကလေးငယ်များ၊ အလုပ်လက်မဲ့များ၊ သက်ကြီးရွယ်အိုများ၊ မသန်စွမ်းသူများ၊ ကိုယ်ဝန်ဆောင်များ၊ မွေးကင်းစကလေးငယ်များ၊ လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရသူများ၊ ဆင်းရဲနွမ်းပါသူများနှင့် ထိခိုက်လွယ်သူများ စသဖြင့် လူတန်းစားအမျိုးမျိုးအား လူမှုဖူလုံရေးစနစ်မှ အကာအကွယ်ပေးသော လူဦးရေအချိုးအစား</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
       </div>
@@ -452,30 +466,25 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-4-1">အခြေခံ ဝန်ဆောင်မှုများ ရရှိနိုင်သော အိမ်ထောင်စုများတွင် နေထိုင်နေသော လူဦးရေ အချိုးအစား</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-4-1">အခြေခံ ဝန်ဆောင်မှုများ ရရှိနိုင်သော အိမ်ထောင်စုများတွင် နေထိုင်နေသော လူဦးရေ အချိုးအစား</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -484,12 +493,17 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-4-2">ဥပဒေကြောင်းအရခိုင်လုံသော စာရွက်စာတမ်းအထောက်အထားနှင့် လုံခြုံစိတ်ချရသော မြေယာခံစားခွင့်ရှိသော၊ မြေယာများကို ရပိုင်ခွင့်အား နားလည်သည့် အရွယ်ရောက်ပြီးသားသူအားလုံးကို ကျား/မ နှင့် ခံစားခွင့်အမျိုးအစားအလိုက် ခွဲခြားသတ်မှတ်ထားသော လူဦးရေအချိုးအစား</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-4-2">ဥပဒေကြောင်းအရခိုင်လုံသော စာရွက်စာတမ်းအထောက်အထားနှင့် လုံခြုံစိတ်ချရသော မြေယာခံစားခွင့်ရှိသော၊ မြေယာများကို ရပိုင်ခွင့်အား နားလည်သည့် အရွယ်ရောက်ပြီးသားသူအားလုံးကို ကျား/မ နှင့် ခံစားခွင့်အမျိုးအစားအလိုက် ခွဲခြားသတ်မှတ်ထားသော လူဦးရေအချိုးအစား</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
       </div>
@@ -505,30 +519,25 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-5-1">လူဦးရေတစ်သိန်းလျှင် ဘေးအန္တရာယ်များကြောင့် သေဆုံး၊ ပျောက်ဆုံး နှင့် တိုက်ရိုက်သက်ရောက်မှု ဒဏ်ခံရသော လူဦးရေအရေအတွက်</a></span>
-            <span class="sr-only"></span>
-            <span class="status complete">
-              အွန်လိုင်းတွင် အစီရင်ခံတင်ပြပြီး ဖြစ်သည်။
-            </span>
+            <span class="indicator-name"><a href="/site/1-5-1">လူဦးရေတစ်သိန်းလျှင် ဘေးအန္တရာယ်များကြောင့် သေဆုံး၊ ပျောက်ဆုံး နှင့် တိုက်ရိုက်သက်ရောက်မှု ဒဏ်ခံရသော လူဦးရေအရေအတွက်</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status complete">
+    အွန်လိုင်းတွင် အစီရင်ခံတင်ပြပြီး ဖြစ်သည်။
+</span>
+
+            
+
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -537,20 +546,20 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.5.2</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-5-2">သဘာဝဘေးအန္တရာယ်ဒဏ်များကြောင့် စီးပွားရေးဆိုင်ရာ တိုက်ရိုက်ဆုံးရှုံးမှုများကို ကမ္ဘာလုံးဆိုင်ရာ ပြည်တွင်း အသားတင် ကုန်ထုတ်လုပ်မှု (GDP) နှင့် နှိုင်းယှဉ်ကြည့်ခြင်း</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-5-2">သဘာဝဘေးအန္တရာယ်ဒဏ်များကြောင့် စီးပွားရေးဆိုင်ရာ တိုက်ရိုက်ဆုံးရှုံးမှုများကို ကမ္ဘာလုံးဆိုင်ရာ ပြည်တွင်း အသားတင် ကုန်ထုတ်လုပ်မှု (GDP) နှင့် နှိုင်းယှဉ်ကြည့်ခြင်း</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -559,20 +568,20 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.5.3</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-5-3">၂၀၁၅-၂၀၃၀  သဘာဝဘေးအန္တရာယ်လျှော့ချရေး ဆန်ဒိုင်းမူဘောင်အရ အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော နိုင်ငံအရေအတွက်</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-5-3">၂၀၁၅-၂၀၃၀  သဘာဝဘေးအန္တရာယ်လျှော့ချရေး ဆန်ဒိုင်းမူဘောင်အရ အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော နိုင်ငံအရေအတွက်</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -581,12 +590,17 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.5.4</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-5-4">အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို အခြေခံ၍ ဒေသဆိုင်ရာ သဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော ‌ဒေသအစိုးရများ၏ အချိုးအစား</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-5-4">အမျိုးသားသဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို အခြေခံ၍ ဒေသဆိုင်ရာ သဘာဝဘေးအန္တရာယ်လျှော့ချရေးနည်းဗျူဟာများကို ရေးဆွဲအကောင်အထည်ဖော်နေသော ‌ဒေသအစိုးရများ၏ အချိုးအစား</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
       </div>
@@ -602,30 +616,25 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-a-1">အစိုးရအနေဖြင့် ဆင်းရဲနွမ်းပါးမှု လျှော့ချရေး အစီအစဉ်များအတွက် ပြည်တွင်းတွင် ထုတ်လုပ်သော အရင်းအမြစ်များကို တိုက်ရိုက် ခွဲဝေပေးသည့် အချိုးအစားပမာဏ</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-a-1">အစိုးရအနေဖြင့် ဆင်းရဲနွမ်းပါးမှု လျှော့ချရေး အစီအစဉ်များအတွက် ပြည်တွင်းတွင် ထုတ်လုပ်သော အရင်းအမြစ်များကို တိုက်ရိုက် ခွဲဝေပေးသည့် အချိုးအစားပမာဏ</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -634,20 +643,20 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.a.2</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-a-2">မရှိမဖြစ်လိုအပ်သော ဝန်ဆောင်မှုများ (ပညာရေး၊ ကျန်းမာရေးနှင့် လူမှုဖူလုံရေး) အတွက် အစိုးရအနေဖြင့် အသုံးပြုသော စုစုပေါင်းကုန်ကျစရိတ် အချိုးအစားပမာဏ</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-a-2">မရှိမဖြစ်လိုအပ်သော ဝန်ဆောင်မှုများ (ပညာရေး၊ ကျန်းမာရေးနှင့် လူမှုဖူလုံရေး) အတွက် အစိုးရအနေဖြင့် အသုံးပြုသော စုစုပေါင်းကုန်ကျစရိတ် အချိုးအစားပမာဏ</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -656,12 +665,17 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.a.3</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-a-3">နိုင်ငံ့ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ၏ အချိုးအစား တစ်ခု အနေဖြင့် ဆင်းရဲနွမ်းပါးမှုလျှော့ချရေးအစီအစဉ်များကို တိုက်ရိုက်ပေးအပ်သော ထောက်ပံ့ကြေးအားလုံးနှင့် အကြွေးမဖြစ်စေသော ထောက်ပံ့ငွေများ၏ စုစုပေါင်းပမာဏ</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-a-3">နိုင်ငံ့ ပြည်တွင်းအသားတင်ကုန်ထုတ်လုပ်မှု (GDP) ၏ အချိုးအစား တစ်ခု အနေဖြင့် ဆင်းရဲနွမ်းပါးမှုလျှော့ချရေးအစီအစဉ်များကို တိုက်ရိုက်ပေးအပ်သော ထောက်ပံ့ကြေးအားလုံးနှင့် အကြွေးမဖြစ်စေသော ထောက်ပံ့ငွေများ၏ စုစုပေါင်းပမာဏ</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
       </div>
@@ -677,22 +691,22 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
               <span class="indicator-number"><span class="sr-only">အညွှန်း</span> 1.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/sdg-myanmar-indicators/1-b-1">အမျိုးသမီးများ၊ ဆင်းရဲနွမ်းပါးသူများနှင့် အားနည်းသူများအတွက် ဖိဖိစီးစီး အကျိုးပြုနေသော ကဏ္ဍများအတွက် အစိုးရ၏ ပုံမှန်အသုံးစရိတ်နှင့် ရင်းနှီးငွေ စုစုပေါင်း၏ အချိုးအစား</a></span>
-            <span class="sr-only"></span>
-            <span class="status notstarted">
-              ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
-            </span>
+            <span class="indicator-name"><a href="/site/1-b-1">အမျိုးသမီးများ၊ ဆင်းရဲနွမ်းပါးသူများနှင့် အားနည်းသူများအတွက် ဖိဖိစီးစီး အကျိုးပြုနေသော ကဏ္ဍများအတွက် အစိုးရ၏ ပုံမှန်အသုံးစရိတ်နှင့် ရင်းနှီးငွေ စုစုပေါင်း၏ အချိုးအစား</a></span>
+            <span class="sr-only">အညွှန်းကိန်းအဆင့်အတန်း</span>
             
+
+
+<span class="status notstarted">
+    ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+</span>
+
+            
+
           </div>
         
       </div>
@@ -706,7 +720,7 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org"></a></li>
+            <li><a href="https://open-sdg.org">Open SDG ကို အသုံးပြု၍ တည်ဆောက်ထားသည်</a></li>
             
               <li>
                 
@@ -724,7 +738,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/sdg-myanmar-indicators/about/cookies-and-privacy/"></a>
+                <a href="/site/about/cookies-and-privacy/">ကွတ်ကီး</a>
                 
                 </li>
               
@@ -747,7 +761,7 @@ var translations = {
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
@@ -756,12 +770,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'ဝှက်';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'ရှာဖွေရန်';</script>
 
-<script src='/sdg-myanmar-indicators/assets/js/sdg.js?v=20210127011648'></script>
+<script src='/site/assets/js/sdg.js?v=20210517130302'></script>
 
 <script>
 $(function() {
@@ -803,10 +817,13 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+              precision: domData.precision,
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
               legendElement: '#plotLegend',
+              decimalSeparator: '',
               maxChartHeight: 420,
               tableColumnDefs: [
                 { maxCharCount: 25 }, // nowrap
